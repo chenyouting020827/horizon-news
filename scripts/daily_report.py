@@ -16,15 +16,13 @@ def fetch_tweets(api_token, username, limit=10):
     try:
         import httpx, time, json, os
         
-        # 1. 启动抓取任务
+        # 1. 启动抓取任务 (正确格式)
         resp = httpx.post(
             f"https://api.apify.com/v2/acts/altimis~scweet/runs",
             params={"token": api_token},
             json={
-                "username": [username],
-                "tweetsCount": limit,
-                "searchMode": "latest",
-                "maxTweets": limit
+                "from_users": [username],
+                "max_items": 100,  # Actor最低要求100
             },
             timeout=15
         )
