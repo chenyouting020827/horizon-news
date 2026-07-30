@@ -11,78 +11,7 @@ def clean(s):
     return unescape(re.sub(r'<[^>]+>', '', s)).strip()
 
 
-def fetch_tweets(api_token, username, limit=10):
-    """通过 Apify API 获取 X/Twitter 账号的最新推文"""
-    try:
-        import httpx, time, json, os
-        
-        # 1. 启动抓取任务 (正确格式)
-        resp = httpx.post(
-            f"https://api.apify.com/v2/acts/altimis~scweet/runs",
-            params={"token": api_token},
-            json={
-                "from_users": [username],
-                "max_items": 100,  # Actor最低要求100
-            },
-            timeout=15
-        )
-        if resp.status_code != 201:
-            print(f"  ⚠️ Twitter 启动失败: {resp.status_code}")
-            return []
-        
-        run = resp.json().get("data", {})
-        run_id = run.get("id")
-        dataset_id = run.get("defaultDatasetId")
-        if not run_id or not dataset_id:
-            print(f"  ⚠️ Twitter: 无运行ID")
-            return []
-        
-        # 2. 等待完成 (最多等 90 秒)
-        for i in range(30):
-            time.sleep(3)
-            status = httpx.get(
-                f"https://api.apify.com/v2/acts/altimis~scweet/runs/{run_id}",
-                params={"token": api_token}, timeout=10
-            ).json().get("data", {}).get("status", "")
-            if status == "SUCCEEDED":
-                break
-            elif status == "FAILED":
-                print(f"  ⚠️ Twitter 抓取失败")
-                return []
-        
-        # 3. 获取结果
-        items = httpx.get(
-            f"https://api.apify.com/v2/datasets/{dataset_id}/items",
-            params={"token": api_token}, timeout=15
-        ).json()
-        
-        if not items:
-            return []
-        
-        tweets = []
-        for item in items:
-            text = item.get("full_text") or item.get("text") or ""
-            if not text:
-                continue
-            created = item.get("created_at", "")[:16]
-            fav = item.get("favorite_count", 0)
-            rt = item.get("retweet_count", 0)
-            tweets.append({
-                "source": "X/Twitter",
-                "title": f"@{username}: {text[:80].replace(chr(10),' ')}...",
-                "summary": text[:300],
-                "url": f"https://x.com/{username}/status/{item.get('id','')}",
-                "published": created,
-                "score": min(10, 5 + fav//100 + rt//50),
-                "engagement": f"❤️{fav} 🔄{rt}",
-                "is_tweet": True
-            })
-        
-        print(f"  ✅ @{username}: {len(tweets)} 条推文")
-        return tweets
-    except Exception as e:
-        print(f"  ⚠️ Twitter 错误: {e}")
-        return []
+
 
 
 def fetch_feeds():
