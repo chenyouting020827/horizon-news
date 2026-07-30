@@ -13,11 +13,16 @@ def clean(s):
 def fetch_feeds():
     """获取所有RSS源文章"""
     feeds = {
+        # 🇺🇸 US Markets
         "CNBC Top News": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114",
         "Seeking Alpha": "https://seekingalpha.com/feed.xml",
         "MarketWatch": "https://feeds.marketwatch.com/marketwatch/topstories",
+        
+        # 🌍 Global Markets
+        "Investing.com Markets": "https://www.investing.com/rss/market_overview.rss",
         "BBC Business": "https://feeds.bbci.co.uk/news/business/rss.xml",
         "The Guardian Business": "https://www.theguardian.com/business/rss",
+        "The Guardian World": "https://www.theguardian.com/world/rss",
     }
     
     all_articles = []
@@ -119,7 +124,13 @@ def generate_report(articles, client):
     print("\n=== 获取市场数据 ===")
     import urllib.request
     indices = {}
-    for name, symbol in [("S&P 500", "^GSPC"), ("NASDAQ", "^IXIC"), ("Dow Jones", "^DJI")]:
+    for name, symbol in [
+        # US
+        ("S&P 500", "^GSPC"), ("NASDAQ", "^IXIC"), ("Dow Jones", "^DJI"),
+        # Global
+        ("FTSE 100", "^FTSE"), ("DAX", "^GDAXI"), ("Nikkei 225", "^N225"),
+        ("Hang Seng", "^HSI"), ("Shanghai", "000001.SS"),
+    ]:
         try:
             url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=5d&interval=1d"
             req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
@@ -142,7 +153,7 @@ def generate_report(articles, client):
     
     market_overview = f"指数表现: S&P 500 {indices['S&P 500'][0]:.2f}({indices['S&P 500'][1]:+.2f}%), NASDAQ {indices['NASDAQ'][0]:.2f}({indices['NASDAQ'][1]:+.2f}%), Dow {indices['Dow Jones'][0]:.2f}({indices['Dow Jones'][1]:+.2f}%)"
     
-    analysis_prompt = f"""你是专业的美股投资分析师。基于以下今日美股新闻，写一段精炼的市场分析(中文，200字以内):
+    analysis_prompt = f"""你是专业的全球股票市场分析师。基于以下今日市场数据和新闻，写一段精炼的综合市场分析(中文，350字以内):
 
 {market_overview}
 
@@ -150,9 +161,11 @@ def generate_report(articles, client):
 {news_summary}
 
 请包含:
-1. 今日市场主要驱动因素
-2. 最值得关注的3件事
-3. 明日关注重点"""
+1. 🇺🇸 美股市场主要驱动因素
+2. 🌍 全球其他市场动态 (欧洲/亚洲)
+3. 📌 跨市场联动与资金流向
+4. ⚡ 最值得关注的3件事
+5. 📅 明日关注重点"""
 
     try:
         resp = client.chat.completions.create(
@@ -218,7 +231,7 @@ week: {datetime.now().strftime('%Y-W%W')}
     by_cat = defaultdict(list)
     for a in articles:
         cat = a.get('category', 'general')
-        cat_names = {'market': '📊 市场', 'macro': '🌍 宏观', 'earnings': '📈 财报', 
+        cat_names = {'market': '📊 美股', 'global': '🌍 全球', 'macro': '🌐 宏观', 'earnings': '📈 财报', 
                      'tech': '💻 科技', 'sector': '🏭 板块', 'company': '🏢 公司',
                      'policy': '⚖️ 政策', 'ipo': '🆕 IPO', 'general': '📰 其他'}
         by_cat[cat_names.get(cat, '📰 其他')].append(a)
@@ -242,7 +255,7 @@ week: {datetime.now().strftime('%Y-W%W')}
 |------|------|
 | 总新闻数 | {data['all_count']} 篇 |
 | 通过筛选(>5分) | {len(articles)} 篇 |
-| 新闻来源 | CNBC, Seeking Alpha, MarketWatch, BBC, Guardian |
+| 新闻来源 | CNBC, Seeking Alpha, MarketWatch, Investing.com, BBC, Guardian |
 | AI模型 | DeepSeek V4 Flash |
 | 生成时间 | {datetime.now().strftime('%Y-%m-%d %H:%M')} |
 
@@ -288,14 +301,26 @@ def main():
     report_data = generate_report(articles, client)
     
     print("\n💾 保存日报...")
-    obsidian_path = os.path.expanduser(
-        "~/Library/Mobile Documents/iCloud~md~obsidian/Documents/又又的obsidian news"
-        "/30.areas/finance/US Market Daily"
-    )
-    
+    import sys
     date_str = report_data['date']
     filename = f"US Market Daily {date_str}.md"
-    filepath = os.path.join(obsidian_path, filename)
+    
+    # 同时保存到 data/summaries/ (用于 GitHub Pages)
+    summaries_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'summaries')
+    os.makedirs(summaries_dir, exist_ok=True)
+    filepath = os.path.join(summaries_dir, filename)
+    
+    # 如果是 macOS, 也保存到 Obsidian
+    if sys.platform == 'darwin':
+        obsidian_path = os.path.expanduser(
+            "~/Library/Mobile Documents/iCloud~md~obsidian/Documents/又又的obsidian news"
+            "/30.areas/finance/US Market Daily"
+        )
+        os.makedirs(obsidian_path, exist_ok=True)
+        obsidian_file = os.path.join(obsidian_path, filename)
+        with open(obsidian_file, 'w') as f:
+            f.write(report)
+        print(f"  📁 也保存到 Obsidian")
     
     report = format_obsidian_report(report_data)
     with open(filepath, 'w') as f:

@@ -49,6 +49,24 @@
         "url": "https://www.theguardian.com/business/rss",
         "enabled": true,
         "category": "macro"
+      },
+      {
+        "name": "Investing.com Markets",
+        "url": "https://www.investing.com/rss/market_overview.rss",
+        "enabled": true,
+        "category": "global-markets"
+      },
+      {
+        "name": "BBC World",
+        "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "enabled": true,
+        "category": "global"
+      },
+      {
+        "name": "The Guardian World",
+        "url": "https://www.theguardian.com/world/rss",
+        "enabled": true,
+        "category": "global"
       }
     ],
     "github": [],
