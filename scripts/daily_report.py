@@ -232,15 +232,6 @@ week: {datetime.now().strftime('%Y-W%W')}
 
 ---
 
-## 💡 今日市场分析
-
-| 指数 | 收盘 | 涨跌 |
-|------|------|------|
-| **S&P 500** | {indices.get('S&P 500', (0,0))[0]:.2f} | {'**+' if indices.get('S&P 500', (0,0))[1] >= 0 else '**'}{indices.get('S&P 500', (0,0))[1]:+.2f}%** |
-| **NASDAQ** | {indices.get('NASDAQ', (0,0))[0]:.2f} | {'**+' if indices.get('NASDAQ', (0,0))[1] >= 0 else '**'}{indices.get('NASDAQ', (0,0))[1]:+.2f}%** |
-| **Dow Jones** | {indices.get('Dow Jones', (0,0))[0]:.2f} | {'**+' if indices.get('Dow Jones', (0,0))[1] >= 0 else '**'}{indices.get('Dow Jones', (0,0))[1]:+.2f}%** |
-
----
 
 ## 💡 AI 市场分析
 
