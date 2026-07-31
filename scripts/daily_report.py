@@ -195,6 +195,15 @@ def format_obsidian_report(data):
     indices = data['indices']
     articles = data['articles']
     
+    # 计算市场方向
+    us_up = sum(1 for k in ["S&P 500", "NASDAQ", "Dow Jones"] if indices.get(k, (0,0))[1] > 0)
+    eu_up = sum(1 for k in ["FTSE 100", "DAX"] if indices.get(k, (0,0))[1] > 0)
+    as_up = sum(1 for k in ["Nikkei 225", "Hang Seng", "Shanghai"] if indices.get(k, (0,0))[1] > 0)
+    
+    us_dir = "🟢" if us_up >= 2 else "🔴"
+    eu_dir = "🟢" if eu_up >= 1 else "🔴"
+    as_dir = "🟢" if as_up >= 2 else "🔴"
+    
     lines = [f"""---
 tags:
   - finance/us-market
@@ -205,13 +214,25 @@ day: {data['date']}
 week: {datetime.now().strftime('%Y-W%W')}
 ---
 
-# 🇺🇸 美股日报 | US Market Daily — {data['date']}
+# 🚀🇺🇸 美股日报 | US Stock Market Daily — {data['date']}
 
-> 📡 由 Horizon AI 雷达 + DeepSeek 自动生成
+> ⚡ **投资人速览** | 由 Horizon + DeepSeek AI 自动生成
 
 ---
 
-## 📊 今日市场概况
+## 📊 全球市场一览
+
+### 🟢🟢🟢 市场方向
+| 区域 | 方向 | 领涨/拖累 |
+|------|------|----------|
+| 🇺🇸 **美股** | {us_dir} | S&P 500 {indices.get("S&P 500",(0,0))[1]:+.2f}% / Nasdaq {indices.get("NASDAQ",(0,0))[1]:+.2f}% / Dow {indices.get("Dow Jones",(0,0))[1]:+.2f}% |
+| 🇪🇺 **欧洲** | {eu_dir} | FTSE {indices.get("FTSE 100",(0,0))[1]:+.2f}% / DAX {indices.get("DAX",(0,0))[1]:+.2f}% |
+| 🌏 **亚洲** | {as_dir} | Nikkei {indices.get("Nikkei 225",(0,0))[1]:+.2f}% / HSI {indices.get("Hang Seng",(0,0))[1]:+.2f}% / Shanghai {indices.get("Shanghai",(0,0))[1]:+.2f}% |
+| 📊 **覆盖新闻** | {data['all_count']}篇 → AI筛选 → {len(data['articles'])}篇重点 |
+
+---
+
+## 💡 今日市场分析
 
 | 指数 | 收盘 | 涨跌 |
 |------|------|------|
@@ -323,6 +344,8 @@ def main():
     os.makedirs(summaries_dir, exist_ok=True)
     filepath = os.path.join(summaries_dir, filename)
     
+    report = format_obsidian_report(report_data)
+    
     # 如果是 macOS, 也保存到 Obsidian
     if sys.platform == 'darwin':
         obsidian_path = os.path.expanduser(
@@ -342,7 +365,7 @@ def main():
     print(f"\n✅ 日报已生成!")
     print(f"📁 位置: {filepath}")
     print(f"📊 新闻: {report_data['all_count']} 篇→筛选{len(report_data['articles'])}篇")
-    print(f"📈 三大指数全覆盖")
+    print(f"📈 八大指数全覆盖")
 
 if __name__ == '__main__':
     main()
