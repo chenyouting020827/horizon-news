@@ -5,382 +5,488 @@ date: 2026-10-13
 lang: en
 ---
 
-> From 154 items, 17 important content pieces were selected
+> From 165 items, 24 important content pieces were selected
 
 ---
 
-1. [A Modern Web App in C: CGI, FastCGI and Privilege Dropping](#item-1) ⭐️ 8.0/10
-2. [OpenAI's Codex CLI silently installs a persistent, self-updating background daemon](#item-2) ⭐️ 8.0/10
-3. [Z.ai Releases GLM-Legal, Sparking Debate on Trust and Legal AI](#item-3) ⭐️ 7.0/10
-4. [Hackers Trigger Defrost Cycles in European Supermarket Fridges](#item-4) ⭐️ 7.0/10
-5. [WiFi 7 Router Hacked into a 320 Msps SDR Receiver](#item-5) ⭐️ 7.0/10
-6. [Blog argues using AI well is a skill, sparking Hacker News debate](#item-6) ⭐️ 7.0/10
-7. [Microsoft to shift AI inference to its homegrown Maia chips](#item-7) ⭐️ 7.0/10
-8. [Decoding AVX-512's cryptic 'vfmaddrnd231pd' instruction name](#item-8) ⭐️ 6.0/10
-9. [Blog Walks Through Building a Demoscene Intro for the ZX Spectrum](#item-9) ⭐️ 6.0/10
-10. [IonQ to acquire Elisity in all-stock deal worth up to $1.3B](#item-10) ⭐️ 6.0/10
-11. [Microsoft president: AI is less regulated than milk, urges global rules](#item-11) ⭐️ 6.0/10
-12. [Making Big Downloads Resumable in Firefox: A TIL Tutorial](#item-12) ⭐️ 5.0/10
-13. [Agent37 (YC F26) launches low-cost sandboxes for AI agents](#item-13) ⭐️ 5.0/10
-14. [Citroën revives the iconic 2CV as a sub-tonne electric car](#item-14) ⭐️ 5.0/10
-15. [Meta debuts Muse Wonder AI model behind a paid Muse subscription](#item-15) ⭐️ 5.0/10
-16. [Intel, Broadcom CEOs Warn Capital Crunch Could Bottleneck AI Boom](#item-16) ⭐️ 5.0/10
-17. [UK AI minister warns cyber defences 'likely' to be breached](#item-17) ⭐️ 5.0/10
+1. [DeepMind Unveils Gemini 4 Argon, a New Frontier Model](#item-1) ⭐️ 9.0/10
+2. [Anthropic redesigns source control for AI-scale code churn](#item-2) ⭐️ 8.0/10
+3. [Apple Announces HomeView Smart Display with A18 'Secure Exclaves'](#item-3) ⭐️ 8.0/10
+4. [11-Year-Old Soundness Bug Found in Rust Borrow Checker](#item-4) ⭐️ 8.0/10
+5. [Google's Gemini 4 Argon draws hands-on robot control tests](#item-5) ⭐️ 8.0/10
+6. [Mozilla launches Firefox Enterprise to win corporate browser market](#item-6) ⭐️ 7.0/10
+7. [Blogger's Site Flooded by AI Bot Traffic After Hacker News Post](#item-7) ⭐️ 7.0/10
+8. [Developer repurposes EmbeddingGemma 2 as an experimental speech-to-text model](#item-8) ⭐️ 7.0/10
+9. [Hackers Overheat French Supermarket Fridges, Sparking Fires](#item-9) ⭐️ 7.0/10
+10. [JPMorgan blocks outside AI agents like Muse and Instinct from account access](#item-10) ⭐️ 7.0/10
+11. [Delaware Jury Finds Arm Breached Qualcomm License, Awards $2](#item-11) ⭐️ 7.0/10
+12. [IMF warns AI share crash threatens global financial stability](#item-12) ⭐️ 7.0/10
+13. [OpenAI engineer arrested for allegedly bugging executive conference room](#item-13) ⭐️ 6.0/10
+14. [Guitoro: A Free Browser Guitar You Strum With Your Keyboard](#item-14) ⭐️ 6.0/10
+15. [Thunderbird Previews Native iOS Email App in Development](#item-15) ⭐️ 6.0/10
+16. [UK Per-Capita Electricity Generation Falls Below 1970s Levels](#item-16) ⭐️ 6.0/10
+17. [Apple launches 'Switch to Safari' campaign, sparking browser monopoly debate](#item-17) ⭐️ 6.0/10
+18. [Apple Unveils HomeView Smart Home Hub With Screen to Showcase Siri AI](#item-18) ⭐️ 6.0/10
+19. [Saudi Man Charged With Planting Recording Device in OpenAI Office](#item-19) ⭐️ 6.0/10
+20. [BBC: Island residents say data centres have left their taps dry](#item-20) ⭐️ 6.0/10
+21. [Apple Unveils New Apple TV 4K, Priced Around $300](#item-21) ⭐️ 5.0/10
+22. [FBI arrests Saudi OpenAI employee over alleged conference room recording device](#item-22) ⭐️ 5.0/10
+23. [Anthropic to disclose updated financials to investors as AI lab economics drive tech trade](#item-23) ⭐️ 5.0/10
+24. [Experts dispute Zelensky's claim that Yandex strikes disabled Russian bots](#item-24) ⭐️ 5.0/10
 
 ---
 
 <a id="item-1"></a>
-## [A Modern Web App in C: CGI, FastCGI and Privilege Dropping](https://prophitt.me/writing/a-modern-web-app-in-c) ⭐️ 8.0/10
+## [DeepMind Unveils Gemini 4 Argon, a New Frontier Model](https://deepmind.google/models/gemini/) ⭐️ 9.0/10
 
-An article on prophitt.me walks through building a modern web application in plain C, and it drew a large Hacker News discussion (roughly 358 points and 156 comments) about CGI, FastCGI, privilege separation and deployment tradeoffs. Practitioners used the thread to compare the C approach with alternatives such as BusyBox's built-in CGI support and single-binary Go servers. The piece is a reminder that a full web service does not require a heavyweight framework or runtime stack, which matters for developers who value small attack surfaces, minimal dependencies and long-lived, easily auditable code. It also revives a design debate between CGI/FastCGI-style process models and modern single-binary or containerized deployments. The article emphasizes dropping privileges (for example via pledge, chroot and similar mechanisms) so that the web-facing process runs with the least authority necessary, and commenters noted that FastCGI avoids the cost of spawning a new process per request that plain CGI incurs. A recurring caveat is that C makes concurrent programming harder, since forked processes must reinitialize writable .bss and .data segments even though read-only .text can be shared.
+Google DeepMind announced Gemini 4 Argon, a new frontier model launched at an introductory price of $2 per million input tokens and $10 per million output tokens, with cached input tokens discounted by 95%. Early users testing it through the API and consumer apps report a marked step-change in reasoning, prose quality, and the model's tendency to generate interactive simulations and parameter-tunable models. As a frontier model from one of the leading AI labs, Gemini 4 Argon directly competes with top-tier offerings from Anthropic and OpenAI and could reset expectations for reasoning and writing quality across the industry. Developers and enterprises choosing a model for production workloads will weigh these capability gains against Google's historically confusing product lineup and billing experience. The $2/$10 per-million-token pricing is described as introductory, and the announcement does not clearly state the post-introductory price or when it takes effect — a gap that drew criticism. Commenters note the model excels at clear, logically structured prose and at building small simulations whose parameters can be tweaked, though hands-on coding impressions were still limited at the time of discussion.
 
-hackernews · prophittcorey · Oct 12, 16:13 · [Discussion](https://news.ycombinator.com/item?id=50058528)
+hackernews · 737max · Oct 13, 16:03 · [Discussion](https://news.ycombinator.com/item?id=50073879)
 
-**Background**: CGI (Common Gateway Interface) is a long-standing standard that lets a web server run an external program to handle a request and return its output as the HTTP response. FastCGI is a language-independent extension of CGI that keeps processes alive between requests instead of starting a new one each time, improving performance. Privilege separation is a security practice in which a program forks into two processes: one keeps elevated privileges for a narrow task while the main, exposed process drops them, limiting the damage if it is compromised.
+**Background**: A frontier model is the most advanced class of AI model available at a given moment, trained at extreme scale on massive datasets to deliver state-of-the-art, general-purpose performance across many tasks. Google DeepMind is Alphabet's AI research lab and the developer of the Gemini family, while the name Argon follows the lab's practice of giving each Gemini variant a distinct identifier. The community's interest in 'interactive modeling' refers to a model generating runnable simulations or parameterized models that users can adjust and explore, rather than just returning static text.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.inmotionhosting.com/support/website/what-is-cgi.md">inmotionhosting.com/support/website/ what - is - cgi .md</a></li>
-<li><a href="https://www.hostingadvice.com/how-to/what-is-fastcgi/">What Is FastCGI ? How FastCGI Transforms Server Efficiency</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Privilege_separation">Privilege separation - Wikipedia</a></li>
+<li><a href="https://www.nvidia.com/en-us/glossary/frontier-models/">What Are Frontier AI Models and How They Work - NVIDIA</a></li>
+<li><a href="https://www.datacamp.com/blog/frontier-models">Frontier Models Explained: What Defines the Cutting Edge of AI</a></li>
+<li><a href="https://deepmind.google/models/genie/">Genie 3 — Google DeepMind</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters broadly agreed the article's reasoning was sound, especially its treatment of privilege dropping, and several shared war stories: one developer described running a C/FastCGI ordering system for 22 years, while others pointed out that BusyBox ships built-in CGI support and that Go can serve a site from a single binary without libc. The main counterargument to the C approach was the difficulty of concurrency in C and the appeal of stacking managed layers or using Go instead.
+**Discussion**: The Hacker News thread (834 points, 661 comments) was largely impressed: users described a 'clear step change' in reasoning and structure, praised the model's prose quality as 'not RL-fried' and distinctive, and highlighted its habit of building tweakable simulations. Critics focused less on capability and more on Google's fragmented product and purchase experience, with one user unable to complete payment via credit card or PayPal and others complaining that key pricing details were buried or gated behind a login.
 
-**Tags**: `#C`, `#web development`, `#CGI`, `#FastCGI`, `#systems programming`
+**Tags**: `#LLM`, `#Google DeepMind`, `#Gemini`, `#AI Models`, `#Model Release`
 
 ---
 
 <a id="item-2"></a>
-## [OpenAI's Codex CLI silently installs a persistent, self-updating background daemon](https://github.com/openai/codex/issues/48195) ⭐️ 8.0/10
+## [Anthropic redesigns source control for AI-scale code churn](https://www.anthropic.com/engineering/redesigning-source-control) ⭐️ 8.0/10
 
-A GitHub issue (openai/codex #48195) reports that Codex CLI now starts a persistent background daemon by default via `codex app-server --managed-daemon`, which runs in its own session with no TTY and keeps running even after every Codex window is closed, until it is stopped explicitly or the machine reboots. The issue, filed around September 25, 2026, asks OpenAI to make the `daemon_auto_start` behavior opt-in rather than default. Because Codex CLI is a widely used AI coding agent that runs locally in the terminal, a silently enabled always-on daemon changes the trust model for every developer who installs it: background processes, disk usage and auto-updates now happen without explicit consent. The issue's 426 points and 222 comments show that default-on background services in developer tooling are becoming a flashpoint for privacy, resource and reliability concerns across the AI coding tool ecosystem. There is no documented setting to disable the daemon, but it currently sits behind a feature flag that can be flipped in `~/.codex/config.toml` with `[features]` / `daemon_auto_start = false`. Users also report that the daemon writes pid and lock files under `~/.codex` at startup and have suggested deleting them and replacing them with symlinks to `/dev/null` marked immutable via `chattr +i` as a workaround.
+Anthropic published an engineering blog post describing how it redesigned its source control system to handle the massive volume of AI-generated code, including a git-to-Scion ingestion pipeline that was initially handwritten and later largely produced by agents. The post argues that the latent demand for merging code is practically infinite, so removing one bottleneck immediately increases the amount of code produced. If AI coding agents generate changes faster than Git-based tooling can merge them, the bottleneck shifts from writing code to integrating it, which pressures the whole developer-tooling ecosystem and raises questions about whether human-supervised version control still makes sense. Anthropic's experience offers a rare concrete data point on how frontier AI labs are re-architecting their own engineering workflows around agents. The post's central observation is that merge demand behaves as if it were infinite, meaning any speedup in merging is immediately consumed by additional code generation rather than reducing backlog. The new system is called Scion and is fed by a git-to-Scion ingestion pipeline; beyond that pipeline, the full internal architecture of Scion is not described in detail in the available material.
 
-hackernews · whimblepop · Oct 12, 18:29 · [Discussion](https://news.ycombinator.com/item?id=50060694)
+hackernews · Philpax · Oct 13, 15:49 · [Discussion](https://news.ycombinator.com/item?id=50073633)
 
-**Background**: Codex CLI is OpenAI's open-source AI coding agent that runs in the terminal, able to read and modify files and execute commands locally; it is part of the broader Codex software-development platform alongside IDE extensions, a desktop app and cloud-based development. A daemon is a long-running background process that is not attached to an interactive terminal, commonly used to keep a service warm or perform periodic tasks such as syncing or self-updating. Self-updating daemons are a known operational pain point: they can fail to apply updates, restart the wrong service instance, or, as here, consume disk space by retaining old versions.
+**Background**: Source control systems such as Git record every change to a codebase and manage branching and merging, and Git was designed around the pace of human developers. When Git failed to scale for enormous monorepos, very large companies built their own systems, such as Google's Piper, which is why veterans see custom SCMs as a recurring pattern at large engineering organizations. Now that AI coding agents can produce changes at machine speed, the merge step that was once routine has become the limiting factor, which is the problem Anthropic's redesign addresses.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/openai/codex/issues/48195">CLI: make `daemon_auto_start` opt-in — a persistent, self ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Codex_CLI">Codex CLI</a></li>
-<li><a href="https://docs.atuin.sh/main/reference/daemon/">daemon - Atuin Docs</a></li>
+**Discussion**: Hacker News commenters were broadly engaged but skeptical: one argued that if the repository is in constant automated flux with no human supervision, source control itself becomes pointless, likening code to Heraclitus's ever-changing river. Others questioned whether supporting extremely high churn solves real problems or is driven by accelerating, possibly artificial requirements, while a veteran recalled that Oracle, then Google, each eventually wrote its own SCM, calling it an inevitable law of large companies. A separate thread challenged why Anthropic sells tokens rather than using its own agents to build highly profitable services.
 
-</ul>
-</details>
-
-**Discussion**: Commenters are broadly critical: one reports the daemon consuming roughly 12 GB of disk on their machine with old versions, another says auto-updating randomly corrupts permissions and makes `.git` read-only, blocking work for hours at a time. Others share concrete mitigations (the `daemon_auto_start = false` flag, symlinking state files to `/dev/null` with `chattr +i`) and a counterpoint that minimal, bash-driven harnesses like hax are a breath of fresh air compared with such overengineered tooling.
-
-**Tags**: `#codex-cli`, `#openai`, `#background-daemon`, `#developer-tools`, `#privacy`
+**Tags**: `#source-control`, `#version-control`, `#Anthropic`, `#AI-coding`, `#developer-tools`
 
 ---
 
 <a id="item-3"></a>
-## [Z.ai Releases GLM-Legal, Sparking Debate on Trust and Legal AI](https://z.ai/blog/glm-legal) ⭐️ 7.0/10
+## [Apple Announces HomeView Smart Display with A18 'Secure Exclaves'](https://www.apple.com/apple-homeview/) ⭐️ 8.0/10
 
-Z.ai (the international brand of Beijing-based Zhipu AI) announced GLM-Legal, a large language model fine-tuned for the legal domain, in a post on its official blog. The release drew heavy Hacker News attention, with the thread reaching 403 points and 228 comments. It marks another step in the trend of vertical, domain-specific LLMs moving into high-stakes professional fields such as law, where errors have direct financial and legal consequences. It also puts a spotlight on vendor trust: a legal product handles privileged and sensitive material, so the reputation of the company behind the model becomes as important as its benchmark scores. Discussion threads reference benchmark results that one commenter, an attorney, describes as roughly a 20% pass rate, which he considers unimpressive for litigation practice. Commenters also note that Anthropic's updated usage policy requires a qualified 'human in the loop' when AI outputs can affect someone's legal rights, health, or finances — a constraint that frames how tools like GLM-Legal can realistically be deployed.
+Apple announced HomeView, a new smart-home display device powered by the A18 chip that includes 'Secure Exclaves.' These exclaves process the camera and microphone feeds in a secure compartment that cannot be accessed by the operating system or by Apple itself, enabling private on-device face and voice recognition for each user. This marks Apple's entry into a dedicated smart-home display category that already includes products like the Amazon Echo Hub and Google Nest Hub, and its privacy-first, on-device recognition approach could differentiate it from cloud-dependent rivals. The announcement drew intense community scrutiny (604 points, 741 comments on HN), signaling broad interest in whether Apple can redefine the home-control screen. The A18 chip at HomeView's core is a 64-bit ARM-based system-on-chip built on TSMC's second-generation 3nm (N3E) process and shared with the iPhone 16 lineup. Commenters flag that the device apparently does not offer full App Store access, which they see as a major limitation versus repurposing an existing iPad.
 
-hackernews · ilreb · Oct 12, 16:11 · [Discussion](https://news.ycombinator.com/item?id=50058507)
+hackernews · etothet · Oct 13, 13:02 · [Discussion](https://news.ycombinator.com/item?id=50071017)
 
-**Background**: GLM stands for General Language Model, a family of pretrained dialogue models first developed by Zhipu AI together with Tsinghua University's KEG lab in 2023 and formerly known as ChatGLM; Z.ai is Zhipu's consumer-facing brand, and the line has since produced releases such as GLM-4.5 and GLM-4.6. 'Domain-specific' or 'vertical' LLMs like GLM-Legal take a general-purpose base model and further train it on specialized corpora such as statutes, contracts, and case law. The Hacker News debate also references a widely circulated report that Z.ai's coding tool snapshotted users' entire workspaces before every prompt, which critics cite as evidence of poor privacy practices.
+**Background**: Secure Exclaves are a relatively new Apple security feature, introduced with the A18 and described by Apple as isolated compartments in the XNU kernel that keep sensitive data away from the main operating system and even from Apple's own software. The A18 chip was announced on September 9, 2024 and is used across the iPhone 16 family, meaning the same silicon now powers this home device. Smart-home displays are wall- or counter-mounted screens that combine a voice assistant, smart-device controls, video calling, and media playback.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Z.ai">Z.ai - Wikipedia</a></li>
-<li><a href="https://theairankings.com/zhipu/">Zhipu AI (Z. ai ) in 2026: GLM Models, IPO, Funding... | The AI Rankings</a></li>
-<li><a href="https://www.layer3labs.io/guides/z-ai-explained">Z. AI Explained: Zhipu , GLM Models, Safety & Pricing</a></li>
+<li><a href="https://en.wikipedia.org/wiki/A18_chip">A18 chip</a></li>
+<li><a href="https://www.theregister.com/security/2025/03/08/how-apple-rearranged-its-xnu-kernel-with-security-exclaves/1352740">How Apple rearranged its XNU kernel with security exclaves</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Sentiment is mixed and skeptical: several commenters want benchmarks split into generic versus novel tasks, and an attorney dismisses a reported 20% pass rate as far from litigation-grade. Others question whether a legal product can be trusted from a vendor accused of silently snapshotting entire workspaces before every prompt. On the positive side, some argue LLMs could genuinely help clear massive court backlogs — one commenter cites India's roughly 58 million pending cases — while acknowledging the need for human review per Anthropic's policy.
+**Discussion**: HN commenters were widely skeptical, with the top point that HomeView's biggest competitor is 'an old iPad,' since most target users already own one that has a battery, full apps, and a large ecosystem of third-party mounts and hacks. Others praised Apple for trying something new and found the Secure Exclaves' on-device face/voice recognition genuinely interesting, while several complained about limitations like no App Store access and weak Siri responses. One commenter wryly predicted the overwhelming cynicism means the product will actually be a hit.
 
-**Tags**: `#LLM`, `#legal-tech`, `#AI applications`, `#privacy`, `#domain-specific models`
+**Tags**: `#apple`, `#smart-home`, `#hardware`, `#privacy`, `#product-launch`
 
 ---
 
 <a id="item-4"></a>
-## [Hackers Trigger Defrost Cycles in European Supermarket Fridges](https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident) ⭐️ 7.0/10
+## [11-Year-Old Soundness Bug Found in Rust Borrow Checker](https://github.com/rust-lang/rust/issues/164250) ⭐️ 8.0/10
 
-Attackers reportedly gained access to internet-connected Danfoss refrigeration controllers and remotely activated automatic defrost cycles at supermarket chains across Europe, notably in France, where reports say around 150 Intermarché stores were targeted and nearly 400 stores overall were affected. The incident disrupted cold storage, in-store pricing and delivery operations, and was linked to legacy controllers with known vulnerabilities. This is a rare real-world case where an operational technology (OT) attack on mundane retail equipment caused direct physical and commercial damage, showing that internet-connected building and refrigeration systems are now viable targets. It highlights a systemic problem: critical infrastructure protection advice has long focused on power grids and factories, while grocery cold chains, hospitals and other essential services run on the same unpatched, vendor-managed hardware. Discussion points to suspects such as the Danfoss SM800 (end of support 2021) and SC355 (end of support 2016) controllers, whose flaws were documented in security research on refrigeration controllers; reports describe freezer temperatures being pushed as high as roughly 50°C, forcing stock to be discarded. Because the controllers were intentionally connected to the internet for remote diagnostics and efficiency monitoring — as Danfoss itself markets — the attack surface was created by the vendor's own value proposition, not only by customer negligence.
+A GitHub issue (rust-lang/rust#164250) documents a soundness bug in Rust's borrow checker that has gone unnoticed for roughly 11 years, meaning the compiler has been incorrectly accepting code that should have been rejected under Rust's lifetime rules. The report sparked a large Hacker News discussion (631 points, 364 comments) about compiler correctness and the language's open unsoundness backlog. Soundness is the core guarantee behind Rust's memory-safety promise, so any case where the compiler accepts invalid code weakens the argument that safe Rust can never trigger undefined behavior. While this particular bug is a compiler implementation error rather than a flaw in the type system itself, it feeds a broader conversation about the 100-plus open unsoundness issues and the long-term push toward a formally verified compiler. Commenters note the bug is comparatively easy to fix because the compiler should always have rejected that code according to Rust's existing lifetime rules, so the remedy is to make it reject the code rather than change the language's fundamental lifetime semantics. There are currently more than 100 issues labeled "unsound," and although the new trait solver is expected to unblock fixes for some of them, it probably will not address this particular one.
 
-hackernews · Zeekaas · Oct 12, 12:16 · [Discussion](https://news.ycombinator.com/item?id=50055304)
+hackernews · formerly_proven · Oct 13, 10:27 · [Discussion](https://news.ycombinator.com/item?id=50069499)
 
-**Background**: Operational technology (OT) refers to the hardware and software that monitor and control physical processes, such as the refrigeration controllers managing supermarket freezers, compressors and temperature alarms. Unlike IT systems, OT equipment is often expected to run for 15–20 years, is rarely patched, and is increasingly connected to the internet so vendors and service engineers can diagnose faults without a site visit. Control system security is the discipline of protecting these devices, and it traditionally lags far behind conventional IT security in patching cadence and visibility.
+**Background**: Rust's borrow checker is the compile-time component that enforces ownership and borrowing rules, ensuring references never outlive the data they point to and that mutable and immutable borrows don't conflict; these checks are what let Rust guarantee memory safety without a garbage collector. In programming-language theory, a type system is "sound" if every program that passes the type checker is guaranteed to have well-defined behavior at runtime — the type soundness (or type safety) theorem. Formal verification of compilers is a related research field that aims to prove, using mathematical methods, that a compiler behaves according to its language specification, with projects like CompCert as well-known examples.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://cybernews.com/security/danfoss-refrigeration-hack-france-supermarkets/">Refrigeration Cyberattack Hits French Supermarkets | Cybernews</a></li>
-<li><a href="https://www.it-connect.tech/super-u-and-intermarche-hit-by-cyberattack-that-turned-freezers-into-ovens/">Cyberattack Disrupts Danfoss Refrigeration at Super U ...</a></li>
-<li><a href="https://cybersecuritynews.com/supermarket-fridges-hacked/">Attackers Reportedly Hack Supermarket Fridges and Raise ...</a></li>
+<li><a href="https://devavatar.com/posts/understanding-soundness-and-completeness-in-programming-languages/">Understanding Soundness and Completeness in Programming Languages</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Formal_verification_of_compilers">Formal verification of compilers</a></li>
+<li><a href="https://sekaraa.com/blog/rust/rust-borrow-checker-explained">The Rust Borrow Checker , Explained Without the Fear | Chan RG</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters largely rejected the flippant "why would you connect a freezer to the internet?" framing, arguing that the root cause is security debt and maintenance economics: 15–20 year old controllers with known CVEs are kept running because there is no margin to replace them, while vendors push connectivity for remote diagnostics. A hospital lab technician's anecdote about subscription-locked lab machines needing internet access illustrated that this pattern extends well beyond refrigeration, and others speculated whether the attack is linked to a similar August 2026 incident at US military base freezers.
+**Discussion**: The Hacker News discussion is largely measured rather than alarmist: GrantMoyer highlights that the bug is a compiler flaw, not a type-system flaw, making the fix straightforward, while weinzierl notes that over 100 unsound issues already exist and that the new trait solver may unblock some fixes. lambdaone speculates that AI-assisted bug hunting and eventual formalization will push Rust toward a fully proven compiler, whereas Eridrus cautions that it's unclear whether any real-world crates are actually affected until the fix lands.
 
-**Tags**: `#cybersecurity`, `#IoT/OT security`, `#critical infrastructure`, `#vulnerability management`, `#supply chain`
+**Tags**: `#Rust`, `#compiler-bugs`, `#soundness`, `#borrow-checker`, `#memory-safety`
 
 ---
 
 <a id="item-5"></a>
-## [WiFi 7 Router Hacked into a 320 Msps SDR Receiver](https://github.com/h0m3us3r/w1700k-sdr) ⭐️ 7.0/10
+## [Google's Gemini 4 Argon draws hands-on robot control tests](https://developers.googleblog.com/gemini-4-argon-for-robotics/) ⭐️ 8.0/10
 
-Developer h0m3us3r has published a project that repurposes the W1700K WiFi 7 router into a software defined radio receiver capable of sampling at 320 Msps around the 5 GHz band. The same developer previously built eSpDR, an SDR implementation running on an ESP32 Wi-Fi microcontroller, suggesting a pattern of turning commodity wireless chipsets into low-cost radio front ends. It shows that hardware people already own — consumer routers and laptops with Wi-Fi cards — can be repurposed into surprisingly capable SDR receivers, dramatically lowering the cost of entry for RF experimentation and spectrum monitoring. If the approach spreads to common Wi-Fi chipsets, hobbyists, students and researchers could gain a ubiquitous, cheap alternative to dedicated SDR hardware such as USRP or high-end RTL-SDR setups. The receiver runs at 320 Msps in the 5 GHz band, a combination that is unusually cheap to achieve for that sample rate and frequency. The community notes the W1700K uses the same chipset as the Banana Pi R4, which has built-in PCIe for NVMe storage, so the technique is likely portable to that board; a 320 Msps rate is still well below the Nyquist rate needed to directly digitize all of 5 GHz, so practical use implies downconversion or sub-Nyquist techniques.
+Google has announced Gemini 4 Argon, the newest member of its natively multimodal frontier model family, and robotics hobbyists on Hacker News report using it for zero-shot vision-language control of real robots. One user with a Unitree humanoid says Argon reliably avoids walls and furniture where rival models Opus and Astra crashed into tables and beds. It suggests a generalist frontier model can serve as a robot's high-level brain, driven by natural-language prompts and a small set of action primitives, potentially replacing hand-engineered perception and planning stacks. If that holds up, it lowers the barrier for hobbyists and startups building robots, even though power and latency budgets still decide whether such models can run on-board. Commenters flag important caveats: Argon was praised even though the user's LIDAR data was not yet wired in, and one observer calculates that even if models get roughly 90% more efficient every 18 months and hardware doubles performance per watt every two years, battery-powered robot autonomy may still be about a decade away. Google's own materials position Argon around long-horizon reasoning, software engineering, enterprise knowledge work and cybersecurity defense through the Fairwind Program, so the robotics usage is community-driven rather than an officially announced capability.
 
-hackernews · djfergus · Oct 12, 12:41 · [Discussion](https://news.ycombinator.com/item?id=50055593)
+hackernews · xnx · Oct 13, 16:55 · [Discussion](https://news.ycombinator.com/item?id=50074869)
 
-**Background**: Software defined radio (SDR) replaces analog mixers, filters and modulators with software running on a general-purpose computer or embedded system, so the same hardware can receive and decode many different radio standards. Sample rate (measured in megasamples per second, Msps) determines how much instantaneous bandwidth a receiver can capture, while the tuning band determines which signals it can reach. The W1700K is a WiFi 7 router that has drawn attention in the OpenWrt community as a potential 10G-capable device, though support is still described as rough.
+**Background**: Zero-shot vision-language control means a single pretrained model takes camera images plus a natural-language instruction and outputs robot actions without task-specific training, typically by emitting a sequence of predefined action primitives such as move-to, grasp or turn. Gemini 4 is Google DeepMind's natively multimodal reasoning model family, and Argon is its latest member, following earlier Gemini releases. Unitree is a Chinese maker of relatively affordable quadruped and humanoid robots that are popular with hobbyists, and the commenters compare Argon with rival models Opus and Astra that they had previously tried on the same robot-control tasks.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Software-defined_radio">Software-defined radio - Wikipedia</a></li>
-<li><a href="https://www.accio.com/business/openwrt-tenda">OpenWrt Tenda Router Guide 2026</a></li>
+<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/">Introducing Gemini 4 Argon - The Keyword</a></li>
+<li><a href="https://deepmind.google/models/model-cards/gemini-4-argon/">Gemini 4 Argon - Model Card — Google DeepMind</a></li>
+<li><a href="https://arxiv.org/html/2608.06154">Visual Grounding in Zero - Shot Vision – Language Control</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters were enthusiastic: one pointed out the same developer's ESP32-based eSpDR project and wished more common Wi-Fi cards could be used as SDRs so any laptop could become a budget radio. Others noted the shared chipset likely makes it work on the Banana Pi R4, and an experienced service-monitor repairer sketched how to extend the setup into a full service monitor with attenuators, a 5 GHz low-pass filter, and a 7–12 GHz local oscillator/mixer up/down converter; one commenter also mused that phone makers restrict FM radio access partly because modern phone radios are software defined.
+**Discussion**: Sentiment is largely positive and hands-on: hobbyists building humanoid and snow-sweeping robots describe Argon as noticeably safer around obstacles and treat zero-shot control via action primitives as a genuine emerging pattern. At the same time, the thread pushes back on practicality, questioning whether on-board battery power and latency can ever make such models broadly useful, while a few comments drift into jokes and off-topic asides about robot chores and littering.
 
-**Tags**: `#SDR`, `#WiFi 7`, `#hardware hacking`, `#RF`, `#embedded systems`
+**Tags**: `#robotics`, `#AI/ML`, `#LLM`, `#Google DeepMind`, `#humanoid robots`
 
 ---
 
 <a id="item-6"></a>
-## [Blog argues using AI well is a skill, sparking Hacker News debate](https://yyhh.org/blog/2026/10/ai-is-a-tool/) ⭐️ 7.0/10
+## [Mozilla launches Firefox Enterprise to win corporate browser market](https://www.firefox.com/en-US/enterprise/) ⭐️ 7.0/10
 
-A blog post published at yyhh.org titled "AI is a tool and using it well takes skill" argues that AI is a tool whose effective use requires real, developed skill rather than passive reliance. The post triggered a Hacker News discussion that reached 181 points with roughly 170 comments, making it a highly active thread. The debate goes to the heart of how quickly AI-driven workflows are reshaping knowledge work, especially software engineering, and asks whether the skills workers are currently investing in will still be worth anything in six months. It also raises the stakes for education and cognition, with commenters worried that rapid adoption could produce a long-term decline in human reasoning and study habits. Several commenters claim that earlier prompt-engineering craft — context management, special instruction "recipes", agent graphs and vector search pipelines — has already become obsolete, and that the current meta is simply "knowing what to ask for". Others counter that the comparison is misleading, likening AI-assisted development to professional photography: everyone owns a camera, but years of domain experience still separate professionals from casual users.
+Mozilla has launched Firefox Enterprise, a dedicated offering that adds enterprise management and security controls to the Firefox browser, hosted at firefox.com/en-US/enterprise/. The move positions Firefox against established corporate-focused browsers such as Chrome Enterprise and Microsoft Edge for Business. Many large organizations currently ban or block Firefox precisely because it lacks the management hooks IT departments require, so this could finally unlock corporate deployments and help Mozilla rebuild browser market share. It also gives IT teams a non-Chromium option at a time when enterprise browser security is attracting enormous investment. The announcement is essentially a landing page, so specific capabilities, licensing terms, and pricing are not detailed in the item itself. Mozilla enters a market where it is widely seen as far behind rivals, and where dedicated enterprise-browser vendors such as Island have raised large rounds (a reported $400 million Series F at a $6.4 billion valuation), signaling strong demand for DLP and secure intranet access features.
 
-hackernews · layer8 · Oct 12, 21:40 · [Discussion](https://news.ycombinator.com/item?id=50063427)
+hackernews · recvonline · Oct 13, 12:00 · [Discussion](https://news.ycombinator.com/item?id=50070302)
 
-**Background**: Hacker News is a technology news aggregator run by Y Combinator where submissions are ranked by points and dissected in long threaded comment sections, so a score of 181 points with ~170 comments signals a genuinely contested topic. Large language models (LLMs) such as ChatGPT and Claude are driven by natural-language prompts, and "prompt engineering" was the term for the craft of wording those prompts, managing context windows and building tool or retrieval pipelines. As model quality has improved, much of that scaffolding has been absorbed by the models themselves, which is exactly what the commenters are arguing about. The thread also touches on education research concerns previously raised about smartphones and social media and their effect on attention.
+**Background**: Firefox is Mozilla's open-source web browser, while enterprise-oriented browsers like Chrome Enterprise and Microsoft Edge for Business give IT administrators centralized policy management, single sign-on, and security controls. Corporate IT departments typically enforce browser allowlists through endpoint management tools, so a browser without those controls often cannot be installed or updated on managed machines at all. Data-loss prevention (DLP) refers to blocking sensitive information from leaving the organization, for example preventing employees from pasting confidential data into AI chat apps, and many companies also want VPN-less access to private intranet applications.
 
-**Discussion**: Sentiment is split but leans skeptical of the idea that AI use is a durable skill: extr and whatever1 report that techniques they had carefully learned were rendered obsolete within months, with whatever1 noting a single six-word prompt now root-causes a log in about ten minutes. jgord warns that AI may spread faster than users can learn to use it in ways that increase rather than decrease human knowledge, predicting a decades-long dip in cognitive ability and a worse educational impact than smartphones. mosesman counters with the professional-photography analogy — experience still matters — while im_down_w_otp compares interacting with models to pulling the lever on a slot machine.
+**Discussion**: Commenters largely agree the move was needed: nicoburns notes companies ban Firefox because it lacks these controls, and PaulHoule calls it the most practical idea Firefox has had for market share in a long time. solatic points out the market is huge (citing Island's $400M raise) but warns Mozilla is very far behind, while DoctorOW predicts IT ticket queues will clog with users demanding Chrome anyway. Hugsbox offers a counterpoint, describing a workplace that is phasing Firefox out while non-technical users complain they want to keep using it.
 
-**Tags**: `#AI`, `#LLM`, `#productivity`, `#education`, `#human-computer interaction`
+**Tags**: `#Firefox`, `#Mozilla`, `#enterprise software`, `#browsers`, `#IT management`
 
 ---
 
 <a id="item-7"></a>
-## [Microsoft to shift AI inference to its homegrown Maia chips](https://www.cnbc.com/2026/10/12/microsoft-will-mainly-use-its-maia-chips-for-ai-inference.html) ⭐️ 7.0/10
+## [Blogger's Site Flooded by AI Bot Traffic After Hacker News Post](https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic) ⭐️ 7.0/10
 
-Microsoft announced on October 12, 2026 that it will scale its Azure Maia chip family to multi-gigawatt deployments starting in 2027, making Maia the primary inference system for Microsoft products and services. Maia 200 is now in production, and the next-generation Maia 300 is slated for 2027. A major hyperscaler moving its AI inference workloads onto in-house silicon signals margin expansion and a meaningful reduction in reliance on Nvidia's near-monopoly in AI accelerators. It also strengthens Microsoft's vertically integrated AI stack and pressures other cloud providers and chip vendors to respond. Maia is positioned primarily for inference rather than training workloads, which are less demanding on interconnect and memory bandwidth than frontier model training. Microsoft's first Maia 100 chip debuted in April 2024, built on TSMC's 5nm node with advanced packaging, and was designed using lessons from running large-scale workloads such as Microsoft Copilot.
+A blogger at sammystraus.com published a firsthand account of their website being overwhelmed by AI bot traffic shortly after they posted a link to Hacker News. The post sparked a 132-comment, 207-point discussion in which developers traded concrete mitigation tactics such as blocking whole cloud-provider ASNs (AWS, Google Cloud, Azure, Alibaba Cloud, Oracle) and subscribing to abuse IP blocklists. The episode reflects a growing pain point for small site operators: the same visibility that brings human readers also exposes a site to aggressive, automated AI crawlers and scrapers that can degrade or take it offline. It highlights a widening tension between cloud providers hosting abusive traffic and the individual developers who must absorb the cost of defending against it. Commenters distinguish ordinary scraping from what they call "genuine agentic abuse" — vulnerability probing and mass crawling of pages with little dynamic content — and note that some attacks escalate to SQL injection attempts and wholesale content cloning. Recommended countermeasures include ASN-level blocking of major clouds and community abuse IP lists such as the blocklist-abuseipdb project.
 
-rss · CNBC Top News · Oct 12, 14:04
+hackernews · sammy0910 · Oct 13, 15:25 · [Discussion](https://news.ycombinator.com/item?id=50073221)
 
-**Background**: AI workloads split into training, where a model learns from massive datasets, and inference, where a trained model answers real-world requests at scale; inference is the ongoing, high-volume cost center for services like Copilot. Hyperscalers have been designing custom accelerators — Google's TPUs, AWS's Trainium and Inferentia, and Microsoft's Maia — to cut costs and gain leverage against Nvidia, whose GPUs have dominated AI infrastructure. Building in-house silicon is a multi-year, capital-intensive effort because it requires chip design, software toolchains, and data-center integration to mature together.
+**Background**: Bot traffic refers to any non-human traffic to a website, generated by autonomous software, and it is not inherently malicious — search crawlers and AI training crawlers are also bots. The "Hacker News hug of death" is a well-known phenomenon in which a sudden surge of visitors and crawlers from a front-page link overwhelms a small server, an accidental DDoS-like effect. AI bot traffic is a newer variant made up of crawlers built to train, update, or run AI systems, which can be far more aggressive and harder to distinguish from legitimate readers.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/">Microsoft to expand Azure Maia system to multi-gigawatt ...</a></li>
-<li><a href="https://azure.microsoft.com/en-us/blog/azure-maia-for-the-era-of-ai-from-silicon-to-software-to-systems/">Azure Maia for the era of AI: From silicon to software to systems</a></li>
-<li><a href="https://www.msn.com/en-us/news/other/microsoft-unveils-new-maia-ai-chips-what-to-know/ar-AA2e4pjd">Microsoft unveils new Maia AI chips. What to know.</a></li>
+<li><a href="https://vercel.com/blog/the-three-types-of-ai-bot-traffic-and-how-to-handle-them">The three types of AI bot traffic and how to handle them</a></li>
+<li><a href="https://www.cloudflare.com/learning/bots/what-is-bot-traffic/">What Is Bot Traffic? | How to Stop Bot Traffic - Cloudflare</a></li>
+<li><a href="https://news.ycombinator.com/item?id=35649785">Ask HN: How do you prepare for “HN Hug of death ”? | Hacker News</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI Hardware`, `#Semiconductors`, `#Microsoft`, `#Nvidia`, `#AI Infrastructure`
+**Discussion**: Sentiment in the thread was frustrated but pragmatic: switz said they now block AWS, Google Cloud, Azure, Alibaba Cloud, Oracle and other ASNs across almost all their properties, calling on those clouds to rein in abuse on their own infrastructure. firefoxd warned from experience that publicly writing about anti-bot tricks (they had used zipbombs) only drew more unwanted traffic, while pmlnr recommended the blocklist-abuseipdb project and naet and hireahuman shared anecdotes ranging from SQL injection and slurs in inputs to a cloned copy of their site.
+
+**Tags**: `#ai-bots`, `#web-scraping`, `#bot-traffic`, `#ddos-mitigation`, `#web-infrastructure`
 
 ---
 
 <a id="item-8"></a>
-## [Decoding AVX-512's cryptic 'vfmaddrnd231pd' instruction name](https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd/) ⭐️ 6.0/10
+## [Developer repurposes EmbeddingGemma 2 as an experimental speech-to-text model](https://eg2.haku.sh/) ⭐️ 7.0/10
 
-A blog post by purplesyringa dissects the AVX-512 mnemonic 'vfmaddrnd231pd', explaining what every encoded component of the name actually means. It breaks the string into its parts — the vector fused multiply-add operation, embedded rounding, the operand-ordering digits, and the data type — showing why the name is so long and unreadable at a glance. Instruction names like this sit at the boundary between human-readable assembly and encoded machine state, so understanding them helps low-level, compiler and performance developers read disassembly, debug generated code, and reason about what the CPU actually computes. It is a niche topic, but a good illustration of how hardware features such as embedded rounding get baked directly into mnemonic naming rather than handled by separate control settings. 'vfmadd' stands for vector fused multiply-add, 'rnd' signals embedded (static) rounding, the trailing 'pd' means packed double-precision floats, and the three digits '231' encode the ordering of the source and destination register operands in the multiply-add. The suffix is necessary because AVX-512's EVEX encoding lets the rounding mode be specified inside the instruction itself, so a distinct mnemonic per rounding variant must exist instead of relying on a global control register.
+Developer Shahir published an experiment (eg2.haku.sh) showing that EmbeddingGemma 2's shared text-audio vector space can be used to transcribe speech into text locally. He hacked around a few implementation issues, and the approach worked, with fast local transcription as an unintended side benefit rather than a goal. It suggests that general-purpose multimodal embedding models can be repurposed for tasks like ASR, potentially opening a cheaper, lightweight path to on-device transcription without a dedicated speech model. It also highlights the rapid progress of local transcription, where hours of audio can now be processed in seconds on ordinary hardware. Accuracy is described as good for everyday use but below cloud-based ASR models, and the project was an experiment rather than a polished product. Commenters note that further speedups are possible by converting such models to CoreML so they run on Apple's Neural Engine, a technique already applied to Whisper, Demucs, and DeepFilterNet.
 
-hackernews · pngmangi · Oct 12, 21:12 · [Discussion](https://news.ycombinator.com/item?id=50063138)
+hackernews · amrrs · Oct 13, 11:27 · [Discussion](https://news.ycombinator.com/item?id=50069971)
 
-**Background**: AVX-512 is Intel's 512-bit SIMD extension to the x86 instruction set, extending earlier SSE and AVX vector instructions and using a new 4-byte EVEX prefix that allows access to 32 wide ZMM registers, opmask registers, operand broadcasting, and embedded rounding and exception control. A fused multiply-add (FMA) instruction computes a multiply and an add in a single step with only one rounding, which improves both accuracy and throughput. Because AVX-512 lets the rounding mode be encoded in the instruction, Intel had to invent extra-long mnemonic names to distinguish variants — the source of the naming pattern this article unpacks.
+**Background**: EmbeddingGemma 2 is Google's multimodal embedding model with roughly 740M parameters, combining a 270M-parameter text model with modular components, and it supports text, code, images, video, and audio. A shared embedding space is a common multimodal AI design in which different data types such as text and audio are projected into one high-dimensional vector space, so semantically similar inputs land close together. The experiment exploits this property: instead of training a dedicated speech recognizer, it maps audio into that shared space and retrieves the corresponding text.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/AVX-512">AVX-512 - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/EVEX_prefix">EVEX prefix - Wikipedia</a></li>
-<li><a href="https://www.intel.com/content/www/us/en/developer/articles/technical/intel-avx-512-instructions.html">Intel® AVX-512 Instructions</a></li>
+<li><a href="https://huggingface.co/google/embeddinggemma-2">google/ embeddinggemma - 2 · Hugging Face</a></li>
+<li><a href="https://unsloth.ai/docs/models/embeddinggemma-2">EmbeddingGemma 2 - Run Locally | Unsloth Documentation</a></li>
+<li><a href="https://www.zeroentropy.dev/concepts/multimodal-embeddings/">Multimodal embeddings: one space across text, image, audio</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Discussion was minimal (only three comments) and largely tangential. The one substantive comment, from Lerc, laments that incomprehensible names like this force a mental translation step and reflects a broader worry that people increasingly never interact with low-level abstractions directly — a theme he notes is usually discussed in the context of AI today.
+**Discussion**: The author clarified in the thread that this began as a curiosity about whether text and audio sharing a vector space in Embedding Gemma 2 could enable audio-to-text conversion, and that speed was a side benefit rather than a design goal. Commenters were broadly enthusiastic: one shared a tip about converting models to CoreML to run on the Neural Engine, while others reflected on how quickly local transcription went from unusable to processing an hour of audio in 13 seconds, citing Parakeet v3 on an M1 MacBook Air and Apple's on-device model as examples.
 
-**Tags**: `#x86`, `#assembly`, `#AVX-512`, `#CPU architecture`, `#instruction encoding`
+**Tags**: `#speech-to-text`, `#embeddings`, `#machine-learning`, `#audio-processing`, `#hackernews`
 
 ---
 
 <a id="item-9"></a>
-## [Blog Walks Through Building a Demoscene Intro for the ZX Spectrum](https://www.markround.com/blog/2026/zx-spectrum-intro) ⭐️ 6.0/10
+## [Hackers Overheat French Supermarket Fridges, Sparking Fires](https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html) ⭐️ 7.0/10
 
-Mark Round published a blog post that walks step by step through the craft of writing a demoscene intro for the ZX Spectrum, the 8-bit Sinclair home computer. The write-up focuses on the low-level programming and optimization work required to squeeze an audiovisual presentation out of very constrained hardware. It is a concrete, hands-on example of a retro-computing subculture that still shapes how programmers think about performance and code size, even as modern hardware makes such constraints rare. For developers raised on abundant memory and CPU cycles, the demoscene's discipline of doing more with less remains an influential counterpoint to today's 'just add hardware' mindset. The ZX Spectrum is built around a Zilog Z80 CPU with only 16 KB to 128 KB of RAM depending on the model, no dedicated graphics or sound chips, and video output to a television, so demoscene effects must be produced largely in software. Traditional demoscene categories such as the 4K and 64K intro impose strict executable-size limits that make every byte count.
+On 11 October 2026, an unknown party hacked into the refrigeration systems of hundreds of French supermarkets, forcing the units into overnight defrost mode so that refrigerators overheated, food spoiled and fires broke out. Reports indicate the attack affected nearly 400 stores and targeted Danfoss refrigeration controllers, with investigations now underway. This is a striking example of an IoT/OT cyberattack producing physical, real-world damage rather than just data loss, turning ordinary retail equipment into a safety hazard. It highlights how networked building and refrigeration systems in retail and the cold chain are increasingly exposed to the same threats long associated with critical infrastructure. The attackers reportedly manipulated the controllers' defrost cycle, a routine function normally used briefly to clear ice from evaporator coils, so that fridges warmed rather than cooled. Danfoss refrigeration controllers were named as the targeted systems, and roughly 400 supermarkets were reported affected, though the exact intrusion method and attacker identity remain unconfirmed.
 
-hackernews · zdw · Oct 12, 19:40 · [Discussion](https://news.ycombinator.com/item?id=50061859)
+rss · CNBC Top News · Oct 13, 12:22
 
-**Background**: The demoscene is an international computer art subculture that began with the early-1980s home computer boom and the software-cracking scene, whose 'cracktros' evolved into standalone audiovisual demos used to show off programming, graphics and music skills. Programs are shared and voted on at events called demoparties. The ZX Spectrum, launched by Sinclair Research in the UK in April 1982, was one of the best-selling British computers with over five million units sold, and Britain's top-selling computer until the 1990s.
+**Background**: Modern supermarket refrigeration relies on networked electronic controllers that monitor temperatures and manage functions such as defrosting, often accessible remotely for monitoring and maintenance by vendors or chains. Because these operational technology (OT) devices are frequently deployed with weak authentication or default credentials and are rarely patched as aggressively as IT systems, they can be manipulated to sabotage equipment. A defrost cycle is normally a short, controlled warm-up that melts ice off the coils; forcing it to run continuously can push temperatures well above safe food-storage levels. This kind of incident sits at the intersection of IoT security, the food cold chain and critical-infrastructure protection.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Demoscene">Demoscene - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/ZX_Spectrum">ZX Spectrum</a></li>
+<li><a href="https://en.wikipedia.org/wiki/2026_French_supermarket_refrigerator_hack">2026 French supermarket refrigerator hack - Wikipedia</a></li>
+<li><a href="https://cybernews.com/security/danfoss-refrigeration-hack-france-supermarkets/">Refrigeration cyberattack hits French supermarkets - Cybernews</a></li>
+<li><a href="https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/">Cyberattack shuts down refrigerators at French supermarkets</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The Hacker News thread was small (roughly 64 points and 6 comments) and largely nostalgic and anecdotal: one commenter recalled being in high school when the demoscene took off in the 1980s and said it permanently colored his view of later developers as 'lazy' about optimization. Others shared links to specific productions on Demozoo and to Syntaxparty, a demoparty happening in Melbourne in a couple of weeks, while one commenter reflected on how the scene's influence spreads by word of mouth, with people in 2026 still enjoying demos made in 1992 and making new ones that look like they are from 1992.
-
-**Tags**: `#demoscene`, `#zx-spectrum`, `#retro-computing`, `#assembly`, `#optimization`
+**Tags**: `#cybersecurity`, `#IoT`, `#critical infrastructure`, `#cyberattack`, `#retail`
 
 ---
 
 <a id="item-10"></a>
-## [IonQ to acquire Elisity in all-stock deal worth up to $1.3B](https://www.cnbc.com/2026/10/12/ionq-elisity-acquisition-cybersecurity.html) ⭐️ 6.0/10
+## [JPMorgan blocks outside AI agents like Muse and Instinct from account access](https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html) ⭐️ 7.0/10
 
-IonQ, a quantum computing platform company, has agreed to acquire the cybersecurity firm Elisity in an all-stock deal valued at up to $1.3 billion, according to a CNBC report. The announcement marks one of the largest acquisitions to date by a pure-play quantum computing company. The deal signals that quantum computing vendors are moving beyond hardware research into adjacent enterprise security markets, giving IonQ a commercial cybersecurity revenue stream alongside its quantum systems business. It also highlights growing convergence between quantum technology and the identity-based network security segment, as enterprises brace for both current ransomware threats and future quantum-enabled attacks on cryptography. The consideration is entirely in IonQ stock rather than cash, and the stated value of "up to $1.3 billion" suggests part of the payout is contingent on milestones or performance targets rather than paid upfront. Neither company has disclosed integration details, such as how Elisity's microsegmentation platform would connect with IonQ's quantum cloud and hardware roadmap.
+JPMorgan Chase is blocking third-party AI agents such as Meta's Muse and Spear Street's Instinct from directly accessing customer accounts, according to a CNBC report published on October 13, 2026. CEO Jamie Dimon warned of rogue agents operating at scale and said the bank is building defensive tools to counter them. A top-tier global bank explicitly fencing off agentic AI from account access sets an early precedent that other financial institutions are likely to follow, shaping how AI agents are allowed to interact with money. It directly affects consumers who want their personal AI assistants to pay bills, move funds, or manage subscriptions, and pushes the agent ecosystem toward bank-controlled APIs and intermediaries rather than direct credential sharing. The CNBC report is brief and JPMorgan has not disclosed the technical mechanism of the block, leaving open whether enforcement relies on API restrictions, credential policies, or fraud detection. Instinct is an invite-only personal AI agent from Spear Street Technology that operates mainly over text and iMessage, while OWASP classifies rogue agents as ASI10 — the most severe category of agentic AI security risk, representing total loss of control over an autonomous system.
 
-rss · CNBC Top News · Oct 12, 19:35
+rss · CNBC Top News · Oct 13, 20:48
 
-**Background**: IonQ is a publicly traded quantum computing company whose systems use trapped-ion technology: individual ions are held in place and manipulated with precisely controlled laser pulses to perform quantum gate operations. Elisity is a cybersecurity vendor specialising in identity-based microsegmentation, an approach that divides an enterprise network into small, policy-controlled zones so that attackers cannot move laterally or spread ransomware across IT, OT and IoT environments — a core building block of Zero Trust architectures. Quantum computing matters to security because a sufficiently powerful quantum computer could break widely used public-key cryptography such as RSA and ECC, which is why both quantum vendors and security firms are positioning themselves around the coming transition to post-quantum standards.
+**Background**: AI agents are autonomous software programs that log into services and act on a user's behalf, typically using credentials the user hands over, so an agent with banking access can initiate payments and transfers without a human clicking anything. Meta's Muse launched as a personal assistant in September 2026 and immediately targeted areas like the subscription economy, while Instinct is a smaller invite-only rival; both can be connected to banking and credit accounts. That autonomy worries banks because a misbehaving or compromised agent could drain accounts or trigger coordinated withdrawals — Apollo chief economist Torsten Sløk has argued agentic AI could even spark a bank run — and OWASP now ranks rogue agents as its top agentic security risk.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.ionq.com/">IonQ : Trapped Ion Quantum Computing Company</a></li>
-<li><a href="https://www.elisity.com/">Simplify Network Segmentation | Elisity Identity-Based ...</a></li>
-<li><a href="https://www.elisity.com/microsegmentation">Microsegmentation Guide: Zero Trust & Identity | Elisity</a></li>
+<li><a href="https://www.cnbc.com/2026/09/27/meta-muse-ai-personal-agent.html">Meta's Muse agent is attacking one of the economy's most ...</a></li>
+<li><a href="https://www.morningstar.com/news/marketwatch/2026092826/how-muse-and-other-ai-agents-could-spark-a-bank-run-according-to-an-economist">How Muse and other AI agents could spark a bank run ...</a></li>
+<li><a href="https://www.sweet.security/agent-security/rogue-ai-agents">Rogue AI Agents: What They Are and How to Stop Them</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Quantum Computing`, `#Cybersecurity`, `#Mergers and Acquisitions`, `#IonQ`, `#Elisity`
+**Tags**: `#AI agents`, `#cybersecurity`, `#banking`, `#fintech`, `#JPMorgan Chase`
 
 ---
 
 <a id="item-11"></a>
-## [Microsoft president: AI is less regulated than milk, urges global rules](https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo?at_medium=RSS&at_campaign=rss) ⭐️ 6.0/10
+## [Delaware Jury Finds Arm Breached Qualcomm License, Awards $2](https://www.cnbc.com/2026/10/13/delaware-jury-qualcomm-arm-license-agreement.html) ⭐️ 7.0/10
 
-Microsoft president Brad Smith said AI is currently subject to less regulation than milk and called for global rules to govern the technology. He argued that the UK is in the "best position" to lead international efforts on AI regulation. A senior executive at one of the world's most influential AI companies publicly pushing for binding rules adds significant industry weight to the global AI governance debate. Because rules being drafted in the EU, the US and the UK will shape how AI models are built, deployed and sold worldwide, the stance of major vendors like Microsoft can influence how strict those rules ultimately become. The "less regulated than milk" framing is a rhetorical comparison: dairy products face detailed, enforceable food-safety standards, whereas AI systems are largely covered by voluntary commitments and patchy, sector-specific guidance. The report does not lay out specific legislative proposals, so the statement is best read as a directional push for coordinated international rules rather than a detailed policy blueprint.
+A Delaware jury found that Arm Holdings breached its architectural license agreement with Qualcomm and awarded Qualcomm $2 in nominal damages. The verdict hands Qualcomm a win on the liability question while leaving it with essentially no monetary recovery. The ruling is a notable development in the high-stakes Qualcomm versus Arm licensing dispute, because a finding that Arm breached the agreement could shift negotiating leverage over how Arm licenses its chip architecture to major customers. It also matters for the wider semiconductor industry, where Arm's licensing terms underpin the design of most mobile and many data-center processors. The damages award is nominal at just $2, a figure juries typically use when they find a breach of contract but conclude no provable economic harm was demonstrated. The dispute centers on an architectural license agreement, which is a different and broader form of licensing than Arm's standard off-the-shelf core licenses.
 
-rss · BBC Business · Oct 12, 07:47
+rss · CNBC Top News · Oct 13, 18:39
 
-**Background**: Brad Smith is Microsoft's president and vice chair and a frequent voice on technology policy; Microsoft is a major investor in and partner of OpenAI, making it one of the most powerful players in generative AI. Governments have moved at very different speeds on AI rules: the EU adopted a comprehensive AI Act, while the UK has favored a more sector-by-sector, pro-innovation approach and hosted the 2023 Bletchley Park AI Safety Summit, which led to the creation of the UK AI Safety Institute. The core question in this debate is whether AI needs binding global rules or whether flexible national frameworks are enough.
+**Background**: Arm does not manufacture chips itself; instead it develops processor designs and instruction-set architectures and licenses them to companies such as Qualcomm, which then build chips around them. Arm's licensing business offers different tiers, ranging from ready-made IP cores packaged with tools and models to a broader architectural license that lets a customer design its own cores compatible with the Arm instruction set. Because so much of the mobile and embedded computing world depends on Arm technology, the terms of these agreements carry significant weight across the chip industry.
 
-**Tags**: `#AI regulation`, `#policy`, `#Microsoft`, `#governance`, `#industry news`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.arm.com/products/licensing">Licensing Arm Technology and Subscriptions</a></li>
+<li><a href="https://www.haopicks.com/arm-chip-architecture-licensing-model">Arm Holdings Explained: How the Chip Architecture Licensing ...</a></li>
+<li><a href="https://www.cnbc.com/2026/10/13/delaware-jury-qualcomm-arm-license-agreement.html">Delaware jury awards Qualcomm $2 in damages, finds Arm ... - CNBC</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#Qualcomm`, `#Arm`, `#semiconductor industry`, `#licensing dispute`, `#legal`
 
 ---
 
 <a id="item-12"></a>
-## [Making Big Downloads Resumable in Firefox: A TIL Tutorial](https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html) ⭐️ 5.0/10
+## [IMF warns AI share crash threatens global financial stability](https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks) ⭐️ 7.0/10
 
-A TIL-style article explains how to make large, interrupted downloads resumable in Firefox, addressing a long-standing browser limitation. The post has sparked discussion about Firefox's download resumption behavior and workarounds such as manually swapping .part files. This matters because users on flaky connections often lose progress when downloading large files, and Firefox's resumption issues have persisted for years. A practical workaround can help affected users avoid re-downloading gigabytes of data, while also highlighting gaps in browser download management. Resuming interrupted downloads generally depends on the server supporting HTTP Range requests, and one-time download links may still fail because the URL expires or changes. Community comments also point to Bugzilla bug 230870, opened in 2004, as evidence that this Firefox limitation is not new.
+In its twice-yearly Global Financial Stability Report, published around 13 October 2026, the International Monetary Fund warned that the threat of an AI share price crash rippling across global markets is putting world financial stability at risk. The IMF pointed to sky-high valuations of AI companies and their growing debt piles as reasons why risks in the financial system are "elevated", while also flagging government borrowing and cyber-attacks as separate concerns. The warning comes from the IMF, one of the most authoritative global financial institutions, and specifically names the AI sector — the main driver of recent equity market gains — as a potential epicentre of instability. If AI valuations correct sharply, the damage could spread through leveraged balance sheets, credit markets and pension and investment funds far beyond the technology industry, affecting ordinary savers and the wider economy. The report frames AI valuations and AI-related debt as a systemic risk rather than a sector-specific problem, and it lists government borrowing and cyber-attacks as parallel threats to financial stability. The IMF's headline framing that the global economy "could soon test the limits of resilience" signals that its concern is about the system's capacity to absorb shocks, not just the level of any single stock price.
 
-hackernews · speckx · Oct 12, 19:36 · [Discussion](https://news.ycombinator.com/item?id=50061791)
+rss · The Guardian Business · Oct 13, 12:30
 
-**Background**: HTTP Range requests, also called byte serving, let a client ask a server for only part of a file using the Range header. If the server supports it via Accept-Ranges, it responds with 206 Partial Content and a Content-Range header, which is what enables download managers to pause and resume. Firefox saves in-progress downloads as .part files, but its download manager has known limitations when a transfer is interrupted. External tools like aria2 and older programs such as GetRight are often used instead because they handle multi-connection and resumable downloads more reliably.
+**Background**: The Global Financial Stability Report is one of the IMF's flagship publications, released twice a year to assess vulnerabilities in global markets ahead of its Annual and Spring Meetings. The AI boom has driven a large share of recent equity market gains and has been increasingly financed by debt for data centres, chips and energy capacity, which is why the IMF treats the sector's valuations as a macro-financial issue. A sudden repricing of these assets would matter not only to tech investors but also to the credit markets, funds and institutions exposed to them.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/HTTP_Range_request">HTTP Range request</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Range_requests">HTTP range requests - MDN Web Docs</a></li>
-<li><a href="https://blinksandbuttons.net/which-browser-can-resume-download/">Which Browser Can Resume Download ? - BlinksAndButtons</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters share manual workarounds, such as moving the .part file, restarting the download, pausing, replacing the new .part file with the old one, and resuming. Many express frustration that Bugzilla bug 230870 has remained open since 2004, and several recommend using external download utilities like aria2 instead of browser downloads. Others add nostalgia for GetRight and note other long-broken Firefox features, such as the modal search highlight.
-
-**Tags**: `#firefox`, `#browser`, `#downloads`, `#workarounds`, `#bugzilla`
+**Tags**: `#AI`, `#financial stability`, `#IMF`, `#market risk`, `#tech valuations`
 
 ---
 
 <a id="item-13"></a>
-## [Agent37 (YC F26) launches low-cost sandboxes for AI agents](https://news.ycombinator.com/item?id=50059096) ⭐️ 5.0/10
+## [OpenAI engineer arrested for allegedly bugging executive conference room](https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/) ⭐️ 6.0/10
 
-Agent37, a YC F26 startup founded by ex-Amazon engineer Vishnu, launched sandboxes for running AI agents at under 10% of the cost of most sandbox providers, with customers averaging $0.37 per sandbox per month and a newly added free plan. The company says its own infrastructure cost for free sandboxes runs about $0.05 to $0.10 per user per month. Agent sandboxes are a fast-growing but increasingly crowded infrastructure layer, and Agent37's price point tests whether aggressive cost optimization alone can win share against better-funded rivals. If the approach holds, it could pressure incumbent sandbox vendors on pricing and make always-on personal agents cheaper for individual developers. The cost savings come from four levers: exploiting the bursty CPU/RAM usage pattern of agent harnesses, renting bare-metal hosts from Hetzner and OVH instead of hyperscalers, using gVisor to share host memory across sandboxes without reserving a full VM per sandbox, and buying RAM-heavy host shapes. The tradeoff is that gVisor-based sandboxes cannot run workloads like Docker-in-Docker or Android emulators, so Agent37 also offers full VM sandboxes at a slightly higher price.
+Abdulrahman Alfozan, a 35-year-old Saudi national and OpenAI engineer, was arrested and charged with using or attempting to use a device to intercept oral communications after allegedly bugging an executive conference room. Prosecutors said evidence includes ChatGPT prompts submitted between Sept. 24 and Sept. 30 from an account tied to his spouse that asked about building a "continuous audio recorder," encrypting an SD card, and remotely accessing a recording device. The case puts a spotlight on insider-threat and physical security practices at a leading AI lab, and it raises thorny questions about whether everyday ChatGPT conversation logs can and should be used as criminal evidence. It also signals heightened scrutiny of AI companies as holders of valuable proprietary research, with the FBI's San Francisco field office framing the arrest as part of protecting sensitive technology. Alfozan reportedly worked at Meta from 2017 to 2022 on data infrastructure projects, which commentators speculate could prompt a retrospective audit of that period. The specific charge is intercepting oral communications rather than espionage, and prosecutors claim the linked account asked on Sept. 27 and 28 about the exact device later recovered, including its unique MAC address.
 
-hackernews · vishnukool · Oct 12, 16:46
+hackernews · forthwall · Oct 13, 20:23 · [Discussion](https://news.ycombinator.com/item?id=50078141)
 
-**Background**: An AI agent sandbox is an isolated runtime where an agent can execute code, browse the web, or perform computer-use tasks without touching the host system. A harness is the software scaffolding around a model — such as Claude Code or OpenClaw — that handles tool use, memory, and state so the model can act as an agent over many steps. Agent37 started in February as a wrapper around OpenClaw, an open-source personal AI agent that runs through chat apps, before expanding to support additional harnesses.
+**Background**: OpenAI is the company behind ChatGPT, and its employees have access to internal discussions about unreleased models and research, making conference rooms a sensitive area. In the United States, secretly recording private conversations is generally illegal under wiretapping statutes, and a device planted to capture them can support federal charges. ChatGPT retains conversation logs associated with an account, which law enforcement can obtain through legal process — a point that has become central to debate about AI-era privacy.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/OpenClaw">OpenClaw - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Agent_harness">Agent harness</a></li>
-<li><a href="https://e2b.dev/">E2B | The Enterprise AI Agent Cloud</a></li>
+**Discussion**: Commenters were largely skeptical that this amounted to sophisticated state-level espionage, with one noting that audio-bugging a conference room yields little actionable technical material and that the FBI's rhetoric overstates the evidence. Others focused on privacy: several remarked that a spouse's ChatGPT logs formed part of the evidence, warning that anything told to an AI assistant can be subpoenaed, while another predicted Meta would audit the engineer's earlier tenure.
 
-</ul>
-</details>
-
-**Discussion**: Commenters were broadly skeptical of the business rather than the technology: mparis and MikhailTal argued that sandboxes are commoditized, that competing purely on price invites a race to the bottom, and that hyperscalers with 80-90% VM margins could undercut Agent37 at a loss to protect stickier, higher-margin offerings. alasano gave a practical data point, saying Agent37 looks slightly cheaper than boat.dev but with less storage, while itissid criticized the launch's customer success stories as obviously Claude-written.
-
-**Tags**: `#AI agents`, `#sandboxing`, `#startups`, `#cloud infrastructure`, `#Hacker News`
+**Tags**: `#OpenAI`, `#security`, `#espionage`, `#AI privacy`, `#ChatGPT`
 
 ---
 
 <a id="item-14"></a>
-## [Citroën revives the iconic 2CV as a sub-tonne electric car](https://www.bbc.com/news/articles/c620r33plgppo) ⭐️ 5.0/10
+## [Guitoro: A Free Browser Guitar You Strum With Your Keyboard](https://guitoro.com/) ⭐️ 6.0/10
 
-Citroën has unveiled an electric revival of its iconic 2CV, a concept car that the company says weighs under a tonne, which would make it class-leading among modern EVs. The reveal has drawn substantial attention on Hacker News, where the discussion has focused as much on the engineering of its lightweight design as on the nostalgia of the original model. The announcement matters because lightweight engineering is a rare and increasingly valuable approach in an EV market where heavy battery packs dominate, since lower weight directly improves range, reduces tyre and road wear, and allows a smaller, cheaper battery. If the sub-tonne target survives into production, it could offer a template for affordable, efficient small EVs at a time when most new electric cars are getting larger and heavier. According to commenters, Citroën's official site and video show details such as an infotainment system cheekily named “Radioën”, distinctive “champignon” (mushroom) pedals, and a van variant, though the pedals may not survive production due to regulation and the seats will need headrests to meet modern safety rules. The car remains a concept, so its specifications, price target, and production viability are still unconfirmed.
+Guitoro is a free, no-signup browser-based virtual guitar that plays samples of real instruments and lets users strum with a keyboard, mouse, or touchscreen. It offers acoustic, classical, electric guitar and bass voices, displays chord fingering and each stroke, and includes a practice mode that can slow songs down to 20% plus free chord tools and tuners. It shows how far browser-based audio has come: a polished, latency-friendly instrument that runs entirely in a web page with no install or account, lowering the barrier for casual learners and hobbyists. Such Show HN projects also serve as practical demonstrations of the Web Audio API for developers building interactive audio tools. The instrument is sample-based, relying on recordings of real instruments rather than synthesis, and its practice mode slows playback to as little as 20% speed. A one-minute YouTube video demo is provided, and the author explicitly asks for feedback on how the strumming feels and sounds.
 
-hackernews · scrlk · Oct 12, 12:09 · [Discussion](https://news.ycombinator.com/item?id=50055220)
+hackernews · talccc · Oct 13, 19:11 · [Discussion](https://news.ycombinator.com/item?id=50077020)
 
-**Background**: The original Citroën 2CV was an economy car produced by the French automaker from 1948 to 1990, conceived by vice-president Pierre Boulanger to motorise rural French farmers who still relied on horses and carts. It became famous for minimalist, utilitarian engineering: an air-cooled engine driving the front wheels, long-travel suspension tuned to cross a ploughed field without breaking a basket of eggs, and a roll-back canvas roof. Over 3.8 million 2CVs were built, plus millions more of its A-Series derivatives, making it one of the best-selling and most beloved cars of the 20th century alongside the Volkswagen Beetle.
+**Background**: A virtual instrument is software that reproduces the sound of a physical instrument, commonly by playing back recorded samples of the real thing and combining them in response to user input. Guitoro runs in the browser and relies on the Web Audio API, a JavaScript interface that lets web applications generate, process, and play audio in real time. Time-stretching or slowed-down practice modes are a common feature of music-learning tools, letting students play along with difficult passages at reduced speed without changing pitch.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Citroën_2CV">Citroën 2CV</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Web_Audio_API">Web Audio API</a></li>
+<li><a href="https://sampleson.com/">Sampleson | Virtual Instruments</a></li>
+<li><a href="https://audiotrimmer.com/audio-speed-changer/">Online Audio Speed Changer - Slow Down & Speed Up Music</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters largely welcomed the news: one noted that the nostalgic hype is overshadowing the genuinely class-leading sub-tonne weight, which enables better range from a smaller battery and lower road wear and is a key reason the car can be so cheap. Others praised the playful details like the “Radioën” infotainment and mushroom pedals, expressed appreciation for a car that “looks happy” amid a trend of aggressive-looking vehicles, and wondered whether the concept will ever reach production or be benchmarked against existing EV-converted 2CVs.
+**Discussion**: Feedback was overwhelmingly positive, with one commenter reporting they spent 30 minutes playing and calling it incredible. Key suggestions included rendering the fretboard in portrait orientation for better UX, mapping number keys 1–7 to chords in a key for intuitive progressions like 1-4-5, and using modifier keys to switch between down/up strums, major/minor, and 7th chords, plus emulating string bends by holding two keys like a monophonic synth.
 
-**Tags**: `#Electric Vehicles`, `#Automotive`, `#Design`, `#Lightweight Engineering`, `#Nostalgia`
+**Tags**: `#web-audio`, `#show-hn`, `#music-technology`, `#browser-app`, `#ux-feedback`
 
 ---
 
 <a id="item-15"></a>
-## [Meta debuts Muse Wonder AI model behind a paid Muse subscription](https://www.cnbc.com/2026/10/12/meta-muse-wonder-ai-model-agent.html) ⭐️ 5.0/10
+## [Thunderbird Previews Native iOS Email App in Development](https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/) ⭐️ 6.0/10
 
-Meta introduced its Muse Wonder AI model, which users can only access through a paid subscription to the Muse app, according to a CNBC report published on October 12, 2026. Meta's own announcement describes Muse Wonder and Muse Wonder Full as its most capable models to date, built for personal and professional agentic tasks. The release turns Meta's newest frontier model into a paywalled product, making it a direct test of whether users accustomed to free social-media services will pay for AI access. It also signals that Meta is moving to monetize AI directly rather than relying solely on advertising, putting it in competition with paid tiers from other frontier labs. Meta's developer documentation says the Muse Wonder series combines frontier coding capabilities, long-running agents, and advanced computer use for demanding work. The models run alongside the Muse personal agent app, which Meta says runs on Muse Secure VM, a dedicated secure computer environment; pricing tiers and free-access limits were not detailed in the coverage.
+In an October 2026 blog post, the Thunderbird project published a first look at a native iPhone email app that is currently in development. This marks the first time the open-source Thunderbird client is being built specifically for iOS, rather than reaching Apple users only through third-party or webmail options. Bringing Thunderbird to iOS extends an established open-source email ecosystem to the iPhone, where users have largely been limited to Apple's built-in Mail app or closed third-party clients. If the app embraces open standards such as JMAP, it could also strengthen momentum for interoperable, non-proprietary email backends beyond IMAP. The announcement is an early development preview rather than a finished release, so no shipping date, pricing, or final feature list has been confirmed. Community speculation centers on whether it will support JMAP, which would make it a natural client for Fastmail and the planned Thundermail service, plus features like an editable FROM field that power users rely on in the desktop version.
 
-rss · CNBC Top News · Oct 12, 17:34
+hackernews · mjorgers · Oct 13, 15:07 · [Discussion](https://news.ycombinator.com/item?id=50072913)
 
-**Background**: Meta launched the Muse app in September 2026 as a "personal AI agent" that can act on a user's behalf — for example sending emails or booking trips — echoing similar agent products from other AI companies. An "agentic" model is one designed not just to answer questions but to carry out multi-step tasks autonomously on a computer. Meta has historically earned nearly all of its revenue from advertising, so charging for AI access is a notable strategic shift, and the Muse Wonder models are positioned as Meta's competitor to leading frontier models.
+**Background**: Thunderbird is Mozilla's long-running open-source email, calendar, and contacts client, best known on the desktop and, more recently, on Android through the K-9 Mail project. On iPhone, the default Apple Mail app is deeply integrated with the operating system, which makes it a tough incumbent for third-party clients to displace. JMAP (JSON Meta Application Protocol) is an IETF-standardized, JSON-over-HTTP protocol designed as a modern replacement for IMAP, offering faster and simpler synchronization and backed by providers such as Fastmail.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://about.fb.com/news/2026/10/introducing-muse-wonder-models/">Introducing Muse Wonder and Muse Wonder Full: Frontier Models ...</a></li>
-<li><a href="https://research.meta.ai/blog/muse-wonder">Muse Wonder | Meta AI Research</a></li>
-<li><a href="https://dev.meta.ai/models/muse-wonder">Muse Wonder | Meta</a></li>
+<li><a href="https://jmap.io/">JSON Meta Application Protocol Specification (JMAP)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol">JSON Meta Application Protocol - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Meta`, `#AI models`, `#subscription`, `#monetization`, `#Muse Wonder`
+**Discussion**: Reaction on Hacker News was mixed: some users said the default iOS Mail app is simply good enough, others recalled clunky Gmail connections and integrations in Thunderbird and doubted its usability on mobile, while several said they would try it specifically if it supports JMAP with their Fastmail account. A few commenters also praised the project's playful 'Designed for growth' phrasing, while noting the desktop feature they value most, an editable FROM field, may not make it into the iOS version.
+
+**Tags**: `#Thunderbird`, `#iOS`, `#Email Clients`, `#Mozilla`, `#Open Source`
 
 ---
 
 <a id="item-16"></a>
-## [Intel, Broadcom CEOs Warn Capital Crunch Could Bottleneck AI Boom](https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html) ⭐️ 5.0/10
+## [UK Per-Capita Electricity Generation Falls Below 1970s Levels](https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak) ⭐️ 6.0/10
 
-The CEOs of Intel and Broadcom publicly warned that limited access to capital could emerge as a major constraint on the artificial intelligence boom, according to a CNBC report. The warning frames financing — not chips, power, or talent — as a potential limiting factor for continued AI expansion. The AI buildout is one of the most capital-intensive technology cycles in history, so any tightening in financing could ripple through data center construction, chip orders, and the valuations of suppliers and hyperscalers alike. Coming from two major semiconductor CEOs, the warning is a notable signal that industry leaders see funding — not just technical limits — as the next risk to AI growth. The report is a brief, headline-level item: it does not name which specific capital sources are constrained, quantify the shortfall, or cite figures such as capex totals or interest costs. It also does not specify whether the concern is about debt financing, equity markets, or internal cash flow at the chipmakers' customers.
+A new Our World in Data insight reports that the United Kingdom now generates less electricity per person than it did in the 1970s, with per-capita generation having fallen by roughly a third from its early-2000s peak. The decline is attributed to improved energy efficiency, deindustrialization, and a growing share of electricity imported from abroad. The trend is significant because the UK is simultaneously planning to electrify heating and transport and to host power-hungry AI data centers, so a decade-long decline in demand complicates grid investment and forecasting assumptions. It also raises broader questions about whether falling electricity use reflects genuine efficiency gains or the offshoring of industrial activity and emissions. The fall is not purely a demand-side story: according to the linked IEA data cited by commenters, the reduction splits roughly 50/50 between industrial and residential use, with residential efficiency gains such as the shift from incandescent bulbs to CFLs and then LEDs playing a measurable role. A key caveat is that per-capita generation measures domestically produced electricity, not consumption, so rising imports through interconnectors mean some of the electricity the UK uses is generated elsewhere.
 
-rss · CNBC Top News · Oct 12, 13:04
+hackernews · karakoram · Oct 13, 15:12 · [Discussion](https://news.ycombinator.com/item?id=50072994)
 
-**Background**: The current AI boom depends on enormous upfront spending on data centers, AI accelerators, networking gear, and electricity supply, much of which is funded through a mix of hyperscaler cash flow, debt, and increasingly complex financing arrangements. Intel is a long-established chipmaker with CPU and foundry businesses, while Broadcom supplies networking silicon and custom AI accelerators for large cloud customers, making both companies sensitive to how much their customers can afford to spend. When capital becomes harder or more expensive to obtain, infrastructure projects can be delayed or scaled back, which in turn reduces demand for the chips these firms sell.
+**Background**: UK electricity generation peaked around the mid-2000s and has declined since, as the country shifted away from coal toward gas and renewables while heavy industry contracted. Per-capita generation is calculated by dividing total national generation by population, which makes it sensitive to both demand changes and population growth. The UK is also physically connected to continental Europe and Ireland via submarine interconnectors, allowing it to import electricity rather than generate it domestically. Understanding this context matters because electricity demand is widely expected to rise again as electric vehicles, heat pumps, and data centers are added to the grid.
 
-**Tags**: `#AI infrastructure`, `#semiconductors`, `#industry news`, `#capital markets`, `#Intel/Broadcom`
+**Discussion**: Hacker News commenters pushed back on what one called 'Telegraph-esque outrage,' noting the article itself attributes the drop to lower demand from efficiency gains and deindustrialization rather than any planned rationing. Others debated the mix: one commenter said the IEA data splits the reduction roughly 50/50 between industry and homes, while another highlighted LED lighting as a major contributor; a third criticized National Grid for historically forecasting falling demand and for contemplating intermittent availability as a fix. Several commenters stressed that demand is now set to rise with electrification of transport and heating, and questioned the framing of consumption as a matter of national pride.
+
+**Tags**: `#Energy`, `#UK`, `#Electricity`, `#Sustainability`, `#Grid Planning`
 
 ---
 
 <a id="item-17"></a>
-## [UK AI minister warns cyber defences 'likely' to be breached](https://www.bbc.co.uk/news/articles/cr78pe09y05xo?at_medium=RSS&at_campaign=rss) ⭐️ 5.0/10
+## [Apple launches 'Switch to Safari' campaign, sparking browser monopoly debate](https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/) ⭐️ 6.0/10
 
-UK AI minister Kanishka Narayan said it is "likely" that the UK's cyber defences will be breached, and stated that the government will use advanced AI to strengthen the country against cyber attacks. The remark signals that a senior government figure now treats a successful major cyber intrusion as a matter of when rather than if, which shifts the policy debate from pure prevention toward resilience and AI-assisted detection. It also indicates that national governments are becoming major buyers and drivers of AI-based security tooling, a market that affects defence contractors, security vendors and critical-infrastructure operators. The announcement as reported is brief and does not specify funding figures, timelines, named AI systems, or which departments and agencies would lead the effort; the word "likely" itself frames breach prevention as an accepted risk rather than a guarantee. A technically minded reader should note that no technical mechanism, procurement route or threat model was disclosed, so the practical scope of the AI deployment remains unclear.
+Apple published a new 'Switch to Safari' marketing page on apple.com/safari/switch/ that argues users should abandon Chrome in favor of Safari. The campaign drew a heated Hacker News thread (140 points, 226 comments) that quickly shifted from Apple's marketing claims to iOS browser-engine restrictions and Chrome's market dominance. The campaign is pure marketing rather than a technical breakthrough, but it lands in the middle of active antitrust and regulatory scrutiny of both Google's Chrome dominance and Apple's WebKit-only rule on iOS, making browser choice a live policy issue rather than a purely personal preference. For web-platform watchers, the debate highlights how engine-level control determines what features, extensions, and web apps can exist on each platform. The most substantive criticism is that Apple's own iOS rules require every browser on iPhone — including Chrome, Firefox, Edge, and Arc — to run on Apple's WebKit rendering engine, so Safari's 'switch' pitch is undermined by the fact that iOS users cannot actually install a competing engine. Commenters also flagged concrete Safari gaps, including reload-based page translation that breaks POST-loaded forms and the lack of a full uBlock Origin because Safari shares Chrome's Manifest V3 extension limitations.
 
-rss · BBC Business · Oct 12, 15:03
+hackernews · ivell · Oct 13, 14:26 · [Discussion](https://news.ycombinator.com/item?id=50072286)
 
-**Background**: Cyber defence is the practice of protecting networks, systems and data from intrusion, and governments typically handle it through national agencies that share threat intelligence with critical sectors such as energy, health and finance. AI is increasingly used on both sides of this contest: attackers can automate phishing, reconnaissance and vulnerability discovery, while defenders use machine learning for anomaly detection, log analysis and rapid incident triage. Because national cyber strategies are published as policy documents, ministerial statements like this one usually preview spending priorities, legislation or new agency responsibilities rather than announcing a finished technical product.
+**Background**: A browser engine is the core rendering component that turns HTML, CSS, and JavaScript into a working page; the major ones today are Blink (used by Chrome, Edge, and Opera), Gecko (Firefox), and WebKit (Safari). Because Chrome and other Chromium-based browsers hold roughly two-thirds of the global market, Blink is by far the most widely used engine, which raises both antitrust questions about Google's control of Chrome and developer concerns about a de facto single-engine web. On iOS, Apple's App Store rules have historically required all browsers to use WebKit, a restriction regulators in the EU and UK have argued harms competition and limits web apps.
 
-**Tags**: `#AI policy`, `#cybersecurity`, `#UK government`, `#national security`, `#AI defense`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://apple.gadgethacks.com/news/ios-browser-performance-webkit-rules-what-apples-engine-requirement-actually-means/">iOS Browser Performance WebKit Rules: What Apple's Engine ...</a></li>
+<li><a href="https://open-web-advocacy.org/blog/uk-regulators-final-verdict--apples-browser-engine-ban-harms-competition/">UK Regulator's Final Verdict: Apple’s Browser Engine Ban ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Blink_(browser_engine)">Blink ( browser engine ) - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Sentiment on Hacker News was largely critical of Apple's framing: the top response argued that Safari enjoys an unprecedented monopoly because other engines cannot be installed on iOS, unlike IE 6-era Windows or ChromeOS. Several commenters drew the parallel that Chrome is 'the new Internet Explorer' with users stuck in a form of Stockholm syndrome, while others countered that the real advice is to ditch Chrome for Firefox rather than Safari, and pointed to concrete Safari shortcomings such as broken translation on POST pages and limited ad-blocking.
+
+**Tags**: `#Safari`, `#Chrome`, `#browser-monopoly`, `#Apple`, `#web-platforms`
+
+---
+
+<a id="item-18"></a>
+## [Apple Unveils HomeView Smart Home Hub With Screen to Showcase Siri AI](https://www.cnbc.com/2026/10/13/apple-homeview-smart-home-siri-ai.html) ⭐️ 6.0/10
+
+Apple announced a new smart home hub called HomeView, a device with a built-in screen designed to serve as a showcase for its Siri AI assistant, according to a CNBC report. Alongside it, the company also announced refreshed Apple TV 4K and HomePod Mini products. A screen-equipped hub marks Apple's most direct move yet into the smart-display category long occupied by Amazon's Echo Show and Google's Nest Hub, and tying it to an AI-centric Siri signals that Apple intends to compete on assistant intelligence rather than hardware alone. Success or failure here will shape how the company's HomeKit ecosystem is positioned in the broader smart home market. The announcement as reported is brief and offers little technical depth: specifics such as pricing, availability, display size, processor, and exactly what new AI capabilities Siri gains on the device were not detailed. The accompanying Apple TV 4K and HomePod Mini appear to be minor refreshes rather than major redesigns.
+
+rss · CNBC Top News · Oct 13, 19:23
+
+**Background**: Smart home hubs are devices that sit at the center of a connected home, controlling lights, locks, thermostats and other accessories; adding a screen turns them into always-visible control panels and video-calling or media devices. Amazon and Google have sold such screen-based hubs for years, while Apple has relied mainly on the HomePod, Apple TV and the HomeKit framework. Siri has long been criticized as lagging rival assistants, and Apple has been expected to rebuild it around generative AI, making a dedicated device a natural way to demonstrate those improvements.
+
+**Tags**: `#Apple`, `#Smart Home`, `#Siri`, `#AI Assistant`, `#Consumer Electronics`
+
+---
+
+<a id="item-19"></a>
+## [Saudi Man Charged With Planting Recording Device in OpenAI Office](https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss) ⭐️ 6.0/10
+
+A Saudi man has been charged with planting a "sophisticated" recording device inside OpenAI's offices, according to prosecutors. The device, wrapped in toilet paper, was found inserted into a USB port on the back of a TV in an executive conference room. The case spotlights growing concerns about corporate espionage and intellectual property protection at leading AI companies, whose internal strategy and product discussions are extremely valuable. It could push AI labs to strengthen physical security and counter-surveillance measures in executive meeting spaces. Prosecutors described the device as "sophisticated," yet it was concealed in a low-tech way — wrapped in toilet paper and plugged into a USB port behind a TV. The available report does not disclose the suspect's identity, alleged motive, or the specific charges beyond the accusation itself.
+
+rss · BBC Business · Oct 13, 21:42
+
+**Background**: OpenAI is the developer of ChatGPT and one of the world's most prominent AI research organizations, which makes its internal meetings and product roadmaps attractive targets for competitors or state-linked actors. Small USB-powered recording devices are cheap and unobtrusive, drawing power directly from a port so they can capture audio for hours while being difficult to spot in an ordinary conference room. Such cases typically fall under laws covering unauthorized surveillance and trade secret theft, and they matter because AI model development depends heavily on confidential research and strategy.
+
+**Tags**: `#OpenAI`, `#security`, `#espionage`, `#AI industry`, `#corporate security`
+
+---
+
+<a id="item-20"></a>
+## [BBC: Island residents say data centres have left their taps dry](https://www.bbc.co.uk/news/articles/cqj6j7wlxd5eo?at_medium=RSS&at_campaign=rss) ⭐️ 6.0/10
+
+The BBC reports from an island community whose residents say data centres are taking their water, with one local telling the BBC that "not a single drop has come through our taps for the last three months." The story frames the dry taps as a direct consequence of the water consumption of nearby data centre facilities. It puts a human face on a growing conflict: as AI and cloud workloads expand, data centres are competing with households and agriculture for scarce freshwater, and local communities increasingly bear the cost. This kind of local reporting can shape permitting rules, water-use disclosure requirements and site selection for new facilities in water-stressed regions. The report's evidence is essentially anecdotal — a resident's account of three months without tap water — and does not include figures such as the facility's daily water draw, the local reservoir or aquifer levels, or any utility or operator response. That makes the underlying dispute hard to verify from the text alone, even though the pattern it describes is well documented elsewhere.
+
+rss · BBC World · Oct 12, 22:30
+
+**Background**: Data centres generate large amounts of heat from servers and typically need cooling to keep running, and one common method — evaporative cooling with cooling towers — consumes water that is evaporated away rather than returned to the local supply. Large campuses can draw hundreds of thousands to millions of litres per day, a problem when they sit in regions already under water stress. This has pushed the industry toward metrics such as water usage effectiveness (WUE), air- and liquid-cooling designs that use less water, and reuse of treated or grey water. The AI boom has intensified the issue because high-density GPU clusters produce far more heat per rack than traditional servers.
+
+**Tags**: `#data centers`, `#water consumption`, `#sustainability`, `#infrastructure`, `#environmental impact`
+
+---
+
+<a id="item-21"></a>
+## [Apple Unveils New Apple TV 4K, Priced Around $300](https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/) ⭐️ 5.0/10
+
+Apple announced a new generation of the Apple TV 4K streaming box, which Hacker News commenters say is priced at roughly $300 and includes 128GB of storage. The launch drew 254 points and 494 comments on Hacker News, with the discussion focused almost entirely on price and the value of upgrading rather than new technical capabilities. Apple TV 4K is one of the few mainstream streaming boxes that competes on privacy rather than price, so a jump to roughly $300 puts it far above rival Google TV, Roku and Fire TV devices and could push price-sensitive buyers away. The reaction also reflects a broader question about whether expensive set-top boxes still make sense in an era when smart TVs and cheap streaming sticks handle most viewing. Commenters point out that the device allegedly lacks 120fps support, that the new 128GB of storage seems unnecessary for streaming apps, and that Apple's newly announced HomeView product costs the same despite including a screen. Several users also question why a streaming box needs the extra CPU/GPU performance, speculating it is aimed at gaming or smart-home hub duties.
+
+hackernews · corvad · Oct 13, 13:21 · [Discussion](https://news.ycombinator.com/item?id=50071310)
+
+**Background**: The Apple TV 4K is Apple's set-top streaming box, running the tvOS operating system and competing with devices such as Roku, Google TV/Chromecast and Amazon Fire TV. Earlier generations were positioned as premium-but-affordable options, with the previous 4K model starting at roughly $129–$149, so a roughly $300 price represents a substantial repositioning upward. Apple also sells the Apple TV+ streaming service, which commenters note has recently been bundled into basic iCloud+ plans in many countries, possibly to offset hardware pricing concerns.
+
+**Discussion**: The overall sentiment is negative on price and mixed on value: many users who had been waiting for this model to upgrade say they cannot justify roughly $300, and some note they may stick with older units or cheaper competitors. A minority defends the device for being trustworthy on privacy, while others express confusion about what the extra CPU/GPU power and 128GB of storage are actually for, and criticize the lack of 120fps support.
+
+**Tags**: `#Apple TV`, `#consumer hardware`, `#streaming devices`, `#pricing`, `#Hacker News`
+
+---
+
+<a id="item-22"></a>
+## [FBI arrests Saudi OpenAI employee over alleged conference room recording device](https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html) ⭐️ 5.0/10
+
+According to a CNBC report dated October 13, 2026, an OpenAI employee described as a Saudi national was arrested by the FBI after allegedly planting a recording device in one of the company's conference rooms. The incident reportedly took place on a Tuesday, and the report ties it to a period of heightened scrutiny of the ChatGPT-maker's safety practices. The arrest puts an insider-security and surveillance story at the center of the AI industry's most prominent company, at a moment when labs face growing scrutiny over safety, data handling and who has access to sensitive internal discussions. It could sharpen corporate security policies at AI firms and intensify the already politicized debate about foreign-national employees and national-security risk in frontier AI development. The available reporting is thin: the headline and summary do not specify the charges filed, the stated purpose of the recording device, the employee's role or tenure at OpenAI, or any comment from OpenAI or the FBI, so many core facts remain unconfirmed. The item is also attributed to a single outlet's reporting with no corroborating coverage in the supplied material, which means details should be treated as preliminary.
+
+rss · CNBC Top News · Oct 13, 21:44
+
+**Background**: OpenAI is the company behind ChatGPT and the GPT model family, and it is one of the most closely watched AI developers in the world; its competitors are under similar pressure from regulators and the public over how safely and transparently they build powerful models. Conference rooms at such companies are typically where unreleased product plans, safety evaluations and security decisions are discussed, so an alleged recording device inside one touches both corporate espionage concerns and employee privacy. The national origin of the arrested employee is highlighted in the headline because US policymakers and AI labs have been debating the risks and benefits of relying on foreign-born researchers for frontier AI work. Because the supplied material contains only a headline and one sentence, the specific legal context of this case cannot be verified from the available sources.
+
+**Tags**: `#OpenAI`, `#AI industry news`, `#security`, `#privacy`, `#regulation`
+
+---
+
+<a id="item-23"></a>
+## [Anthropic to disclose updated financials to investors as AI lab economics drive tech trade](https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html) ⭐️ 5.0/10
+
+Anthropic will release updated financial numbers to a group of investors gathering at its headquarters this week, according to people familiar with the matter. The disclosure comes as the company moves through the IPO process following its September 2026 prospectus filing. Frontier AI labs are burning huge amounts of capital on compute, and investors now treat their revenue and loss figures as a key signal for the whole tech sector. Because Anthropic's IPO could value it above $2 trillion, its numbers will shape sentiment toward AI infrastructure spending, chip demand and rival lab valuations. No specific figures were included in the initial report, so the disclosure is mainly a signal that investor interest in the offering is being cultivated. Reuters previously reported that Anthropic lost $42 billion in 2025 and spent about $7.33 billion on compute and infrastructure that year, with its operating loss widening to roughly $8.06 billion.
+
+rss · CNBC Top News · Oct 13, 21:02
+
+**Background**: Anthropic is the AI lab behind the Claude family of models, positioned as a safety-focused competitor to OpenAI. Most of its money comes from selling Claude access through API and enterprise contracts rather than consumer subscriptions. In September 2026 it filed a public IPO prospectus, which forces a company to open its books: revenue growth, compute costs and losses all become public information. AMD has separately agreed to buy up to $5 billion of Anthropic stock and supply more than $20 billion of computing capacity, illustrating how tightly AI labs and chipmakers are now linked.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/">EXCLUSIVE: Anthropic's IPO prospectus shows sweeping AI ...</a></li>
+<li><a href="https://www.investmentnews.com/equities/anthropics-landmark-ipo-filing-shows-12-fold-revenue-jump-518b-compute-bill/268391">Anthropic's landmark IPO filing shows 12-fold revenue jump ...</a></li>
+<li><a href="https://valueaddvc.com/blog/anthropics-business-model-how-the-ai-safety-company-makes-money">How Does Anthropic Make Money? Business Model & 2026 Revenue</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#Anthropic`, `#AI industry`, `#financials`, `#tech news`, `#IPO`
+
+---
+
+<a id="item-24"></a>
+## [Experts dispute Zelensky's claim that Yandex strikes disabled Russian bots](https://www.bbc.co.uk/news/articles/c9y7l0pm8jkko?at_medium=RSS&at_campaign=rss) ⭐️ 5.0/10
+
+The BBC reports that cybersecurity and disinformation experts say there is no evidence supporting Ukrainian President Volodymyr Zelensky's claim that Ukrainian strikes on Yandex data centres have taken down Russian bots and trolls. The claim, presented as a wartime success, has not been backed by publicly available outage data or measurements of bot activity. The dispute highlights how wartime claims about cyber and kinetic strikes are difficult to verify independently, and how such narratives can shape public perception of a conflict even without technical proof. It also matters for anyone assessing the real-world resilience of large internet infrastructure and state-linked influence operations. Verifying such claims would require evidence such as traffic or availability data for affected services, outages reported by independent monitoring services, or measurable changes in bot account activity — none of which has been publicly demonstrated. A key caveat is that automated accounts and troll operations are typically distributed across many hosting providers and cloud platforms, so damage to a single company's data centres would not necessarily stop them.
+
+rss · BBC World · Oct 13, 13:27
+
+**Background**: Yandex is Russia's largest internet company, operating the country's dominant search engine alongside cloud, advertising and other digital services, and it relies on large data centres to run them. The term "Russian bots" generally refers to automated social media accounts used in state-linked disinformation and influence campaigns, which are designed to post, amplify and manipulate online discussion at scale. Since Russia's full-scale invasion of Ukraine, both sides have made claims about cyber operations and long-range strikes on infrastructure that are often hard for outside observers to confirm.
+
+**Tags**: `#cybersecurity`, `#disinformation`, `#Russia-Ukraine`, `#data centers`, `#Yandex`
 
 ---
