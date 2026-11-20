@@ -5,424 +5,570 @@ date: 2026-11-20
 lang: en
 ---
 
-> From 140 items, 20 important content pieces were selected
+> From 142 items, 26 important content pieces were selected
 
 ---
 
-1. [Anthropic Becomes One of the World's Most Valuable Public Companies After IPO](#item-1) ⭐️ 9.0/10
-2. [Anthropic says Claude solved two open black-hole physics problems](#item-2) ⭐️ 8.0/10
-3. [OpenJDK 'Java4Shell' Fix PR Sparks Debate Over LLM-Assisted Bug Discovery](#item-3) ⭐️ 8.0/10
-4. [UK Tribunal Forces Disclosure of Secret Apple Encryption Order](#item-4) ⭐️ 8.0/10
-5. [Ruby2ßhell: One-Byte Heap Overflow Enables Pre-Auth RCE in Stock Rails](#item-5) ⭐️ 8.0/10
-6. [Physicists Send Gravity-Based Message Through a Brick Wall](#item-6) ⭐️ 8.0/10
-7. [Virus Injection Halts Pancreatic Cancer in Three Patients](#item-7) ⭐️ 7.0/10
-8. [Coxon and Hanson Debate Whether Governments Should Slow Frontier AI](#item-8) ⭐️ 7.0/10
-9. [IEA warns datacentre carbon emissions could rise 70% by 2030](#item-9) ⭐️ 7.0/10
-10. [Synology Issues Security Advisory for OAuth Service Vulnerability](#item-10) ⭐️ 6.0/10
-11. [Essay Calls Paid Advertising a 'Slot Machine' Extraction Tax, Sparking HN Debate](#item-11) ⭐️ 6.0/10
-12. [Onlook (YC W25) open-sources an agentic design canvas that overlays real codebases](#item-12) ⭐️ 6.0/10
-13. [California Reportedly Probes Nvidia Over China AI Chip Matters](#item-13) ⭐️ 6.0/10
-14. [Protesters rally against Anthropic as it debuts at $2tn valuation](#item-14) ⭐️ 6.0/10
-15. [Show HN: Cornhole News, an HN-style text aggregator for Midwest regional news](#item-15) ⭐️ 5.0/10
-16. [Browser tool lays out 8-page foldable zines from a single A4 sheet](#item-16) ⭐️ 5.0/10
-17. [IMF Chief Warns AI Demand Will Push Global Interest Rates Higher](#item-17) ⭐️ 5.0/10
-18. [Canada courts AI data centres as US projects face local pushback](#item-18) ⭐️ 5.0/10
-19. [Australian Music Industry Rejects Carveout Plan Exempting Musicians From AI Scraping Rules](#item-19) ⭐️ 5.0/10
-20. [ICJ rules Myanmar committed genocide against Rohingya in historic first](#item-20) ⭐️ 5.0/10
+1. [Levent Alpöge Claims Machine-Checkable Lean Proof of the Generalized Riemann Hypothesis](#item-1) ⭐️ 10.0/10
+2. [Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis](#item-2) ⭐️ 9.0/10
+3. [GitHub Repo Claims Finite-Time Blow-Up for Navier–Stokes Equations](#item-3) ⭐️ 9.0/10
+4. [Anthropic Mathematician Claims AI-Assisted Proof of Riemann Hypothesis](#item-4) ⭐️ 9.0/10
+5. [Hurried Draft Claiming GRH Proof Posted Amid AI Priority Fears](#item-5) ⭐️ 8.0/10
+6. [Thinking Machines Releases Inkling 2 Mini, an Open-Weights Looped-Transformer MoE](#item-6) ⭐️ 8.0/10
+7. [Paper Claims an LLM Can Rewrite Its Own Weights Without Training](#item-7) ⭐️ 8.0/10
+8. [Aaronson Examines Apparent LLM-Assisted Lean Proof Linked to Riemann Hypothesis](#item-8) ⭐️ 8.0/10
+9. [Architect Labs claims AI discovered, designed and verified a new interaction-net CPU called Frostbite](#item-9) ⭐️ 8.0/10
+10. [AI sell-off wipes out Nasdaq's 2026 gains as Anthropic IPO stumbles](#item-10) ⭐️ 8.0/10
+11. [California subpoenas Nvidia over chips possibly reaching China](#item-11) ⭐️ 8.0/10
+12. [AI coding agents are quietly turning developers into reviewers and architects](#item-12) ⭐️ 7.0/10
+13. [Winedroid: A Browser WASM Demo That Runs Android Apps Without Android](#item-13) ⭐️ 7.0/10
+14. [Signal outlines new privacy protections for chats and screenshots](#item-14) ⭐️ 7.0/10
+15. [Report: SEC Investigating Nvidia's Accounting as Stock Slides](#item-15) ⭐️ 7.0/10
+16. [Chip stocks lose $2.3 trillion in worst week for SOX in 25 years](#item-16) ⭐️ 7.0/10
+17. [Mastering Emacs author launches DreamCoder, an AI coding harness and IDE](#item-17) ⭐️ 6.0/10
+18. [Developer 'vibecodes' an AI inference chip with LLM assistance](#item-18) ⭐️ 6.0/10
+19. [Feynman's 'explain it simply' maxim sparks a Hacker News debate](#item-19) ⭐️ 6.0/10
+20. [UK Secret Operation Secures Tens of Thousands of Hackable Internet-Connected Fridges](#item-20) ⭐️ 6.0/10
+21. [Anthropic's Market Debut Closes Up 17% on First Trading Day](#item-21) ⭐️ 6.0/10
+22. [And Yet, It Moves: A Philosophical Essay on AI and Human Achievement](#item-22) ⭐️ 5.0/10
+23. [Trump Floats Ban on US Firms Building AI Data Centres Abroad](#item-23) ⭐️ 5.0/10
+24. [BBC reveals covert operation to secure UK refrigeration units from hackers](#item-24) ⭐️ 5.0/10
+25. [BepiColombo Nears Mercury After Eight-Year Voyage](#item-25) ⭐️ 5.0/10
+26. [Canada courts AI data centres as US projects meet local resistance](#item-26) ⭐️ 5.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Anthropic Becomes One of the World's Most Valuable Public Companies After IPO](https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss) ⭐️ 9.0/10
+## [Levent Alpöge Claims Machine-Checkable Lean Proof of the Generalized Riemann Hypothesis](https://alpo.ge/remark.pdf) ⭐️ 10.0/10
 
-Anthropic, the maker of the Claude chatbot, closed its first day of trading on the US stock market at just over $97 per share, roughly 17% above its $83 IPO price, giving it a market capitalization of about $1.3 trillion ($1.75 trillion fully diluted). The stock had initially surged 34% to an early high of $111.50 on its debut, making it the first purely AI-focused company ever to be publicly listed and one of the largest flotations in history. As the first pure-play AI company to list, Anthropic's debut serves as a real-time market referendum on the valuations and business models of the entire AI sector, which until now has been priced mainly in private funding rounds. A strong open followed by a fade suggests public investors are willing to buy AI exposure but are far more price-sensitive than late-stage private backers, a signal that will ripple through rival labs, their fundraising plans, and the wider tech ecosystem. The headline gain masks a weaker intraday trend: the stock opened at $111.50 and fell steadily to $97.17, meaning anyone who bought at the open was down roughly 13% on day one, and the roughly $1.3 trillion close sits well below the $2 trillion-plus valuation touched early in the session. The gap between the $1.3 trillion basic and $1.75 trillion fully diluted market caps reflects substantial outstanding options and restricted stock, which matters for per-share comparisons.
+Mathematician Levent Alpöge has posted a note (alpo.ge/remark.pdf) announcing a formal, machine-checkable Lean proof of the Generalized Riemann Hypothesis, shipped as a roughly 1.3 GB archive of about 15 million lines of Lean code split into 14 downloadable parts. An MIT-hosted verification page maintained by Andrew Sutherland reports that independent checks — run with the help of Claude Code — were still completing as of 2026-11-20. The Riemann Hypothesis is one of the Clay Mathematics Institute's Millennium Prize Problems and the most famous open problem in mathematics, so a claimed proof — especially one backed by formal verification rather than peer review alone — would reshape how the field establishes truth. The episode also becomes a landmark test case for AI-assisted formalization, since the proof scale is far beyond what a single human could hand-check and the verification itself leaned on an AI coding agent. A Lean proof only guarantees that the proof term type-checks against Lean's kernel and axioms, not that the formal statement faithfully encodes the Generalized Riemann Hypothesis as mathematicians understand it, which is exactly what the ongoing MIT checks are meant to confirm. Commenters also point to a parallel, entirely human-written proof circulated on Terence Tao's blog, suggesting the result may not rest on the formalization alone.
 
-rss · BBC Business · Nov 19, 23:33
+hackernews · iamronaldo · Nov 20, 14:16 · [Discussion](https://news.ycombinator.com/item?id=50574968)
 
-**Background**: Anthropic is an AI company founded in 2021 whose flagship product is Claude, a family of large language models released as a chatbot since March 2023 and also sold as coding and agentic tools; the models are trained with a 'constitution' intended to improve ethical and legal compliance. An IPO (initial public offering) is the process by which a private company sells shares to the public and begins trading on an exchange, switching from valuations set by venture investors to prices set by anyone with a brokerage account. Market capitalization is the share price multiplied by the number of shares outstanding, and the 'fully diluted' figure also counts options, warrants and restricted stock that could convert into shares.
+**Background**: The Riemann Hypothesis, proposed by Bernhard Riemann in 1859, asserts that the non-trivial zeros of the Riemann zeta function all have real part 1/2, a statement that tightly controls how prime numbers are distributed along the number line; the Generalized Riemann Hypothesis extends the same claim to a broader family of L-functions. Lean is an interactive theorem prover in which every step of an argument is written in a formal language and checked by a small trusted kernel, so a compiling proof is mechanically verified rather than merely convincing to referees. Such formalizations have become newly feasible at research scale because large language models can draft and repair proof scripts, though the resulting artifacts are typically enormous.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Claude_(chatbot)">Claude (chatbot)</a></li>
+<li><a href="https://www.claymath.org/millennium/riemann-hypothesis/">Riemann Hypothesis - Clay Mathematics Institute</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Proof_assistant">Proof assistant - Wikipedia</a></li>
+<li><a href="https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/">Anthropic mathematician claims to prove Riemann hypothesis , most...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Reaction on Hacker News was split between awe and anxiety: one software engineer called it a massive historical moment while worrying that the 'gravy train' for programmers is over, and another commenter noted the arithmetic that Anthropic was up 17% from its IPO price but down about 13% from its opening trade. Several voices questioned the valuation itself, pointing out that the price had slid from an early $2 trillion-plus level toward $1.3 trillion, and argued this bodes poorly for OpenAI's private-market ambitions.
+**Discussion**: The Hacker News thread is enormous and largely substantive: commenters link a parallel human proof on Terence Tao's blog, dig up Tao's recent remark that AI companies 'couldn't touch' the Riemann hypothesis and that something beyond current AI is needed, and share shell scripts for reproducing the download and size checks themselves. Several readers treat the multiple independent verifications plus the MIT checking page as settling the question of correctness, while others object to headlines crediting 'an Anthropic employee' rather than naming Alpöge as a established mathematician, seeing that framing as shifting credit from the person to the company.
 
-**Tags**: `#AI industry`, `#IPO`, `#Anthropic`, `#business`, `#public markets`
+**Tags**: `#mathematics`, `#Riemann-hypothesis`, `#Lean-theorem-prover`, `#formal-verification`, `#AI-assisted-proofs`
 
 ---
 
 <a id="item-2"></a>
-## [Anthropic says Claude solved two open black-hole physics problems](https://www.anthropic.com/research/claude-black-hole-physics) ⭐️ 8.0/10
+## [Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis](https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/) ⭐️ 9.0/10
 
-Anthropic published a research post claiming that Claude contributed to solving two previously open problems in black-hole physics, one of which reportedly establishes an upper bound on black-hole mass consistent with a given central charge. The claim was also highlighted as a bullet point in a frontier model launch announcement, according to commenters. If the result holds up under independent scrutiny, it would be a notable data point for AI-for-science claims, showing a general-purpose language model contributing to theoretical physics rather than just assisting with code or literature review. It also sharpens the debate over how such AI-assisted results should be verified, attributed, and reported. Critics noted that the blog post does not mention the prompt used, nor do the abstracts or either paper, making it unclear how much of the work was model-driven. Commenters who skimmed the material described the first result as a complex but error-prone calculation and the second — the black-hole mass bound — as considerably more significant, while finding the underlying paper difficult to read.
+A Terry Tao blog post reportedly presents new work on unforced Navier-Stokes singularities and the generalized Riemann Hypothesis, prompting active discussion about proof verification and mathematical discovery.
 
-hackernews · cybermango · Nov 19, 17:30 · [Discussion](https://news.ycombinator.com/item?id=50563148)
+hackernews · archon1410 · Nov 20, 17:21 · [Discussion](https://news.ycombinator.com/item?id=50578358)
 
-**Background**: Black-hole physics sits at the intersection of general relativity and quantum mechanics, and questions about which theories can be consistently combined with quantum gravity remain open. A central charge is a parameter characterizing a conformal field theory; through the AdS/CFT correspondence, a theory of quantum gravity in a given spacetime corresponds to a CFT with a specific central charge, so bounds linking black-hole mass to central charge constrain which theories can be complete theories of quantum gravity. Claims of automated mathematical discovery by AI are usually judged by whether independent experts can verify the proofs and reproduce the process.
-
-**Discussion**: The Hacker News thread (roughly 351 points and 155 comments) was largely meta: one commenter complained that none of the 80-plus comments discussed the papers or the article itself, while another objected to the anthropomorphizing phrase "Claude solves," arguing it obscures what the prompt and human contribution actually were. One commenter highlighted the second result as far more impressive than the first, and others suggested AI papers should include the full prompt history as an annex.
-
-**Tags**: `#AI for science`, `#large language models`, `#physics`, `#black holes`, `#research verification`
+**Tags**: `#mathematics`, `#Navier-Stokes`, `#Riemann hypothesis`, `#Lean theorem proving`, `#proof verification`
 
 ---
 
 <a id="item-3"></a>
-## [OpenJDK 'Java4Shell' Fix PR Sparks Debate Over LLM-Assisted Bug Discovery](https://github.com/openjdk/jdk/pull/32781) ⭐️ 8.0/10
+## [GitHub Repo Claims Finite-Time Blow-Up for Navier–Stokes Equations](https://github.com/tristanbuckmaster/navier-stokes/) ⭐️ 9.0/10
 
-OpenJDK pull request #32781 fixes the 'Java4Shell' vulnerability (CVE-2026-114938), a critical memory-corruption flaw in OpenJDK's hardware-accelerated Base64 decoder that can write past an allocated heap buffer on x86-64 CPUs supporting AVX-512 VBMI, enabling remote code execution. The bug was publicly disclosed by Calif researchers on November 17, 2026 with a CVSS 4.0 score of 9.2 and was reportedly found during an LLM-assisted audit in which the researchers directed Codex to examine the JIT compiler, intrinsics, widely accessible APIs, and cryptography. A CVSS 9.2 pre-auth RCE in the JDK's own Base64 decoder affects essentially every Java application that decodes untrusted Base64 on modern x86-64 hardware, making this one of the more consequential Java security fixes in recent memory. The episode is also a high-profile test case for LLM-assisted vulnerability research, raising hard questions about attribution and whether AI models can genuinely discover bugs rather than merely resurface existing reports. The flaw only triggers on x86-64 processors with AVX-512 VBMI support, meaning the hardware-accelerated code path is the vulnerable one rather than the generic decoder. Per the linked Adoptium support issue #1480, the original PR author was asked by Oracle in early October 2026 not to proceed until approval arrived, and by late October the fix had been taken over by Oracle, whose commit message reportedly matches the PR text word for word.
+A GitHub repository associated with Tristan Buckmaster has posted a claimed proof that the three-dimensional incompressible Navier–Stokes equations develop a finite-time blow-up from smooth initial data, accompanied by a 79-page paper and a Lean formalization. If verified, a finite-time blow-up would resolve one formulation of the Navier–Stokes existence and smoothness Millennium Prize problem and would overturn the widespread expectation that 3D smooth solutions persist for all time, with implications for fluid dynamics and numerical simulation. The repository lists a 79-page paper dated 20 November 2026 and a Lean package built on Lean v4.33.1 with Mathlib; commenters describe this claim as the unforced variant, while OpenAI's separately announced construction reportedly uses a carefully designed external force.
 
-hackernews · notmine1337 · Nov 19, 11:47 · [Discussion](https://news.ycombinator.com/item?id=50558906)
+hackernews · trotro · Nov 20, 15:34 · [Discussion](https://news.ycombinator.com/item?id=50576232)
 
-**Background**: OpenJDK is the open-source reference implementation of Java SE, and the Base64 decoder is part of the standard library used by countless applications for encoding and decoding binary data in text form. Recent JDK versions ship intrinsics — hand-optimized, CPU-specific implementations of common operations — and on modern Intel hardware the Base64 codec uses AVX-512 VBMI vector instructions for speed, so a bounds-checking mistake in that path becomes a security issue for the whole ecosystem. 'Java4Shell' echoes the naming of Log4Shell, signaling the severity researchers assigned to a remotely exploitable flaw in ubiquitous Java infrastructure.
+**Background**: The Navier–Stokes equations describe the motion of viscous fluids, and the Clay Mathematics Institute's Millennium Prize problem asks whether smooth solutions in three dimensions always exist or can break down in finite time. The problem has multiple formulations, including unforced flows and flows driven by a smooth external force, and a blow-up result would settle a negative answer for the relevant case. Lean is a proof assistant that can check mathematical arguments mechanically, which is why the repository's Lean package is central to assessing the claim.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.phoronix.com/news/Java4Shell-Vulnerability">Java 4 Shell Vulnerability For OpenJDK Java That Can... - Phoronix</a></li>
-<li><a href="https://socprime.com/blog/cve-2026-114938-java4shell-flaw-enables-pre-auth-rce-in-major-java-applications/">CVE-2026-114938: Java 4 Shell RCE Vulnerability</a></li>
-<li><a href="https://www.sentinelone.com/blog/java4shell-vulnerability-in-openjdk-enables-rce-on-avx-512-cpus/">Defending Against Java 4 Shell : Vulnerability in OpenJDK Enables...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Navier–Stokes_existence_and_smoothness">Navier–Stokes existence and smoothness - Wikipedia</a></li>
+<li><a href="https://openai.com/index/navier-stokes-solution/">On the Navier–Stokes Millennium Prize Problem | OpenAI</a></li>
+<li><a href="https://github.com/tristanbuckmaster/navier-stokes/">GitHub - tristanbuckmaster/ navier - stokes · GitHub</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters dug into the linked Adoptium issue and questioned whether the LLM genuinely discovered the bug or simply read the earlier public report, since the researchers' own account says they told Codex to audit specific areas and a model could easily have browsed the repository's open and closed issues. Others argued the point is partly moot: judging a finding's criticality and figuring out how to exploit it are separate skills that still require human supervision. Several also noted that Oracle's merged commit message reproduces the PR text word for word.
+**Discussion**: Hacker News commenters reacted with a mix of astonishment and debate, noting that a claimed unforced Navier–Stokes blow-up arrived the same day as other major claimed results and discussing how it compares with OpenAI's forced variant. Several expressed sympathy for Buckmaster and Levent Alpöge over the apparent scoop and drama, while others joked about wanting a physical demonstration of the 'weird' fluid behavior.
 
-**Tags**: `#security`, `#Java`, `#LLM-assisted-research`, `#vulnerability-discovery`, `#OpenJDK`
+**Tags**: `#Navier-Stokes`, `#mathematics`, `#Millennium Prize`, `#fluid dynamics`, `#research breakthrough`
 
 ---
 
 <a id="item-4"></a>
-## [UK Tribunal Forces Disclosure of Secret Apple Encryption Order](https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/) ⭐️ 8.0/10
+## [Anthropic Mathematician Claims AI-Assisted Proof of Riemann Hypothesis](https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss) ⭐️ 9.0/10
 
-The UK's Investigatory Powers Tribunal has ruled that the government must confirm it issued a secret order compelling Apple to provide authorities with access to encrypted customer data. The ruling, reported on November 19, 2026, also allows Apple to reveal the existence of the order, though its contents remain classified for now. This is a landmark moment for encryption policy: it confirms for the first time that the UK has used its most powerful surveillance powers against a major US tech company over end-to-end encryption. The outcome will shape how far governments can secretly compel platform providers to weaken security, affecting Apple users in the UK and potentially setting a precedent for other countries. The order is a Technical Capability Notice issued under the Investigatory Powers Act 2016, which can require a provider to build or maintain the capability to comply with future warrants. Notably, the tribunal found that journalists learned of the capability through confidential security briefings rather than a leak, and the notice's actual requirements remain secret.
+A mathematician at Anthropic claims to have used an AI system to prove the Riemann hypothesis, the 166-year-old conjecture about the distribution of prime numbers, according to a BBC report. The claimed proof has not yet been verified, and the company says checking it will take some time. If the proof holds up, it would resolve the most famous open problem in mathematics and mark a landmark demonstration of AI's capacity for original mathematical reasoning, potentially reshaping how research mathematicians use AI tools. A verified AI-assisted proof would also carry major implications for cryptography and number theory, since the Riemann hypothesis underpins much of our understanding of prime numbers. The claim is unverified and comes with the caveat that verification will take considerable time; proposed proofs of the Riemann hypothesis are frequent and almost always fail, so independent expert review is essential. The BBC report provides few technical details about the AI system used, the proof's length, or the specific approach taken, leaving the mathematical community to assess the argument.
 
-hackernews · Terretta · Nov 19, 16:21 · [Discussion](https://news.ycombinator.com/item?id=50562113)
+rss · BBC World · Nov 20, 23:08
 
-**Background**: The Investigatory Powers Act 2016 gives UK authorities broad surveillance powers, including technical capability notices that compel companies to ensure they can respond to future data warrants. Apple's Advanced Data Protection for iCloud, an optional feature, end-to-end encrypts most iCloud data such as backups, photos, and notes so that even Apple cannot read it. The Investigatory Powers Tribunal is a specialist UK court that hears complaints about state surveillance, and this case began with Apple challenging the secrecy surrounding the order.
+**Background**: The Riemann hypothesis, formulated by Bernhard Riemann in 1859, asserts that all non-trivial zeros of the Riemann zeta function lie on a specific vertical line in the complex plane. It is one of the Clay Mathematics Institute's seven Millennium Prize Problems, each carrying a $1 million reward, and it is closely tied to the distribution of prime numbers, the basic building blocks of the integers. Anthropic is an AI safety and research company known for developing the Claude family of large language models.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/">UK government forced to disclose secret Apple backdoor order</a></li>
-<li><a href="https://www.legislation.gov.uk/uksi/2018/353/made">The Investigatory Powers (Technical Capability) Regulations 2018</a></li>
-<li><a href="https://support.apple.com/en-us/108756">How to turn on Advanced Data Protection for iCloud - Apple ...</a></li>
+<li><a href="https://www.claymath.org/millennium/riemann-hypothesis/">Riemann Hypothesis - Clay Mathematics Institute</a></li>
+<li><a href="https://www.scientificamerican.com/article/the-riemann-hypothesis-the-biggest-problem-in-mathematics-is-a-step-closer/">The Riemann Hypothesis , the Biggest Problem... | Scientific American</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Anthropic">Anthropic - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters highlighted that Apple has subtly weakened its security claims, shifting from "nobody can access your data, not even Apple" to "Apple cannot access your data," with one noting that the on-device key is likely a key-encryption key wrapping the actual data key. Others questioned why the UK is so overt and uncompromising about mass surveillance compared with other Western countries, and one commenter pointed to the tribunal judgment as the primary source.
-
-**Tags**: `#encryption`, `#privacy`, `#Apple`, `#UK government`, `#surveillance`
+**Tags**: `#AI`, `#mathematics`, `#Riemann hypothesis`, `#Anthropic`, `#research breakthrough`
 
 ---
 
 <a id="item-5"></a>
-## [Ruby2ßhell: One-Byte Heap Overflow Enables Pre-Auth RCE in Stock Rails](https://verialabs.com/ruby2shell/) ⭐️ 8.0/10
+## [Hurried Draft Claiming GRH Proof Posted Amid AI Priority Fears](https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/) ⭐️ 8.0/10
 
-Researchers published a write-up dubbed "ruby2ßhell" describing a one-byte heap overflow in Ruby's string case-conversion code that can be chained into pre-authentication remote code execution on stock Ruby on Rails applications, tracked as CVE-2026-132825. The vulnerable code has existed since Ruby 2.4.0, and the flaw is reachable without any credentials in default Rails and classic-style Sinatra apps, as well as in self-hosted software including GitLab, GitHub Enterprise Server, Mastodon and Discourse. A pre-authentication RCE in unmodified Rails is a worst-case scenario for a framework that underpins countless production web applications, so any internet-facing Rails, Sinatra, GitLab or Mastodon deployment should be treated as exposed until patched. The finding also feeds a broader debate about how AI-assisted tooling is making full exploit chains cheap to build from otherwise minor memory-safety bugs. The underlying bug is a one-byte heap overflow in string case conversion, which on its own is a modest memory-corruption primitive but is reportedly reachable pre-authentication in default configurations. Observers note the write-up is part of a larger Ruby security advisory that covers six additional vulnerabilities, so patching should follow the full advisory rather than only this CVE.
+On November 20, 2026, Ravi Vakil posted a 940-page draft by Alessandro Masullo claiming a proof of the Generalized Riemann Hypothesis, saying it was produced without AI assistance and is being reviewed by Brian Conrad. The same day, Levent Alpöge reportedly proposed an AI-assisted GRH proof, turning the announcement into a race over priority and credit. A valid proof of GRH would settle one of the central open problems in number theory, with wide consequences for prime distribution and related algorithms. The episode also sharpens the debate over whether AI systems are now capable of—or perceived as capable of—making breakthrough mathematical discoveries, and how credit should be assigned. The draft is about 940 pages and reportedly represents 12 years of work, but it is not peer-reviewed and early readers noted that section 1.1.1 appeared empty. The claim also sits alongside the separate AI-assisted announcement, and no independent verification of either result has been established.
 
-hackernews · jdns · Nov 19, 05:09 · [Discussion](https://news.ycombinator.com/item?id=50556287)
+hackernews · jasondavies · Nov 20, 18:33 · [Discussion](https://news.ycombinator.com/item?id=50579568)
 
-**Background**: Ruby on Rails is a widely used web application framework written in Ruby, and "pre-authentication" means an attacker can trigger the flaw before logging in, so no valid account is required. A heap overflow is a memory-safety bug where a program writes past the boundary of an allocated buffer, which can corrupt adjacent data and, with enough additional steps, be turned into arbitrary code execution. The name "ruby2ßhell" is a pun: the German letter ß is pronounced like "s", so it reads as "Ruby to shell".
+**Background**: The Riemann Hypothesis asserts that all nontrivial zeros of the Riemann zeta function lie on the critical line with real part 1/2; it is one of the most important unsolved problems in mathematics. The Generalized Riemann Hypothesis extends the same type of statement to Dirichlet L-functions and other global L-functions, and it underpins many conditional results in analytic number theory. GRH remains unproven in the number-field case, though analogs are known in the function-field setting.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://cybersecuritynews.com/ruby2shell-rce/">ruby2ßhell: Critical One-Byte Heap Overflow in Ruby Could ...</a></li>
-<li><a href="https://orca.security/resources/blog/ruby2shell-ruby-heap-overflow-rce/">ruby2ßhell: CVE-2026-132825 Ruby Heap Overflow RCE</a></li>
-<li><a href="https://topaihubs.com/articles/ruby2-hell-vulnerability-pre-auth-rce-threatens-rails-applications">Ruby2ßhell Vulnerability: Pre-Auth RCE Threatens Rails ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Generalized_Riemann_hypothesis">Generalized Riemann hypothesis</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters debated the growing wave of AI-assisted RCE disclosures, with one arguing that if any single-byte overflow can be turned into RCE with minimal human effort, the only real answer is proving the entire software stack memory-safe. Others expressed CVE fatigue — asking when individual "x2shell" critical advisories will stop being news in the AI era — while one commenter clarified that this issue is already covered by a broader Ruby advisory containing six other vulnerabilities, and another noted that exploiting a one-byte overflow is achievable but genuinely difficult.
+**Discussion**: Commenters expressed a mix of awe and skepticism, speculating about whether AI systems could have seen leaked portions of the long-running human work and urging mathematicians to post timestamped hashes of in-progress results. Several also questioned the draft's quality—citing its length and an empty early section—while acknowledging that Brian Conrad's involvement makes a crank explanation unlikely.
 
-**Tags**: `#Ruby on Rails`, `#security vulnerability`, `#RCE`, `#AI-assisted exploitation`, `#memory safety`
+**Tags**: `#mathematics`, `#Generalized Riemann Hypothesis`, `#AI research`, `#research verification`, `#Hacker News`
 
 ---
 
 <a id="item-6"></a>
-## [Physicists Send Gravity-Based Message Through a Brick Wall](https://www.theguardian.com/science/2026/nov/20/scientists-communicate-using-gravity-elevator-brick-wall-bathroom-experiment) ⭐️ 8.0/10
+## [Thinking Machines Releases Inkling 2 Mini, an Open-Weights Looped-Transformer MoE](https://thinkingmachines.ai/news/inkling-2-mini/) ⭐️ 8.0/10
 
-Physicists at the University of Queensland transmitted the word “gravity” in binary code about 70 cm through a brick wall by moving a 1950s elevator between two floors and measuring the resulting changes in the gravitational field. This proof-of-concept demonstrates a “practically unblockable” communication channel. Gravity cannot be shielded by ordinary materials, so a gravity-based link could in principle carry messages through barriers that block radio, Wi-Fi, or other electromagnetic signals. The result is a striking proof of principle for a novel communication channel, although its extremely low data rate and short range keep it far from practical use. The message traveled only about 70 cm and was encoded by the slow up-and-down motion of the elevator, implying an extremely low data rate; the setup is a laboratory demonstration rather than a deployable system. Detecting such tiny gravitational changes requires extreme sensitivity, and the signal weakens rapidly with distance.
+Thinking Machines Lab released Inkling 2 Mini, a 26B-parameter open-weights multimodal model (text and image in, text out) under the Apache 2.0 license on November 20, 2026. It combines a looped-transformer architecture with a mixture-of-experts design and is trained end-to-end in the nvfp4 4-bit format, with reported performance matching much larger dense models such as Qwen3 27B while being sized for local deployment. Open-weight models that openly adopt a looped architecture are rare — the technique is only rumored in frontier closed models — so this release gives the open community a first-hand reference point for the design. Because it is a MoE sized for local hardware and already has GGUF builds, it could shift expectations for what consumer-grade machines can run at near-27B quality. The model card lists 26B parameters with an Apache 2.0 license and multimodal image-text-to-text capability, and end-to-end nvfp4 training is unusual because 4-bit pretraining normally risks instability and convergence problems at long token horizons. An unsloth-maintained GGUF build for Ollama and llama.cpp is already available, making hands-on local benchmarking straightforward.
 
-rss · The Guardian World · Nov 19, 23:30
+hackernews · jasondavies · Nov 20, 20:12 · [Discussion](https://news.ycombinator.com/item?id=50581260)
 
-**Background**: Gravity is a non-contact force that objects with mass exert on one another, and it is conventionally described through a gravitational field that permeates space and is not blocked by ordinary matter. Because gravity is extraordinarily weak compared with electromagnetism, detecting the field changes caused by a moving elevator requires precision gravimetry—measurement of gravitational field strength—often performed with quantum sensors such as atom interferometers. The experiment turns that sensitivity into a communication channel: a moving mass encodes bits, and a nearby detector reads out the resulting gravitational signal.
+**Background**: A looped transformer reuses the same block of weights across multiple recurrent passes instead of stacking many unique layers, which cuts parameter count while still simulating the depth and iterative reasoning of a much deeper network. Mixture-of-experts models route each token through only a small subset of parameters, so they can decode far faster than dense models of similar total size. nvfp4 is NVIDIA's 4-bit floating-point format (E2M1 with a shared exponent) natively supported on Blackwell GPUs, designed to keep accuracy near 16-bit levels while cutting memory bandwidth and compute cost.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Atom_interferometer">Atom interferometer - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Gravimetry">Gravimetry - Wikipedia</a></li>
-<li><a href="https://www.khanacademy.org/science/ms-physics/x1baed5db7c1bb50b:non-contact-interactions/x1baed5db7c1bb50b:gravitational-force/v/gravitational-force">Gravitational force (video) | Khan Academy</a></li>
+<li><a href="https://thinkingmachines.ai/model-card/inkling-2-mini/">Inkling 2 Mini Model Card - Thinking Machines Lab</a></li>
+<li><a href="https://huggingface.co/thinkingmachines/Inkling-2-Mini">thinkingmachines/Inkling-2-Mini - Hugging Face</a></li>
+<li><a href="https://sebastianraschka.com/llm-architecture-gallery/looped-depth-sharing/">Looped Transformer | Sebastian Raschka, PhD</a></li>
+<li><a href="https://developer.nvidia.com/blog/nvfp4-trains-with-precision-of-16-bit-and-speed-and-efficiency-of-4-bit/">NVFP4 Trains with Precision of 16-Bit and Speed and ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#experimental physics`, `#gravitational fields`, `#through-wall communication`, `#proof-of-concept`, `#signal transmission`
+**Discussion**: Commenters were largely impressed, calling the benchmarks "bonkers good" if they hold up and predicting most open models will go looped in the wake of this release. Several raised questions about what such a capable looped model released with open weights means for safety and interpretability, while others focused on hands-on testing — one user plans to benchmark it on an AMD 7900XTX against Qwen3 27B and expects the MoE design to deliver much higher decode speed.
+
+**Tags**: `#LLM`, `#open-weights`, `#looped-transformer`, `#MoE`, `#local-inference`
 
 ---
 
 <a id="item-7"></a>
-## [Virus Injection Halts Pancreatic Cancer in Three Patients](https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/) ⭐️ 7.0/10
+## [Paper Claims an LLM Can Rewrite Its Own Weights Without Training](https://arxiv.org/abs/2611.21885) ⭐️ 8.0/10
 
-A small early clinical trial, reported by New Scientist, found that injecting a virus halted pancreatic cancer progression in three patients. Pancreatic cancer is notoriously lethal and has few effective treatments, so even a preliminary signal from a novel approach could matter if it is confirmed in larger trials. However, the result is far from proven and should not yet change clinical practice. The trial involves only three patients, and the available report gives limited information about the virus used, dosing, and how long any responses lasted. Such a small number means the result could be chance or transient and requires larger controlled studies.
+An arXiv paper (2611.21885) reports that a language model rewrote its own weights through its own reasoning, with no gradients and no training loop. The model tested candidate edits on practice problems, kept only the ones that worked, and saw its accuracy rise across eight consecutive self-editing sessions. If a model can reliably improve itself by editing its own weights, capability gains could come from inference-time reasoning rather than expensive retraining runs, which would reshape how the industry thinks about adaptation and post-training. At the same time, an autonomous system that can rewrite its own parameters raises obvious AI-safety questions, since the same mechanism could in principle be pointed at safety- or alignment-related behaviour. Commenters point out that the only self-improvement actually demonstrated was shortening the model's reasoning traces to avoid hitting the token limit, echoing earlier weight-space programming work in which a model could not be improved absent such an obvious flaw. The claimed gains are measured as accuracy rising over eight sessions, so the evidence is narrow rather than a general capability jump.
 
-hackernews · cybermango · Nov 19, 17:25 · [Discussion](https://news.ycombinator.com/item?id=50563066)
+hackernews · lwhsiao · Nov 20, 16:29 · [Discussion](https://news.ycombinator.com/item?id=50577265)
 
-**Background**: Pancreatic cancer is one of the deadliest cancers because it is often detected late and responds poorly to many existing treatments. Oncolytic virotherapy is an experimental strategy that uses viruses able to selectively infect and destroy cancer cells while sparing normal tissue, and it may also trigger immune responses against tumors. Researchers have been testing various oncolytic viruses in clinical trials, including for pancreatic cancer.
+**Background**: Normally, changing what a language model knows or how it behaves means retraining or fine-tuning it with gradient descent, which requires data, compute and a training loop. A separate line of research called weight editing (and the newer 'weight-space programming') instead has a model read and directly write the numerical weights of a network without gradients. This paper sits in that space but pushes further, letting the model propose and select its own edits, which is why the boundary between 'self-editing' and 'training' is being debated.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.nature.com/articles/s41392-023-01407-6">Oncolytic virotherapy: basic principles, recent advances and ...</a></li>
-<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12126799/">Oncolytic viruses as cancer therapeutics: From mechanistic ...</a></li>
-<li><a href="https://www.cell.com/molecular-therapy-family/molecular-therapy/fulltext/S1525-0016(25)00209-6">Oncolytic viruses as cancer therapeutics: From mechanistic ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Weight-space_programming">Weight-space programming - Wikipedia</a></li>
+<li><a href="https://www.imsuperintelligence.ai/post/preventing-recursive-self-improvement-explosions-via-topological-constraints/">Preventing Recursive Self -Improvement Explosions via Topological...</a></li>
+<li><a href="https://menonlab-blog-production.up.railway.app/blog/ouroboros-self-evolving-ai-agent-safety-future">Ouroboros: The Self -Evolving AI Agent That Refused to Die</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters shared painful personal stories of losing relatives to pancreatic cancer and expressed hope that this result could lead to better options. One commenter noted that the article lacked enough detail to identify the exact intervention or trial and pointed to a list of 25 oncolytic-virus trials for pancreatic cancer, reflecting cautious interest rather than uncritical excitement.
+**Discussion**: The Hacker News thread (314 points, 105 comments) is engaged but skeptical: readers argue the improvement is trivial (shorter reasoning traces), that prior work such as weight-space programming and Google's 'sleep' framework already updated weights from self-generated examples, and that the phrase 'no training' is misleading since selecting the edits that work is training-like. The strongest concern is safety-related — an autonomous model could in principle use these techniques to suppress its own safety-relevant activations.
 
-**Tags**: `#oncology`, `#pancreatic cancer`, `#virotherapy`, `#clinical trials`, `#medical research`
+**Tags**: `#LLM self-modification`, `#weight editing`, `#AI safety`, `#arXiv`, `#model adaptation`
 
 ---
 
 <a id="item-8"></a>
-## [Coxon and Hanson Debate Whether Governments Should Slow Frontier AI](https://www.youtube.com/watch?v=lwfewYL7X0o) ⭐️ 7.0/10
+## [Aaronson Examines Apparent LLM-Assisted Lean Proof Linked to Riemann Hypothesis](https://scottaaronson.blog/?p=10344) ⭐️ 8.0/10
 
-A Hacker News thread highlighted a video debate between Jacob Coxon and Robin Hanson on whether governments should slow frontier AI, with commenters examining regulation, corporate power, alignment risk, and energy/compute constraints. The question is central to AI governance because it pits calls for precautionary slowdowns against concerns that regulation could entrench incumbents or concentrate power further. The HN thread shows how technical observers connect alignment risk, compute governance, and datacenter energy policy to real-world enforcement. Commenters suggested that frontier training runs may require on the order of 1 TWh of electricity, making energy use and chip supply potential chokepoints for monitoring or slowing development. Others argued for renewable-energy-only mandates for AI datacenters as an incentive-based alternative to direct restrictions, while one commenter questioned Coxon's credibility over past climate-change tweets.
+Scott Aaronson published a blog post examining an apparent LLM-generated or LLM-assisted Lean proof connected to the Riemann Hypothesis, a claim that quickly drew sizable Hacker News discussion. The item describes the proof claim as 'apparent' and does not present it as a confirmed breakthrough. If LLMs can meaningfully contribute to formal proofs of major open problems, it would reshape expectations about AI's role in mathematics and the feasibility of compute-driven discovery. Even as an unconfirmed claim, it raises questions about whether machine-checkable proofs remain comprehensible to humans and what role mathematicians will play. Lean is a proof assistant in which proofs can be machine-checked, often with the mathlib library, but a valid formal proof may be too long or intricate for people to follow in its entirety. The Riemann Hypothesis remains unproven, and the post's 'apparently' framing signals that the purported LLM-linked Lean proof has not been established as a genuine solution.
 
-hackernews · sandslash · Nov 19, 18:47 · [Discussion](https://news.ycombinator.com/item?id=50564366)
+hackernews · stratos123 · Nov 20, 20:03 · [Discussion](https://news.ycombinator.com/item?id=50581084)
 
-**Background**: Frontier AI generally refers to the most advanced models at the cutting edge of capability, typically trained with very large amounts of compute. AI alignment is the subfield focused on making such systems reliably pursue intended goals and human values, and compute governance is the policy approach of monitoring or restricting access to the chips and datacenters needed to train advanced models. In this debate, those concepts frame whether governments can or should use legal, energy, or hardware levers to slow frontier development.
+**Background**: The Riemann Hypothesis is one of the most famous unproven conjectures in mathematics, concerning the distribution of prime numbers. Lean is an open-source proof assistant and functional programming language used to formalize mathematics and verify proofs by computer, with a standard library called mathlib. The phrase 'stochastic parrot' comes from a 2021 critique of large language models, arguing that they statistically mimic text without genuine understanding. Formal verification uses mathematical methods to prove systems correct against a formal specification, and in mathematics it aims to make proofs rigorously machine-checkable.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/AI_alignment">AI alignment</a></li>
-<li><a href="https://aisafety.info/questions/MSJK/What-is-compute-governance">What is compute governance? - aisafety.info</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Lean_theorem_prover">Lean theorem prover</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Stochastic_parrot">Stochastic parrot - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Formal_verification">Formal verification - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters pushed back on framing AI policy as simply companies versus government, arguing both are power-concentrating entities and that individual ownership/control may matter more for liberty-compatible alignment. Several doubted society can agree on what 'good' alignment means, while others argued that huge energy and compute requirements make slowdowns enforceable; one proposed renewable-only mandates for AI datacenters, and another dismissed Coxon over climate-change denial.
+**Discussion**: The Hacker News discussion mixes technical doubt with existential concern: commenters ask whether anyone can comprehend an entire Lean proof and whether near-infinite compute could let many mathematicians achieve similar breakthroughs. Others worry that humans will increasingly fail to understand scientific results, though the thread also includes a derail about sites returning 403 errors.
 
-**Tags**: `#AI governance`, `#AI safety`, `#frontier AI`, `#technology regulation`, `#Hacker News discussion`
+**Tags**: `#AI`, `#mathematics`, `#Riemann Hypothesis`, `#Lean`, `#LLMs`
 
 ---
 
 <a id="item-9"></a>
-## [IEA warns datacentre carbon emissions could rise 70% by 2030](https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns) ⭐️ 7.0/10
+## [Architect Labs claims AI discovered, designed and verified a new interaction-net CPU called Frostbite](https://architectlabs.com/blog/frostbite) ⭐️ 8.0/10
 
-The International Energy Agency (IEA) warned that global datacentres will emit 70% more carbon by 2030 and consume twice as much electricity as they do today, with the expansion of artificial intelligence accounting for roughly three-quarters of that electricity growth. The forecast attributes much of the emissions increase to the US and China turning to fossil fuels to power their AI development agendas. The forecast reframes AI as an energy and climate problem, not just a computing one, meaning hyperscalers, utilities and policymakers will face growing pressure to justify new fossil-fuel capacity built to serve datacentre demand. It also has direct implications for corporate climate targets, national emissions accounting and the cost of AI infrastructure. The figures are forecasts rather than measurements, and the 70% emissions increase is closely tied to the assumption that the US and China keep leaning on fossil generation rather than clean power to meet the load. Emissions outcomes therefore depend heavily on the electricity mix actually built out over the next four years, which the IEA report frames as a policy choice rather than an inevitability.
+Architect Labs published a blog post introducing Frostbite, a general-purpose CPU architecture built around interaction nets that the company says was discovered, designed and verified end-to-end by its AI systems, from compiler through to final GDS layout. The company reports 4.59x the performance-per-watt and 8.77x the performance-per-unit-area of a silicon-proven dual-issue, in-order CPU core across 25 workloads, based on pre-silicon (simulated) numbers. If the claim holds up, it would be an early demonstration that AI can productize decades-old research ideas into a coherent hardware design at dramatically lower R&D cost, potentially reshaping how chip architectures move from papers to silicon. It also puts a spotlight on interaction nets as an alternative to conventional von Neumann/out-of-order designs at a time when performance-per-watt, not raw clock speed, is the dominant constraint. The comparison baseline is a dual-issue, in-order core rather than a modern superscalar out-of-order design, and the evaluation covers only 25 workloads, so the 4.59x figure is measured against a relatively modest reference point and has not been validated in silicon. The design is described as verified end-to-end by AI, which raises open questions about what forms of formal verification and coverage were actually achieved.
 
-rss · The Guardian World · Nov 19, 05:00
+hackernews · shioyama · Nov 20, 10:01 · [Discussion](https://news.ycombinator.com/item?id=50572503)
 
-**Background**: The IEA is a Paris-based intergovernmental energy watchdog whose annual outlooks are widely used as reference forecasts by governments and industry. Datacentres are unusually electricity-intensive: servers draw power continuously and cooling systems add substantially to the load, and AI workloads such as training large models and serving inference requests consume far more energy per task than conventional web services. How much carbon that electricity produces depends on the local grid mix, so the same compute load can be relatively clean in a renewables-heavy region and very carbon-intensive in a coal-heavy one.
+**Background**: Interaction nets are a graph-rewriting computational model introduced by Yves Lafont in a 1990 POPL paper, in which computation proceeds by local rewriting rules between agents in a graph. Unlike Turing machines or the lambda calculus, each interaction step is a constant-time operation and many steps can reduce in parallel, and the model has strong confluence properties inherited from linear logic. Frostbite's premise is that a CPU built natively around such a model could avoid much of the overhead conventional instruction sets incur, and Architect Labs claims its AI stack handled architecture discovery, design and verification rather than only individual sub-tasks.
 
-**Tags**: `#datacentres`, `#AI infrastructure`, `#carbon emissions`, `#energy consumption`, `#IEA`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://architectlabs.com/blog/frostbite">Introducing Frostbite: A new CPU architecture discovered ...</a></li>
+<li><a href="https://www.notebookcheck.net/AMD-and-Intel-move-over-AI-designed-an-all-new-CPU-and-claims-it-is-4-6x-more-efficient.1455225.0.html">AMD and Intel, move over: AI designed an all-new CPU — and ...</a></li>
+<li><a href="https://letsdatascience.com/news/architect-labs-unveils-frostbite-an-ai-designed-cpu-architec-88f8acbd">Architect Labs unveils Frostbite, an AI-designed CPU architecture</a></li>
+<li><a href="https://archive.md/2023.03.28-195553/https://wiki.xxiivv.com/site/interaction_nets.html">XXIIVV — interaction nets</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Hacker News discussion (607 points, 317 comments) was sharply divided: the poster lamented that commenters ignored interaction nets as a fundamentally different paradigm, while skeptics argued the baseline was a weak in-order core, the workload set was small, and the idea echoes dataflow architectures like WaveScalar from over 20 years ago. Several commenters also disputed the framing that AI did the innovating, arguing humans supplied the insights and AI mainly synthesized decades of research literature into an engineered product, alongside unease about machines increasingly designing their own hardware.
+
+**Tags**: `#CPU architecture`, `#AI-driven design`, `#interaction nets`, `#hardware verification`, `#Hacker News discussion`
 
 ---
 
 <a id="item-10"></a>
-## [Synology Issues Security Advisory for OAuth Service Vulnerability](https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21) ⭐️ 6.0/10
+## [AI sell-off wipes out Nasdaq's 2026 gains as Anthropic IPO stumbles](https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off) ⭐️ 8.0/10
 
-Synology has published security advisory SA_26_21 covering a vulnerability in its OAuth Service package used on DSM-based NAS devices. The item drew attention on Hacker News, where commenters pointed to CWE-88 (improper neutralization of argument delimiters in a command) as the likely root cause and circulated a stop-gap mitigation of simply stopping the OAuth Service package. Synology NAS boxes are widely used to store personal and business data, and a flaw in an authentication-related service can be a stepping stone to full device compromise if the box is reachable from the internet. Because a patch may not yet be broadly applied, owners need to decide quickly whether to disable the service or cut external exposure. The practical mitigation shared in the discussion is to open Package Center → Installed → OAuth Service and stop the package, which removes the attack surface at the cost of any integrations that rely on OAuth logins. The CWE-88 classification suggests shell commands were being constructed from user-supplied input somewhere in the OAuth API, an argument-injection pattern rather than a simple memory-safety bug.
+On Friday, the Nasdaq Composite erased all of its 2026 gains and closed 5% below its January 1 level, while the Dow Jones Industrial Average and S&P 500 both closed in correction territory. Anthropic's record-breaking IPO, which had been expected to buoy sentiment, instead fell on its second day of trading, and the Nasdaq shed roughly $4 trillion in market value over the week according to the Wall Street Journal. This is one of the clearest signals yet that investor patience with massive AI capital spending may be wearing thin, since even a marquee AI listing could not halt the global sell-off in AI-linked stocks. A sustained repricing would affect anyone who depends on AI infrastructure spending — cloud providers, chipmakers, data-center builders and the startups that train frontier models. A correction is conventionally defined as a decline of at least 10% (but less than 20%) from an index's recent closing high, with 20% or more marking a bear market. The Nasdaq Composite is a market-capitalization-weighted index tracking nearly all securities listed on the Nasdaq exchange, which is why the AI-heavy mega-cap names dominate its moves; Anthropic's shares fell on day two despite the IPO itself having set records.
 
-hackernews · choult · Nov 19, 22:13 · [Discussion](https://news.ycombinator.com/item?id=50567209)
+rss · The Guardian Business · Nov 20, 21:38
 
-**Background**: Synology NAS devices run DiskStation Manager (DSM), and functionality is delivered through installable packages; the OAuth Service is the component that handles OAuth authorization flows for third-party and cloud integrations, such as backing up Microsoft 365 data to the NAS. Command injection (CWE-88) occurs when untrusted input is passed into a command line without properly delimiting arguments, letting a crafted value be interpreted as an extra flag or command. NAS devices are popular targets precisely because they are internet-facing, always-on, and hold large amounts of data, so vendor advisories for DSM packages are watched closely by owners.
+**Background**: The sell-off caps a period in which the largest US cloud and technology companies have been pouring unprecedented sums into AI data centers, with analysts repeatedly revising capital expenditure forecasts upward toward hundreds of billions — and by some estimates more than $1 trillion — of annual spending. Investors had largely rewarded that buildout, but the returns are slow to materialize, so sentiment has become increasingly sensitive to any sign of disappointment. Anthropic, the AI safety-focused developer of the Claude models founded in 2021, went public this week in a record-breaking offering that made its seven co-founders worth a reported $180bn. Rather than serving as a catalyst, its weak second session coincided with a broad global slump in AI-linked equities.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://mariushosting.com/critical-apache-and-nginx-flaws-what-synology-nas-users-must-do-now/">Critical Apache and NGINX Flaws, What Synology NAS Users Must...</a></li>
-<li><a href="https://securityonline.info/synology-abm-flaw-cve-2025-4679-leaks-global-client-secret-exposing-all-microsoft-365-tenants/">Synology ABM Flaw (CVE-2025-4679) Leaks Global Client Secret...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Market_correction">Market correction - Wikipedia</a></li>
+<li><a href="https://www.cnbc.com/2026/04/30/ai-boom-big-tech-capital-expenditures-now-seen-topping-1-trillion-in-2027-.html">AI boom: Big Tech capital expenditures now seen topping $1 trillion in...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Nasdaq_Composite">Nasdaq Composite - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters largely converged on two points: that the underlying bug class is a familiar one (one user mused about how many CVEs ultimately reduce to a handful of root causes like input sanitization and error handling), and that a NAS should never be exposed directly to the internet but placed behind a VPN. Others linked the advisory to CWE-88 and speculated that shell commands were being built from OAuth API input, while long-time users noted they keep aging DSM units strictly internal.
-
-**Tags**: `#security`, `#Synology`, `#NAS`, `#vulnerability`, `#command-injection`
+**Tags**: `#AI industry`, `#stock market`, `#Anthropic IPO`, `#AI bubble`, `#tech economy`
 
 ---
 
 <a id="item-11"></a>
-## [Essay Calls Paid Advertising a 'Slot Machine' Extraction Tax, Sparking HN Debate](https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine) ⭐️ 6.0/10
+## [California subpoenas Nvidia over chips possibly reaching China](https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china) ⭐️ 8.0/10
 
-An essay published on Global Commerce Graph argues that paid online advertising has degenerated into an extractive "98% slot machine" — effectively a tax on businesses, with platforms capturing most of the value. The piece drew 177 points and 91 comments on Hacker News, where the casino metaphor itself became the main flashpoint. The debate taps into a long-running question of whether digital ad spend actually generates incremental revenue or mostly enriches ad platforms and the layers of intermediaries between them and publishers. The answer affects every business buying Google, Meta, or programmatic inventory, and by extension the publishers who depend on that spend. The casino metaphor is loose: an ad auction is a two-sided marketplace where the advertiser's payoff comes from a third party (the consumer), not from the platform's loss, so the house has no direct incentive to make the advertiser lose. Commenters added that algorithmic auction capture has flattened the old creative upside — advertisers now produce “good or bad” ads rather than “great” ones that earned outsized returns.
+California attorney general Rob Bonta served an investigative subpoena on Nvidia to determine whether exports of its advanced semiconductor chips ended up in China in violation of US restrictions. The probe follows a scandal that led to the departure of co-founder and longtime CEO Jensen Huang, and it also seeks to establish whether the company misled investors. Nvidia is the central supplier of AI accelerators, so a state-level investigation into alleged export-control violations adds legal and reputational risk on top of an already unsettled leadership transition. The outcome could shape how aggressively US authorities police chip export rules and affect the wider AI hardware supply chain and US-China tech policy. The action is an investigative subpoena rather than a filed charge, and the attorney general described the scandal as raising "bright red flags" while framing the inquiry around possible investor deception. The reporting available so far gives no figures on the volume or value of chips involved, no timeline, and no response from Nvidia.
 
-hackernews · dev1one1 · Nov 19, 18:35 · [Discussion](https://news.ycombinator.com/item?id=50564159)
+rss · The Guardian World · Nov 20, 09:18
 
-**Background**: Real-time bidding (RTB) is the programmatic auction system that sells ad impressions in milliseconds as a page loads, with demand-side platforms bidding on behalf of advertisers. Header bidding lets publishers offer inventory to multiple ad exchanges at once before calling their ad server, which layers even more intermediaries between advertiser and publisher. Measuring how much of that spend is genuinely incremental — via multi-touch attribution, media mix modeling, or holdout tests — is notoriously difficult, and that measurement gap is exactly what fuels claims that ad budgets function as a tax.
+**Background**: US export controls restrict the sale of advanced semiconductors and chipmaking equipment to China, and Nvidia's data-center GPUs have been at the center of those rules because they are prized for AI training. A state attorney general can issue subpoenas and bring civil actions, including cases alleging that a company made misleading statements to investors. Nvidia is headquartered in California, which gives the state's attorney general jurisdiction over the company's conduct.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Real-time_bidding">Real-time bidding - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Header_bidding">Header bidding - Wikipedia</a></li>
-<li><a href="https://www.cometly.com/post/incrementality-testing-with-attribution">Incrementality Testing With Attribution : A Full Guide</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Top commenters pushed back hard on the casino analogy, arguing that a casino profits directly from the customer's losses while an ad marketplace profits by successfully connecting advertiser to consumer — incentives that point in opposite directions. Others conceded the “extractive” critique has real force, citing a 2019 HN thread and a Freakonomics episode questioning whether online advertising works at all, and noting the shift from creative-driven ROI to algorithmically captured auctions.
-
-**Tags**: `#advertising`, `#adtech`, `#economics`, `#platform-monopolies`, `#media-criticism`
+**Tags**: `#Nvidia`, `#export controls`, `#semiconductors`, `#China`, `#regulation`
 
 ---
 
 <a id="item-12"></a>
-## [Onlook (YC W25) open-sources an agentic design canvas that overlays real codebases](https://github.com/onlook-dev/onlook/) ⭐️ 6.0/10
+## [AI coding agents are quietly turning developers into reviewers and architects](https://manidoraisamy.com/developer-to-architect.html) ⭐️ 7.0/10
 
-Onlook, a YC W25 company, launched on Hacker News as an open-source desktop app that places a design canvas on top of a user's actual codebase so designers can edit directly in code alongside an AI agent. Founder Daniel said the product was completely rebuilt as an agentic design tool, backed by 25,000+ supporters and 100+ contributors, and has twice been the #1 trending repository in the world. Designers are increasingly expected to ship work in code rather than hand off static mockups, and Onlook bets that giving them a familiar canvas plus an agent — with every change landing as a reviewable pull request — removes the rebuild step between design and production. If the approach holds up, it points to a broader shift in design tooling away from proprietary file formats and toward code as the shared medium. Designers can work across multiple simultaneous git worktrees that each run the real app locally, and the infinite canvas renders every frame as a live webview with real data rather than a mockup. The shared browser session introduces concrete engineering constraints — Chromium only allows six connections per host per session, so ten frames of the same app compete for limited connections — and the app currently requires an account, which some users found poorly explained during onboarding.
+A blog post titled "We promoted developers into architects without informing them" argues that AI coding agents are shifting day-to-day engineering work away from hands-on keyboard coding and toward design judgment, code review, and managing agent-generated output. The piece hit the Hacker News front page and sparked a debate over whether this shift is a genuine promotion or an unpaid increase in responsibility. If coding agents absorb the mechanical part of programming, the scarce skill becomes specifying intent, reviewing diffs, and catching failure modes — which changes what junior developers must learn and how teams should be staffed. The debate matters because engineering managers may use "you're now an architect" framing to justify heavier review workloads without matching pay, headcount, or formal authority. The article's core observation is that much of the new work is "foible management" — noticing that an agent has, for example, left verbose logging or debugging scaffolding in production code, as one commenter describes finding in a Claude-generated keyboard app that behaved like a keylogger. The analogy drawn is blunt: a title change that comes with more responsibility but no corresponding authority or compensation is not really a promotion.
 
-hackernews · D_R_Farrell · Nov 19, 16:34 · [Discussion](https://news.ycombinator.com/item?id=50562320)
+hackernews · QueensGambit · Nov 20, 18:17 · [Discussion](https://news.ycombinator.com/item?id=50579331)
 
-**Background**: Agentic design tools differ from single-prompt AI image or UI generators in that they plan multi-step sequences, act on their own across a workflow, and iterate when output falls short. Onlook's premise is that code is now a malleable enough medium that a design tool no longer needs a closed, proprietary schema — instead it can treat rendered browser frames of the real app as the objects on a canvas. This is a departure from the classic Figma-style handoff model, where designs are redrawn by engineers before they reach production.
+**Background**: AI coding agents are LLM-based systems that combine reasoning with access to tools such as editors, shells, and test runners, allowing them to plan and execute multi-step coding tasks rather than just autocomplete lines. In conventional software organizations, a software architect sets high-level structure and cross-cutting technical decisions while developers implement features, and the two roles are usually distinguished by scope, seniority, and pay. The article's claim is that this division of labor is being redrawn by agents, with human developers pushed up the abstraction ladder whether they want it or not.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.wireflow.ai/blog/best-agentic-design-tools-in-2026">Best Agentic Design Tools in 2026 - wireflow.ai</a></li>
-<li><a href="https://github.com/FrancescoBia/overlay-quickstart">GitHub - FrancescoBia/ overlay -quickstart: A repo template to try out...</a></li>
+<li><a href="https://www.ibm.com/think/topics/agentic-coding">What is agentic coding? - IBM</a></li>
+<li><a href="https://careerkarma.com/blog/software-developer-vs-architect/">Developer vs. Architect: Navigating your software career path</a></li>
+<li><a href="https://agentic.ai/best/coding-agents">35 Best AI Coding Agents in 2026 — Agentic.ai</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters were broadly positive about the concept — one described it as "a real-time Figma" for wrapping and tweaking an existing site while preserving its style — but raised practical and philosophical objections. Several flagged onboarding friction, including an unclear reason for requiring an account and a recurring "can't verify the user is human" error on macOS, while others argued AI-generated designs still converge on the same templates and need real designer samples to improve. The sharpest critique came from a 40-year veteran who now simply briefs a coding agent end-to-end and asked why any separate design tool remains necessary in an agent-driven workflow.
+**Discussion**: Commenters were largely skeptical: one argued that pushing back on requirements and designing data models was always part of being an engineer, so nothing has really been "promoted," while another said plainly that no one is getting promoted and developers are becoming a "liability sink" for LLM decisions at lower pay and less fun. Others noted that good teams already require people to rotate between PM, architect, and systems-engineer roles, and several pointed out that since each team only needs one architect, the analogy breaks down at the staffing level.
 
-**Tags**: `#open-source`, `#design-tools`, `#ai-agents`, `#developer-tools`, `#yc`
+**Tags**: `#AI coding agents`, `#software engineering`, `#developer roles`, `#engineering management`, `#HN discussion`
 
 ---
 
 <a id="item-13"></a>
-## [California Reportedly Probes Nvidia Over China AI Chip Matters](https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss) ⭐️ 6.0/10
+## [Winedroid: A Browser WASM Demo That Runs Android Apps Without Android](https://winedroid.soham.sh/demo/) ⭐️ 7.0/10
 
-A brief BBC Business report states that California — the state where Nvidia has its global headquarters — is investigating the company in connection with China AI chip matters. The report is only a short snippet and gives no details on the scope, legal basis, or timeline of the probe. Nvidia is the dominant supplier of AI accelerators, and its China business has already been squeezed by successive U.S. export controls, so any state-level investigation adds another layer of regulatory and legal risk for the company and its customers. It would also signal that scrutiny of AI chip flows is broadening beyond federal agencies to state authorities. The available snippet is extremely thin: it does not say which state statutes California might invoke, which products or shipments are in question, or whether the matter is civil or criminal. Notably, Jensen Huang remains Nvidia's CEO, so the report's reference to his "departure" appears to be an error or a garbled summary and should be treated with caution.
+A project called Winedroid published a browser-based WebAssembly demo that attempts to run Android apps without any Android system or full Android image underneath. According to the project's own site, Winedroid is written entirely in Rust and acts as an Android userspace compatibility layer that translates Android framework calls into host-native equivalents on the fly, with roughly a 12MB runtime loaded in the browser. If it matures, this approach could let Android apps run on virtually any device with a browser — desktops, phones, tablets — without shipping a full emulator or system image, which is a fundamentally lighter-weight alternative to virtual-machine-based solutions. It also adds a new data point to the long-running debate over whether Android app compatibility should be achieved through emulation, translation layers, or full system virtualization. The project is clearly at an early, buggy stage: the demo page itself notes that apps may not work "because the project is still improving day by day," and commenters immediately hit concrete failures such as browser pointer-input errors in the Weather app, DEX method execution errors when launching apps, and no obvious way to trigger the Android back button. Winedroid's own framing distinguishes it from virtual machines: rather than simulating Android hardware, it translates framework calls so an APK "runs without knowing it is inside Winedroid."
 
-rss · BBC Business · Nov 19, 23:04
+hackernews · sohzm · Nov 20, 19:30 · [Discussion](https://news.ycombinator.com/item?id=50580536)
 
-**Background**: Nvidia designs the GPUs — such as the H100 and H200 — that power most large-scale AI training, which has made the company central to the global AI buildout. Since 2022 the U.S. federal government has progressively tightened export controls on advanced chips sold to China, forcing Nvidia to design downgraded variants such as the H20. Export licensing is a federal function, so California has no direct authority there, but the state can still investigate companies under its own laws, for example consumer protection, securities, or tax statutes.
+**Background**: Normally, running an Android app off-Android requires either a full virtual machine hosting an Android system image (as Waydroid does on Linux, sometimes with an ARM translation layer like libndk or libhoudini to run ARM-compiled apps on x86 machines) or a translation layer that reimplements Android framework APIs on the host OS, as the Android Translation Layer project does for Linux. WebAssembly (WASM) is a portable binary format that runs in browsers at near-native speed, making it an attractive target for shipping complex runtimes to any device. Winedroid sits at the intersection of these ideas: an Android framework reimplementation compiled to WASM so it can run inside a web page.
 
-**Tags**: `#Nvidia`, `#AI chips`, `#export controls`, `#semiconductors`, `#California probe`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://winedroid.soham.sh/demo/">winedroid - run android apps without android (wasm demo)</a></li>
+<li><a href="https://winedroid.soham.sh/">Winedroid: Android apps, anywhere</a></li>
+<li><a href="https://gitlab.com/android_translation_layer/android_translation_layer">Android Translation Layer - GitLab</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Hacker News commenters were skeptical but substantive: several asked for a comparison with Waydroid and the Android Translation Layer, noting Winedroid's approach resembles the latter, while one questioned the use case entirely, arguing Waydroid already works well on Linux desktops and phones benefit from real Android's power and app management. Others immediately surfaced reproduction bugs — pointer-input/touch-dispatch failures after clicking around the Weather app, "While executing DEX method" errors that prevented any app from launching, and confusion about how to invoke the back button.
+
+**Tags**: `#webassembly`, `#android`, `#compatibility-layer`, `#virtualization`, `#hackernews`
 
 ---
 
 <a id="item-14"></a>
-## [Protesters rally against Anthropic as it debuts at $2tn valuation](https://www.theguardian.com/technology/2026/nov/19/anthropic-ipo-protests) ⭐️ 6.0/10
+## [Signal outlines new privacy protections for chats and screenshots](https://signal.org/blog/protecting-your-privacy/) ⭐️ 7.0/10
 
-On Thursday, anti-AI protesters gathered outside the Nasdaq exchange in Times Square and outside Anthropic's San Francisco headquarters on the day the AI startup made its public market debut at a $2tn valuation. Roughly 30 demonstrators rallied in New York, carrying flags reading "STOP TECH OLIGARCHS" and "FREEZE AI: END ICE, END WAR", and several were arrested. The juxtaposition of a record-shattering $2tn debut with street protests signals that public backlash against AI is now attaching itself to the industry's biggest financial milestones, not just to policy hearings or product launches. How Anthropic and its peers handle this visibility — especially around government contracts — could shape regulatory pressure and public trust as AI valuations reach unprecedented heights. The protests were small in scale — about 30 people in New York — but the slogans explicitly linked AI to immigration enforcement (ICE) and military use, pointing to anger over AI companies' contracts with government agencies. The report offers no details on the valuation mechanics, the number of arrests, or Anthropic's response to the demonstrations.
+Signal published a blog post outlining new efforts to protect user privacy, including work to limit AI and third-party apps’ access to Signal chats and to prevent screenshots of conversations on desktop platforms such as Windows. The post also referenced a forensics investigation, though the announcement stops short of claiming a complete fix. Messaging privacy is increasingly undermined by OS-level permissions: an AI assistant or other app with notification access can read message previews even if the user never installed it, as long as a contact has such an app. Signal’s effort matters because it targets that gap for journalists, sources and privacy-conscious users who rely on the app for sensitive conversations. Screenshot prevention is typically implemented with platform APIs such as Android’s FLAG_SECURE, which also blocks screen recording and app-switcher previews, but it is platform-specific and can break legitimate uses like taking screenshots of a Windows chat. Signal’s spam protection also remains a pain point for VPN users, who report repeated CAPTCHA challenges when adding contacts, and the post does not promise protection against a compromised operating system or spyware.
 
-rss · The Guardian World · Nov 19, 21:52
+hackernews · dotcoma · Nov 20, 09:42 · [Discussion](https://news.ycombinator.com/item?id=50572348)
 
-**Background**: Anthropic is an AI safety-focused company behind the Claude family of large language models, and an initial public offering (IPO) is the process by which a private company lists its shares on a public exchange such as Nasdaq, letting outside investors buy in. A $2tn valuation would place it among the most valuable companies in the world. The "END ICE" slogan references U.S. Immigration and Customs Enforcement, which has become a focal point of criticism over tech firms supplying surveillance and AI tools to government agencies, as seen in employee backlash at other companies such as Boston Dynamics over ICE contracts. The demonstration fits into a broader anti-AI protest movement that has grown from fringe concern into organized political activity, exemplified by events like London's "March Against the Machines".
+**Background**: Signal is an end-to-end encrypted messaging app, meaning message contents are intended to be readable only by the sender and recipient. On Android, apps with notification access can use NotificationListenerService to read notifications, which may include message previews, while FLAG_SECURE is an Android window flag that prevents screenshots and screen recording of sensitive screens. Because these are OS-level mechanisms, a privacy-focused app like Signal can only partially control what other apps or desktop environments do with chat content.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Controversies_involving_ICE_and_private_businesses">Controversies involving ICE and private businesses - Wikipedia</a></li>
-<li><a href="https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/">ICE plan to buy robot dogs spurs protest from hundreds... - Ars Technica</a></li>
-<li><a href="https://intelligibberish.com/articles/2026-03-03-anti-ai-protest-movement-london-march-machines-pauseai/">Anti - AI Protest Movement Grows: 500 March... | Intelligibberish</a></li>
+<li><a href="https://developer.android.com/reference/android/service/notification/NotificationListenerService">NotificationListenerService | API reference | Android Developers</a></li>
+<li><a href="https://ptkd.com/journal/flag-secure-prevent-screenshots-sensitive-screens">FLAG _ SECURE : block screenshots of sensitive... | PTKD Journal</a></li>
+<li><a href="https://developer.android.com/develop/connectivity/vpn">VPN | Connectivity | Android Developers</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#ai-industry`, `#anthropic`, `#ai-regulation`, `#tech-ipo`, `#public-sentiment`
+**Discussion**: Commenters were broadly supportive of Signal’s direction but raised sharp concerns: several cited Meredith Whittaker’s interview about AI apps having too much device access, complained that VPN use triggers endless CAPTCHA battles, and argued that screenshot blocking is no substitute for users controlling their OS. Others asked Signal to publish its forensics findings and warned that blocking screenshots on Windows breaks a basic feature for legitimate users.
+
+**Tags**: `#privacy`, `#security`, `#Signal`, `#encryption`, `#messaging`
 
 ---
 
 <a id="item-15"></a>
-## [Show HN: Cornhole News, an HN-style text aggregator for Midwest regional news](https://cornholenews.news/) ⭐️ 5.0/10
+## [Report: SEC Investigating Nvidia's Accounting as Stock Slides](https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html) ⭐️ 7.0/10
 
-A developer launched Cornhole News (cornholenews.news), a Hacker News-inspired, text-focused aggregator dedicated to news across the US Midwest, and posted it as a Show HN where it reached 181 points and drew 89 comments. The site adopts HN's stripped-down link-and-discussion format but adds a filter that lets readers hide "politics" stories. The project shows how far the HN format can be stretched to serve a specific geographic community, and the discussion surfaced practical questions — how to define and filter "politics," how moderation would work, and how monetization would be disclosed — that any small regional aggregator must answer. Interest is real but confined to a regional niche, so its broader impact is limited. The site is technically a fairly simple clone, with its distinctive feature being the "politics" toggle rather than novel infrastructure; commenters questioned whether such a filter would reliably classify submissions. The developer has stated a plan to eventually monetize with two small homepage ads reserved exclusively for Midwestern businesses, without yet clarifying whether that is for profit or to cover hosting costs.
+Nvidia's stock extended a reported $2.5 trillion market-cap rout after reports, attributed to unnamed sources, that the U.S. Securities and Exchange Commission is investigating the company's accounting practices. Neither Nvidia nor the SEC has publicly confirmed the probe, and the report remains unverified. Nvidia is the single largest driver of the AI trade and a bellwether for the entire AI hardware supply chain, so formal accounting scrutiny could pressure not just its own valuation but also the wider market's confidence in AI-related revenue. If the probe escalates, it could reshape how investors value AI infrastructure companies and how such vendors structure deals with customers they also fund. The report rests on unnamed sources and no regulatory filing or company statement has corroborated it, so the specific accounting issue under review is unknown. The market reaction has been sharp nonetheless, with commentary focused on revenue recognition and on deals where Nvidia invests in or finances cloud customers that then purchase its GPUs.
 
-hackernews · cornholemedia · Nov 19, 15:38 · [Discussion](https://news.ycombinator.com/item?id=50561515)
+hackernews · ftchd · Nov 20, 20:22 · [Discussion](https://news.ycombinator.com/item?id=50581438)
 
-**Background**: Hacker News is a minimalist, text-first technology link aggregator run by Y Combinator, where users submit links and discuss them in threaded comments and items are ranked by community votes. Its format is widely imitated because it is cheap to build and keeps the focus on headlines and discussion rather than images or algorithmic feeds. "Show HN" is the section where developers introduce their own projects, and regional or topic-specific HN clones have become a recurring genre.
+**Background**: Nvidia designs the GPUs that power most large-scale AI training and inference, and its revenue growth has made it one of the most valuable companies in the world. The SEC routinely opens investigations into public companies' accounting and disclosure practices; such probes can last years, often close without enforcement action, and are rarely confirmed publicly in their early stages. A central worry raised by critics is "circular financing": Nvidia invests in or extends credit to AI cloud providers — sometimes called neoclouds — which then spend that money buying Nvidia hardware, potentially inflating apparent demand. Accounting rules around when and how such revenue is recognized are exactly the kind of issue regulators tend to examine.
 
-**Discussion**: Commenters were broadly positive about the text-only design, with one saying the site inspired them to build something similar for their own part of the UK, while another praised the transparency of stating monetization plans upfront and asked whether it was for profit or just hosting costs, and how moderation would be handled. Several challenged the "politics" filter as unreliable, and others asked for the scope to be extended to Canada or shared their own one-day HN clones.
+**Discussion**: Commenters were largely speculative: several argued the news fits a longer pattern of circular financing, with one predicting that renegotiating existing usage deals with neoclouds would backfire, while others raised unverified claims about "dark GPUs" held by obscure companies and stock-for-discounted-chips arrangements. One commenter posed a pointed question — why the board would appoint the CFO as interim CEO if it suspected accounting problems — and another asserted the stock is down nearly 50% from its recent high, a figure not corroborated in the item.
 
-**Tags**: `#hacker-news`, `#news-aggregator`, `#content-moderation`, `#show-hn`, `#regional-news`
+**Tags**: `#nvidia`, `#sec-investigation`, `#accounting`, `#ai-hardware`, `#markets`
 
 ---
 
 <a id="item-16"></a>
-## [Browser tool lays out 8-page foldable zines from a single A4 sheet](https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/) ⭐️ 5.0/10
+## [Chip stocks lose $2.3 trillion in worst week for SOX in 25 years](https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories) ⭐️ 7.0/10
 
-The Fanzines app, a browser-based zine maker, published a blog post describing how its editor automatically arranges page order so that a single A4 sheet folds into an eight-page zine that prints correctly. The post, titled "Paper folds and what's new in Fanzines app," walks through the folding pattern behind the layout rather than requiring users to work out the page sequence themselves. Print-imposition logic is exactly the fiddly step that stops most people from making a folded zine: knowing that page 8 shares a side with page 1, and so on. Automating it in the browser with no installation and no file upload lowers the barrier for zine makers, teachers, and anyone producing small handout booklets. The tool constrains output to a single A4 sheet producing eight pages, and the app positions itself as taking the work out of page ordering so the sheet "prints like this" straight from the browser. Commenters noted it is a full editor experience rather than a minimal PDF reordering utility, and that comparable prior art exists in tools such as Bookbinder JS, which handles general imposition but may not implement this exact folding algorithm.
+A major semiconductor index — widely understood to be the Philadelphia Semiconductor Index (SOX) — just suffered its worst weekly performance in 25 years, with roughly $2.3 trillion in market value erased over the course of the week. The selloff is being framed as a broad loss of confidence in the "AI trade" rather than trouble at any single company. Semiconductor stocks have been the core engine of the AI-driven bull market, so a wipeout of this scale signals that investors are repricing the whole AI hardware supply chain — chip designers, foundries, memory makers and equipment vendors alike. Because AI capex plans at the hyperscalers are financed partly by equity valuations, a sustained drawdown can feed back into real spending decisions and hit the entire ecosystem, from Nvidia's order book to data-center construction schedules. The headline figure of $2.3 trillion covers a single week of losses, and the "worst in 25 years" label refers to the SOX's weekly percentage decline rather than its absolute point level. Reports around the selloff point to a combination of slowing data-center buildouts, reduced funding sources for AI projects and slower technology earnings growth, with upcoming Nvidia earnings and major AI-related listings seen as near-term tests of sentiment.
 
-hackernews · krthr · Nov 19, 13:18 · [Discussion](https://news.ycombinator.com/item?id=50559719)
+rss · MarketWatch Top Stories · Nov 20, 22:44
 
-**Background**: A zine is a small, self-published, noncommercial booklet, historically photocopied and circulated in tiny print runs; the term derives from "fanzine." The classic eight-page format uses a single sheet folded in half repeatedly and then cut or unfolded along a slit so the pages fall into reading order — a trick long popularized by tools like PocketMod and Dirty Little Zine. The general printing practice of reordering and rotating pages so that the folded result reads sequentially is called impositioning, and it is normally handled by specialized prepress software.
+**Background**: The Philadelphia Semiconductor Index (SOX) is a modified market-capitalization-weighted index of companies primarily involved in the design, distribution, manufacture and sale of semiconductors, which makes it the standard benchmark for the chip sector. The "AI trade" refers to the multi-year rally in stocks tied to artificial intelligence — most notably chipmakers, server and networking vendors and power/hardware suppliers — on the expectation that AI workloads will drive years of explosive demand. Because that rally has been so concentrated and valuation-driven, sharp reversals are amplified: a handful of mega-cap chip names can account for the bulk of an index move, and index-level losses translate quickly into hundreds of billions or trillions of dollars in market value.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://fanzines.app/en">Make and print an A 4 zine | Fanzines</a></li>
-<li><a href="https://dirtylittlezine.com/">Dirty Little Zine — Free 8 - Page Printable Zine Maker</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Zine">Zine - Wikipedia</a></li>
+<li><a href="https://indexes.nasdaqomx.com/Index/Overview/SOX">Overview for SOX - Nasdaq Philadelphia Semiconductor Index Index Today (SOX ... PHLX Semiconductor (^SOX) Interactive Stock Chart - Yahoo Finance PHLX Semiconductor Index (SOX): Key Definition and Companies Philadelphia SE Semiconductor Index (.SOX) | Stock Price ... SOX | PHLX Semiconductor Index Overview | MarketWatch</a></li>
+<li><a href="https://www.tradingview.com/symbols/NASDAQ-SOX/">Philadelphia Semiconductor Index (SOX) Charts and... — TradingView</a></li>
+<li><a href="https://www.bloomberg.com/news/articles/2026-11-05/chips-selloff-worsens-as-fears-about-ai-trade-grip-stock-market">Semiconductor Stocks Plunge as AI Trade Weakens... - Bloomberg</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Hacker News commenters were largely appreciative but quick to supply context: one explained the term "impositioning" and pointed to Bookbinder JS as a more general web-based solution, while others flagged prior art, especially PocketMod, which several said originated or at least popularized the folding scheme about 20 years ago. Another commenter suggested a simpler PDF-to-imposed-layout CLI would suffice since only eight pages need reordering, and one shared an anecdote about a geometry teacher who taught the fold so students could smuggle notes onto an index card.
-
-**Tags**: `#web-tools`, `#printing`, `#paper-crafts`, `#browser-app`, `#hackernews`
+**Tags**: `#semiconductors`, `#AI hardware`, `#stock market`, `#market volatility`, `#AI trade`
 
 ---
 
 <a id="item-17"></a>
-## [IMF Chief Warns AI Demand Will Push Global Interest Rates Higher](https://www.theguardian.com/world/2026/nov/19/imf-head-warns-ai-demand-push-up-interest-rates-apec) ⭐️ 5.0/10
+## [Mastering Emacs author launches DreamCoder, an AI coding harness and IDE](https://www.masteringemacs.org/article/announcing-dreamcoder) ⭐️ 6.0/10
 
-Kristalina Georgieva, managing director of the International Monetary Fund, warned on 19 November 2026 that booming demand for artificial intelligence hardware and related technology products is pushing up consumer prices around the world and will force the most powerful central banks to raise interest rates. She also said countries need to be prepared for the technology rollout, telling her audience that "you snooze, you lose." The remark ties the AI investment boom directly to inflation and monetary policy, suggesting the technology cycle could now influence borrowing costs for households, companies and governments worldwide. If central banks treat AI-driven demand as a persistent inflationary force, higher rates could slow the very investment wave fuelling the boom, and the effect would reach well beyond the tech sector. Georgieva did not offer specific figures or a timeline for rate rises, and the comments came as headline remarks rather than a formal IMF forecast, so the claim remains a qualitative warning about price pressure from AI hardware demand. The central mechanism implied is that surging demand for chips, data-centre equipment and power capacity raises input costs that eventually feed into consumer prices.
+Mickey Petersen, the author of Mastering Emacs, announced DreamCoder on 20 November 2026 — a frontier AI coding harness and IDE that pairs agent orchestration with a built-in desktop environment, following roughly fifteen months of development. The announcement frames the release around the history of AI, Lisp and Emacs, with downloads and details hosted separately at dreamcoder.ai. Most high-profile AI coding harnesses such as Claude Code and Codex are terminal-first, so DreamCoder's bet on a UI-first, IDE-like form factor with a persistent, resumable layout represents a distinct direction for how developers will supervise coding agents. Coming from a well-known Emacs author, it also strengthens the argument that the classic extensible-editor tradition still has something to offer in the agent era. The product page describes it as a polished interface layered over a "state-of-the-art agent engine," with layouts that can be resumed exactly on phone, tablet or laptop. The launch post is a long essay rather than a product page — a point some readers criticized, arguing the submission should have linked directly to the harness at dreamcoder.ai.
 
-rss · The Guardian Business · Nov 19, 15:15
+hackernews · facundo_olano · Nov 20, 20:03 · [Discussion](https://news.ycombinator.com/item?id=50581110)
 
-**Background**: The IMF is a Washington-based multilateral institution that monitors global financial stability and frequently advises governments on fiscal and monetary policy, so its managing director's public remarks are widely watched by markets. Central banks such as the US Federal Reserve and the European Central Bank set policy interest rates primarily to keep inflation near target, and they respond when demand outpaces supply. In recent years the build-out of AI infrastructure — data centres, advanced chips, memory and electricity generation — has become a large enough slice of global capital spending that its price effects can show up in economy-wide inflation measures.
-
-**Tags**: `#AI economics`, `#macroeconomics`, `#IMF`, `#interest rates`, `#tech industry`
-
----
-
-<a id="item-18"></a>
-## [Canada courts AI data centres as US projects face local pushback](https://www.bbc.co.uk/news/articles/cmx2q223z1jlo?at_medium=RSS&at_campaign=rss) ⭐️ 5.0/10
-
-Kevin O'Leary, known from Shark Tank, is among the big investors looking to Canada as a destination for AI data centre development, while a similar US project he is involved in faces local opposition. This highlights a growing policy and investment divergence: Canada is positioning itself as welcoming to energy-intensive AI infrastructure, while US projects can be slowed by local pushback, which may influence where future AI compute capacity is built. AI data centres require substantially more power, electrical distribution and cooling than traditional IT facilities, so siting decisions often depend on grid capacity and local permitting; the BBC item does not provide project size, location or timeline details.
-
-rss · BBC World · Nov 20, 00:13
-
-**Background**: AI data centres are facilities built to house high-performance accelerators such as GPUs used for training and running AI models. Compared with traditional data centres, they tend to have much higher power densities and cooling requirements, making electricity supply and local infrastructure central to where they are built. As a result, data centre projects can become contentious when residents and local officials raise questions about grid capacity, water use, land use or noise.
+**Background**: An AI coding harness is the program surrounding a language model that turns it into a coding agent: the model only predicts text, while the harness runs the loop and gives the model its tools, file access and feedback. Terminal-based harnesses like Claude Code and Codex have dominated this space, and the choice of form factor — terminal, editor plugin, or standalone desktop app — is an active design debate. Emacs, which Petersen has long written about, is famous for being a self-extensible environment configured in Emacs Lisp, a tradition in which users reshape their own tools while working.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.hanwhadatacenters.com/blog/what-are-the-power-requirements-for-ai-data-centers/">What Are the Power Requirements for AI Data Centers ?</a></li>
-<li><a href="https://dcsglobal.com/topics/enterprise-ai/enterprise-ai-infrastructure-requirements">Enterprise AI Infrastructure Requirements | Enterprise AI | DCS Global</a></li>
+<li><a href="https://www.masteringemacs.org/article/announcing-dreamcoder">Announcing DreamCoder - Mastering Emacs</a></li>
+<li><a href="https://www.dreamcoder.ai/">DreamCoder — Turn your dreams into code</a></li>
+<li><a href="https://contenox.com/guides/what-is-an-ai-coding-harness/">What is an AI coding harness ? Harness vs agent vs model</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI infrastructure`, `#data centers`, `#Canada`, `#US policy`, `#investment`
+**Discussion**: Commenters were largely positive: one celebrated that someone finally built an orchestrator with a built-in desktop, calling it the right direction, while another praised the visual design as refreshingly different. Others went on tangents about Lisp/Clojure-flavored workflows — one maps each agent session to a Clojure namespace and drives it from the REPL, and another runs a customized Emacs alongside Codex inside a container so AI can write Emacs Lisp to mold the environment on demand. The main complaint was that the submission linked a very long article instead of the harness itself.
+
+**Tags**: `#AI coding agents`, `#IDE`, `#Emacs`, `#developer tools`, `#agent orchestration`
+
+---
+
+<a id="item-18"></a>
+## [Developer 'vibecodes' an AI inference chip with LLM assistance](https://ankitg.me/blog/vibecoding-inference-chip/) ⭐️ 6.0/10
+
+A developer documented on his blog (ankitg.me) an experiment in which he used AI-assisted "vibe coding" to design an inference chip for running neural network models. According to community discussion, the effort consumed more than $10,000 worth of LLM tokens and targeted an FPGA-based implementation with ternary (low-precision) arithmetic. The project is a concrete data point on how far LLM-driven hardware development can go today, showing that an individual can move from a prompt to a plausible chip design without a conventional hardware team. It also feeds a broader debate about whether FPGA-based inference can ever compete economically with GPUs and purpose-built inference ASICs. The design reportedly relies on ternary arithmetic, which shrinks multipliers and memory footprint at the cost of accuracy and toolchain maturity, and targets an FPGA rather than a fabricated ASIC. The token bill of roughly $10k+ is itself a notable caveat, since it makes this style of exploration expensive even before any silicon, board, or verification costs are counted.
+
+hackernews · ankitvgupta · Nov 20, 18:15 · [Discussion](https://news.ycombinator.com/item?id=50579297)
+
+**Background**: "Vibe coding" is a term coined in February 2025 by Andrej Karpathy to describe writing software by describing intent in natural language and letting a large language model generate the code, often with limited line-by-line review. An inference chip is hardware optimized for running already-trained models rather than training them, and an FPGA is a reconfigurable chip that lets designers prototype custom logic without paying for a full silicon fabrication run. Ternary arithmetic refers to weights and activations that take values of roughly -1, 0, and +1, which can make inference much cheaper to compute.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding</a></li>
+<li><a href="https://www.youtube.com/watch?v=1LGwx7jzOK4">What Would the Ideal LLM Inference Chip Look Like? - YouTube</a></li>
+<li><a href="https://nandland.com/">Nandland – Learn FPGA , VHDL & Verilog</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters were split: some called it a fun and promising direction, especially the combination of ternary models with FPGAs, while others objected that spending $10k+ in tokens on a curiosity is excessive and questioned whether FPGAs can ever be manufactured at scale given fab capacity limits. One commenter noted they had done something similar with Opus 4.5, joking that implementing a transformer is becoming the new "hello world" of AI-assisted coding, and another criticized the lack of responsibility in the approach.
+
+**Tags**: `#AI-assisted coding`, `#FPGA`, `#inference chip`, `#LLM`, `#hardware design`
 
 ---
 
 <a id="item-19"></a>
-## [Australian Music Industry Rejects Carveout Plan Exempting Musicians From AI Scraping Rules](https://www.theguardian.com/australia-news/2026/nov/20/australian-music-industry-rejects-proposal-to-give-musicians-exemption-ai-scraping) ⭐️ 5.0/10
+## [Feynman's 'explain it simply' maxim sparks a Hacker News debate](https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it) ⭐️ 6.0/10
 
-The Australian music industry has rejected a reported proposal that would give musicians a special exemption from AI scraping rules while still allowing AI companies to train on other copyrighted material. ARIA's chief executive called the approach "unworkable," and independent senator David Pocock described it as a "divide and conquer strategy." The standoff signals that creative industries are trying to present a united front against sector-by-sector AI copyright deals, which could otherwise let AI firms peel off one group at a time with narrow exemptions. How Australia resolves this will shape the terms on which generative AI models can be trained on local content, affecting musicians, writers and other rights holders. The proposal reportedly would have let AI companies train on Australian data provided they purchase a permit, an idea the trade union representing writers and creatives said it was "alarmed" by. Both the Coalition and the Greens also strongly rebuffed the plan, suggesting little political support for a permit-based training regime.
+A 2017 kottke.org post collecting Richard Feynman quotes (alongside commentary from John Gruber) arguing that if you cannot explain something in simple terms you do not really understand it resurfaced in a Hacker News discussion. Commenters spent most of the thread arguing over how the maxim is quoted, overstated, and misused rather than about the post itself. The thread is a useful case study for anyone who teaches, writes documentation, or explains technical work to outsiders, because it exposes the tension between accessibility and precision. It also warns against using the maxim as a rhetorical weapon against experts or as an excuse for listeners who simply do not want to do the work of understanding. Several commenters noted the linked article is mostly a thin collection of quotations, and one pointed out that Feynman's original phrasing included the qualifier "on a freshman level," which materially changes the claim. Others raised cases such as NP-completeness, Heartbleed, Rowhammer, and the mathematical notion of compactness, where a simple explanation either becomes practically useless or demands genuine effort from the listener.
 
-rss · The Guardian World · Nov 19, 14:00
+hackernews · sammatilda · Nov 20, 09:43 · [Discussion](https://news.ycombinator.com/item?id=50572355)
 
-**Background**: AI models are trained on vast amounts of text, images and audio scraped from the web, much of it copyrighted, which has triggered lawsuits and policy debates worldwide. Some governments have considered text and data mining (TDM) exceptions that let AI developers use copyrighted works without direct licensing, sometimes paired with opt-outs or compensation schemes. Australia has been consulting on how its copyright law should adapt to generative AI, and the reported proposal would have limited any protection to a single creative sector rather than creators as a whole.
+**Background**: Richard Feynman was a Nobel Prize-winning physicist famous for plain-spoken teaching, and the so-called "Feynman technique" — explaining a concept in simple language as a test of your own understanding — is widely circulated in learning and study communities. Kottke.org is Jason Kottke's long-running general-interest blog that frequently shares short quotations and links. Hacker News is a technology-focused discussion forum where such posts often trigger deep, skeptical comment threads about the ideas behind the link.
 
-**Tags**: `#AI policy`, `#copyright`, `#generative AI`, `#music industry`, `#regulation`
+**Discussion**: The overall sentiment was skeptical of the maxim: one commenter argued it is often abused by people who want to blame the explainer for their own unwillingness to grapple with a hard concept, using mathematical compactness as an example. Others objected that the post strips Feynman's qualifier and reduces his remarks about magnets to a slogan, while another noted that reductionism is not always possible because fine-grained nuance and interactions can be essential to the phenomenon.
+
+**Tags**: `#communication`, `#pedagogy`, `#Feynman`, `#complexity`, `#hacker-news-discussion`
 
 ---
 
 <a id="item-20"></a>
-## [ICJ rules Myanmar committed genocide against Rohingya in historic first](https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar) ⭐️ 5.0/10
+## [UK Secret Operation Secures Tens of Thousands of Hackable Internet-Connected Fridges](https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o?at_medium=RSS&at_campaign=rss) ⭐️ 6.0/10
 
-The International Court of Justice ruled that Myanmar committed genocide against its Rohingya minority during the 2017 military campaign, finding an 'intent to destroy a substantial part of the Rohingya population.' It is the first time in the court's history that it has held a state responsible for genocide, concluding a seven-year case. Because the ICJ had never before found a state liable for genocide, the judgment sets a precedent for enforcing the 1948 Genocide Convention and could reshape how courts and governments treat mass-atrocity cases against sovereign states. It also raises pressure on Myanmar's leadership and on states that supported or armed the military during the campaign. The ruling addresses state responsibility rather than individual criminal guilt, which in practice is handled by bodies such as the International Criminal Court, and enforcement by the ICJ depends on political will at the UN Security Council. The case was originally brought by The Gambia in 2019 and had already produced provisional measures ordering Myanmar to prevent genocidal acts and preserve evidence.
+A secret nationwide operation in the UK succeeded in securing tens of thousands of internet-connected fridges and other smart devices from hackers, according to a BBC report. Supermarkets, warehouses, restaurants and stadiums were reportedly forced to scramble to make their connected equipment safe as the operation unfolded. Commercial refrigeration underpins food retail and logistics, so compromised controllers could mean spoilage, store-level disruption, or these always-on devices being conscripted into botnets used for DDoS attacks. The case shows that remediating insecure IoT at national scale requires coordinated, often quiet action between government bodies and private operators rather than voluntary patching alone. Commercial fridge and freezer fleets are usually managed through internet-facing controllers and cloud dashboards, which frequently ship with default credentials and receive little or no firmware updating. The BBC report does not disclose which agency led the operation, the exact vulnerability involved, or a precise count of affected devices, so the technical scope remains unclear.
 
-rss · The Guardian World · Nov 19, 13:52
+rss · BBC Business · Nov 20, 00:02
 
-**Background**: The International Court of Justice is the principal judicial organ of the United Nations, based in The Hague, and it hears disputes between states rather than prosecuting individuals. The Rohingya are a mostly stateless Muslim minority in Myanmar's Rakhine State, effectively stripped of citizenship under a 1982 law. In 2017, after attacks by an armed Rohingya group, Myanmar's military launched what it called 'clearance operations' that drove more than 700,000 Rohingya into neighbouring Bangladesh. Under the 1948 Genocide Convention, states may bring claims against other states for genocide, which is how The Gambia — acting with the backing of the Organisation of Islamic Cooperation — was able to file this case.
+**Background**: Internet of Things (IoT) devices such as smart fridges run stripped-down embedded firmware and are connected to the internet so they can be monitored remotely, but they often lack strong authentication or a practical way to receive security updates. That combination has made connected appliances a favourite target for botnet operators, in the tradition of Mirai-style malware that recruits always-on devices for large-scale denial-of-service attacks. Commercial refrigeration is especially attractive because the equipment runs around the clock and frequently sits on the same networks as point-of-sale and other store systems.
 
-**Tags**: `#international-law`, `#human-rights`, `#ICJ`, `#Myanmar`, `#geopolitics`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.theguardian.com/technology/2026/nov/02/europe-supermarket-fridges-freezers-who-hacking-why">Who is hacking Europe’s supermarket fridges and freezers, and ...</a></li>
+<li><a href="https://cybernews.com/security/explainer-could-hackers-get-inside-my-fridge/">Smart fridge hacks: Can hackers really get into your ...</a></li>
+<li><a href="https://www.csoonline.com/article/566085/botnet-of-smart-air-conditioners-and-water-heaters-could-bring-down-the-power-grid.html">Botnet of smart air conditioners and water heaters could... | CSO Online</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#IoT security`, `#cybersecurity`, `#UK`, `#incident response`, `#critical infrastructure`
+
+---
+
+<a id="item-21"></a>
+## [Anthropic's Market Debut Closes Up 17% on First Trading Day](https://www.bbc.co.uk/news/videos/cwg7l01vg081o?at_medium=RSS&at_campaign=rss) ⭐️ 6.0/10
+
+Anthropic became a publicly traded company, and its shares closed up 17% on the first day of trading, according to a BBC Business video report presented by Samira Hussain. The segment breaks down the AI company's debut performance on the stock market. A 17% first-day gain signals strong investor appetite for a leading AI model developer, and a successful listing gives Anthropic a large pool of public capital to fund costly model training and compute infrastructure. It also sets a valuation benchmark that could influence how other AI labs, and their venture investors, think about exiting to the public markets. The BBC item is a short video summary, so it does not lay out the offer price, implied valuation, exchange or ticker symbol, or how much capital was raised. The only concrete figure available is the 17% closing gain, and a single-day move reflects early trading sentiment rather than a settled long-term valuation.
+
+rss · BBC Business · Nov 19, 23:52
+
+**Background**: Anthropic is an AI company best known for its Claude family of large language models, and it has been one of the most prominent privately held rivals to OpenAI, backed by large investments from cloud providers including Amazon and Google. An IPO, or initial public offering, is the process by which a private company sells shares to the public for the first time and lists them on a stock exchange, after which anyone can buy and sell the stock and the company must disclose financial results regularly. Until now, most of the leading frontier AI labs have remained private, so a listing marks a notable shift in how the sector is financed.
+
+**Tags**: `#AI industry`, `#IPO`, `#Anthropic`, `#stock market`, `#business news`
+
+---
+
+<a id="item-22"></a>
+## [And Yet, It Moves: A Philosophical Essay on AI and Human Achievement](https://signoregalilei.com/2026/11/20/and-yet-it-moves/) ⭐️ 5.0/10
+
+The blog Signore Galilei published a post titled "And Yet, It Moves" on November 20, 2026, a philosophical essay reacting to another piece about AI, human achievement, and how we now reason about systems whose internal workings we no longer fully grasp. The post reached 56 points and 25 comments on Hacker News, sparking substantive debate rather than a discussion of any shipped product or feature. The essay sits at the center of a live argument: whether discoveries and proofs produced by AI systems should count as human achievements, and whether tools like Lean and Coq can restore the kind of ground-level understanding engineers once had. How the software community answers that question shapes attitudes toward verification, trust, and the adoption of opaque AI-assisted tooling across engineering. The submission itself carried no accessible article body, so much of the debate played out from the title's Galileo allusion and the framing rather than the text. Commenters leaned on analogies to everyday engineering practice, such as programming against an API without understanding its internals, and on whether clinging to formal verification is the right response to systems we cannot fully inspect.
+
+hackernews · notfried · Nov 20, 20:07 · [Discussion](https://news.ycombinator.com/item?id=50581177)
+
+**Background**: The title echoes Galileo's reputed "E pur si muove" ("and yet it moves"), a line about a system that demonstrably works even when the accepted explanation of why is wrong. Formal verification is the mathematical practice of proving or disproving that a hardware or software system satisfies a formal specification, and proof assistants such as Lean and Coq are the tools most often cited in these debates; verified systems include the CompCert C compiler and the seL4 kernel. Modern machine-learning systems complicate this picture because their behaviour emerges from billions of learned parameters that nobody can inspect line by line, so engineers increasingly trust empirical results over full mechanistic understanding — the tension the essay probes.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Formal_verification">Formal verification</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Sentiment was split between pragmatism and alarm. One commenter argued that relying on systems we don't fully understand is nothing new, comparing it to building on top of an API and only digging into the internals when something breaks, while another insisted it is "absurd" to deny that AI proofs and discoveries are human achievements since humans designed the minds and built the machines, calling the opposing view egocentric. A third commenter flatly rejected resignation, urging readers to use "every means in our power to stop AI," and others offered aphorisms about seeing the world as it is and the value of gratitude.
+
+**Tags**: `#AI philosophy`, `#human achievement`, `#formal verification`, `#epistemology`, `#Hacker News discussion`
+
+---
+
+<a id="item-23"></a>
+## [Trump Floats Ban on US Firms Building AI Data Centres Abroad](https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss) ⭐️ 5.0/10
+
+US President Donald Trump has raised the possibility of banning American companies from building AI data centres outside the United States, but gave no policy details and reportedly said members of his own team were hearing about the idea for the first time. If turned into policy, such a restriction could reshape where global AI infrastructure is built and shift billions of dollars of investment, affecting US hyperscalers, overseas host countries and the wider AI supply chain. It signals that AI infrastructure is increasingly being treated as a strategic national asset rather than a purely commercial decision. The announcement came with essentially no specifics — no timeline, scope, enforcement mechanism or definition of what would count as an overseas AI data centre — and officials were reportedly caught off guard, so it is unclear whether it represents a firm proposal or a rhetorical signal.
+
+rss · BBC Business · Nov 20, 20:54
+
+**Background**: AI data centres are large facilities packed with power-hungry GPUs that train and serve AI models, and they require enormous amounts of electricity, land and water for cooling. Because of constraints on grid capacity and permitting in the US, major technology companies have increasingly looked to build capacity in countries with cheaper power and faster approvals, such as in the Middle East and Asia. Data centre location also matters for legal jurisdiction, since data stored abroad falls under different privacy and surveillance rules. The idea of restricting overseas build-out fits into a broader policy debate about keeping AI compute capacity and technology within national borders.
+
+**Tags**: `#AI policy`, `#data centers`, `#regulation`, `#AI infrastructure`, `#US politics`
+
+---
+
+<a id="item-24"></a>
+## [BBC reveals covert operation to secure UK refrigeration units from hackers](https://www.bbc.co.uk/news/videos/cqpv94x1zj89o?at_medium=RSS&at_campaign=rss) ⭐️ 5.0/10
+
+The BBC has learned that a behind-the-scenes cyber-security operation was carried out to secure tens of thousands of refrigeration units in the UK from hackers. The report, published as a short BBC News video, describes a coordinated effort to shore up internet-connected fridges and freezers before attackers could exploit them. Commercial refrigeration underpins supermarket supply chains and food safety, so a successful intrusion could spoil stock, disrupt service and even raise public-health concerns without any physical break-in. The story also highlights how internet-connected operational technology in critical infrastructure has become a live target, drawing government and industry attention in the UK and across Europe. The BBC item is a brief video report and gives no technical specifics — no vendor names, affected models, firmware versions or attack vectors — so it is unclear whether the units were patched, isolated or replaced. Notably, the operation was described as taking place quietly rather than through a public disclosure or recall.
+
+rss · BBC Business · Nov 20, 15:08
+
+**Background**: Large supermarket refrigeration systems are not single fridges but networks of chillers and freezers managed by central control units that set temperatures, run defrost cycles and raise alarms remotely — which is exactly why they are online. That convenience also creates risk: if an attacker reaches the controller, they can silently change set-points and ruin stock, a scenario seen in recent attacks on European supermarket refrigeration. IoT and operational-technology devices generally have weaker security than conventional IT, which is why the UK government has been pushing cyber-security requirements for connected devices.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.euronews.com/2026/11/02/why-are-supermarket-fridges-connected-to-the-internet">Supermarket hacks: why are fridges connected to the internet?</a></li>
+<li><a href="https://www.marketplace.org/story/2026/11/09/hackers-attacked-europes-refrigerators-why-are-fridges-connected-to-the-internet">Hackers are targeting commercial refrigeration systems. Why ...</a></li>
+<li><a href="https://www.gov.uk/government/collections/cyber-security-in-enterprise-connected-devices">Cyber security in enterprise connected devices - GOV.UK</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#cybersecurity`, `#IoT`, `#critical infrastructure`, `#UK`, `#refrigeration`
+
+---
+
+<a id="item-25"></a>
+## [BepiColombo Nears Mercury After Eight-Year Voyage](https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro?at_medium=RSS&at_campaign=rss) ⭐️ 5.0/10
+
+The European-Japanese BepiColombo mission is arriving at Mercury after an eight-year voyage, and it is expected to return the best-ever views of the planet closest to the Sun. BepiColombo is only the second mission to orbit Mercury and the most complex ever sent there, so its data could sharpen our understanding of how rocky planets, including Earth, formed and evolved. The mission carries two orbiters—ESA's Mercury Planetary Orbiter and JAXA's Mio—which will separate a few weeks after arrival and operate in different orbits; reaching Mercury is exceptionally hard because the Sun's gravity makes orbital insertion difficult.
+
+rss · BBC World · Nov 20, 05:59
+
+**Background**: Mercury is the least explored planet of the inner Solar System, in part because it is hard to observe from Earth against the Sun's glare and hard for spacecraft to reach. Before BepiColombo, only NASA's Mariner 10 flew past Mercury in the 1970s and MESSENGER orbited it from 2011 to 2015. BepiColombo, a joint ESA/JAXA mission launched in 2018, is designed to study Mercury's surface, interior, magnetic field and thin exosphere in unprecedented detail.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/BepiColombo">BepiColombo - Wikipedia</a></li>
+<li><a href="https://www.esa.int/Science_Exploration/Space_Science/BepiColombo">ESA - BepiColombo</a></li>
+<li><a href="https://www.bbc.com/news/articles/c39w9l4v1p9ro">BepiColombo spacecraft arriving at Mercury after eight years</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#space science`, `#Mercury`, `#spacecraft mission`, `#astronomy`, `#science news`
+
+---
+
+<a id="item-26"></a>
+## [Canada courts AI data centres as US projects meet local resistance](https://www.bbc.co.uk/news/articles/cmx2q223z1jlo?at_medium=RSS&at_campaign=rss) ⭐️ 5.0/10
+
+Investors including Shark Tank's Kevin O'Leary are now looking at Canada as a destination for AI data centre development, even as a comparable project backed by O'Leary in the United States runs into local opposition. The BBC report frames this as a widening divergence between Canadian openness and growing US pushback against new AI infrastructure. Data centre siting has become a real constraint on AI compute expansion, so a country positioning itself as welcoming can pull in billions in investment and the jobs and grid build-out that come with it. The divide also signals that AI infrastructure is increasingly a political issue, where local land, power and water concerns can delay or kill projects regardless of national AI ambitions. The report is a high-level overview rather than a technical deep dive, so it does not detail specific site capacities, power contracts or timelines, and the Canadian projects described are still at the investment and siting stage. It does highlight that the same investor can face very different receptions depending on which side of the border a project lands on.
+
+rss · BBC World · Nov 20, 00:13
+
+**Background**: Training and running large AI models requires massive amounts of computing hardware packed into data centres, and those facilities consume enormous quantities of electricity and water for cooling. As a result, communities near proposed sites have begun pushing back over grid strain, utility bills, noise and land use, making permits harder to obtain in parts of the United States. Canada is being marketed as an alternative thanks to its cool climate, which lowers cooling costs, and its abundant hydroelectric power, which offers relatively low-carbon electricity for energy-hungry facilities.
+
+**Tags**: `#AI infrastructure`, `#data centers`, `#Canada`, `#policy`, `#energy`
 
 ---
